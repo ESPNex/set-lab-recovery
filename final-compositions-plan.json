@@ -1,6 +1,6 @@
 {
   "requestedCount": 8,
-  "status": "PENDING_REMAINING_CATALOG_AND_RECOVERY",
+  "status": "CATALOG_COMPLETE_REVIEW_PENDING",
   "method": "Compositing of existing PNG assets with proportionate transforms; preserve exact asset identity.",
   "layout": "One readable exploded assembly per pair, outer layers separated, alternatives in labeled side inventory. Components not hidden by covers.",
   "prerequisites": [
@@ -119,7 +119,6 @@
   "supersedesCount": 20,
   "requirementSource": "Latest user correction: final8 images, not20.",
   "blockingReasons": [
-    "Generate2 consumables",
-    "Resolve or separately display documented defects and visually review8 final composites"
+    "Independent downloaded-repository review and documented geometry/label defects"
   ]
 }

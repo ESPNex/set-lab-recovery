@@ -1,20 +1,10 @@
 {
   "catalogCount": 149,
-  "availableAssets": 150,
-  "representedSkuCount": 147,
-  "missingSkuCount": 2,
+  "availableAssets": 152,
+  "representedSkuCount": 149,
+  "missingSkuCount": 0,
   "meaning": "representation counts are not technical validation",
-  "pendingLots": [
-    {
-      "set": 16,
-      "skus": [
-        "cons-ipa",
-        "cons-tweezers"
-      ],
-      "status": "NOT_GENERATED",
-      "completeTenAssetSet": false
-    }
-  ],
+  "pendingLots": [],
   "qualityCorrections": [
     {
       "file": "set09-board-rf.png",
@@ -49,10 +39,11 @@
   "pairingNote": "Dopo i SET09-10 non restano nuove motherboard nel catalogo. I lotti sono assortimenti di varianti, non kit meccanici autosufficienti. Consumabili non vanno montati nello slot frame solo perché il catalogo lo usa come categoria tecnica.",
   "finalImagesPlan": "final-compositions-plan.json",
   "finalImagesRequested": 8,
-  "locallyAvailableAssetCount": 150,
+  "locallyAvailableAssetCount": 152,
   "assemblyWarnings": [
     "SET15 cover hole patterns differ; neither dual horizontal camera nor periscope has a validated matching cover. Keep separated in exploded view.",
     "SET01-12 files absent: recover before multimodal review and final compositing."
   ],
-  "recoveryPlan": "recovery-plan.json"
+  "recoveryPlan": "recovery-plan.json",
+  "status": "CATALOG_REPRESENTATION_COMPLETE_REVIEW_PENDING"
 }

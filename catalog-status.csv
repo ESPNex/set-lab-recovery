@@ -146,5 +146,5 @@ sim-dual,Carrello dual nano-SIM,sim,REPRESENTED,set06-sim-dual.png,
 sim-hybrid,Carrello ibrido SIM/SD,sim,REGENERATED_REVIEW_REQUIRED,set08-sim-hybrid.png,
 cons-thermalp,Pad termico 1 mm (set),frame,REPRESENTED,set15-cons-thermalp.png,
 cons-kapton,Nastro Kapton 10 mm,frame,REPRESENTED,set15-cons-kapton.png,
-cons-ipa,IPA 99% 100 ml,frame,NOT_GENERATED,,16
-cons-tweezers,Pinzette ESD,frame,NOT_GENERATED,,16
+cons-ipa,IPA 99% 100 ml,frame,REPRESENTED_INVENTORY_ONLY,set16-cons-ipa.png,
+cons-tweezers,Pinzette ESD,frame,REPRESENTED_INVENTORY_ONLY,set16-cons-tweezers.png,

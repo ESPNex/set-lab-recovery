@@ -1,0 +1,44 @@
+[
+  {
+    "file": "set16-cons-ipa.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      593,
+      106,
+      815,
+      664
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1442,
+    "transparentPixels": 970007,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set16-cons-tweezers.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      142,
+      335,
+      1266,
+      434
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1655,
+    "transparentPixels": 997080,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

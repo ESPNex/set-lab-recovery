@@ -8,15 +8,12 @@
   ],
   "pendingSets": [],
   "awaitingUserArchives": [],
-  "pendingNewSku": [
-    "cons-ipa",
-    "cons-tweezers"
-  ],
-  "localAssetCount": 150,
-  "historicalRecords": 150,
+  "pendingNewSku": [],
+  "localAssetCount": 152,
+  "historicalRecords": 152,
   "newFinalImagesCreated": 0,
   "allFinalImagesRequired": 8,
   "restoredOriginalAssets": 70,
   "originalArchiveSource": "https://files.catbox.moe/ujc2ul.zip",
-  "status": "RECOVERY_COMPLETE;2 new catalog SKU pending"
+  "status": "RECOVERY_AND_CATALOG_REPRESENTATION_COMPLETE"
 }
