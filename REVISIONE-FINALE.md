@@ -1,3 +1,5 @@
+> **Audit storico V16.** Per le 29 composizioni V17 e le correzioni successive leggere [CONSEGNA-COMPOSIZIONI.md](CONSEGNA-COMPOSIZIONI.md). I risultati sottostanti si riferiscono al commit dichiarato, non al tree corrente.
+
 # Revisione finale del catalogo — V16
 
 Revisione del 16 settembre 2026. **Catalogo completo; revisione conclusa con correzioni aperte. Non è un collaudo ingegneristico e non è la consegna delle 8 composizioni finali.**

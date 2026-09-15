@@ -23,7 +23,8 @@
     {
       "file": "set14-disp-fold.png",
       "issue": "Landscape panel despite portrait1812x2176 specification",
-      "blocks": "validated fold assembly"
+      "blocks": "validated fold assembly",
+      "status": "EXCLUDED_FROM_FINALS_BY_USER_SCOPE"
     },
     {
       "file": "set08-sim-hybrid.png",
@@ -33,8 +34,8 @@
     {
       "file": "set10-th-gr2.png",
       "issue": "Ambiguous outlines suggest third sheet instead of two",
-      "status": "NEEDS_CORRECTION",
-      "blocks": "validated layer count"
+      "status": "EDITORIALLY_CORRECTED_V17",
+      "blocks": null
     }
   ],
   "lastLotNote": "Ultimo lotto di 2 SKU: non dichiararlo SET completo da 10; nessun duplicato o SKU inventato per riempire il conteggio.",
@@ -47,6 +48,15 @@
     "SET01-12 files absent: recover before multimodal review and final compositing."
   ],
   "recoveryPlan": "recovery-plan.json",
-  "status": "CATALOG_COMPLETE_REVIEWED_WITH_CORRECTIONS",
-  "reviewReport": "REVISIONE-FINALE.md"
+  "status": "COMPLETE_WITH_NON_FOLD_COMPOSITIONS",
+  "reviewReport": "REVISIONE-FINALE.md",
+  "activeSkuCount": 147,
+  "activeAssetCount": 150,
+  "excludedFromFinals": [
+    "disp-fold",
+    "glass-utg"
+  ],
+  "currentCoordinateVersion": 17,
+  "finalCompositionsCount": 29,
+  "currentReport": "CONSEGNA-COMPOSIZIONI.md"
 }

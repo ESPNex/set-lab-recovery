@@ -1,0 +1,26 @@
+[
+  {
+    "file": "originals/set03-camf-32.png",
+    "previousSha256": "b2eb8f907df50c61ed56056d294e3a4464cc257139278dfbb6e0b64ae27c56a9",
+    "sha256": "7e1214985a9319c49583509e595a22e337a5f6a9a298127691ee986a216c1c3b",
+    "method": "Deterministic visible label/panel correction V17; AI source identity preserved; not manufacturer artwork."
+  },
+  {
+    "file": "originals/set06-ram-16.png",
+    "previousSha256": "bd0c1c33b59e44b0dbf8ffcd272e1b97766f50145c6a2dd12fb2dc0add0029b5",
+    "sha256": "d25830fbc2957b987df2a011f7cd2bcc24fccca5cae29ef9867ec726b9fde356",
+    "method": "Deterministic visible label/panel correction V17; AI source identity preserved; not manufacturer artwork."
+  },
+  {
+    "file": "generated/set10-th-gr2.png",
+    "previousSha256": "61dd8b7dd9922d08b8abb7e32ee470d07481952301967577703f98ebf8170d8f",
+    "sha256": "2991bd55269967ca8d7fbda78a2f753c290bf473eb0aedd1894ccc625f57543a",
+    "method": "Deterministic visible label/panel correction V17; AI source identity preserved; not manufacturer artwork."
+  },
+  {
+    "file": "generated/set12-soc-d8300.png",
+    "previousSha256": "a6928a755ac02443425f757f3205f9ca84ac289de9505134678950f277639dbd",
+    "sha256": "85a4445007f50152424d0567d0a4922ddd69e1f357b915ecc8e5373abde98c5e",
+    "method": "Deterministic visible label/panel correction V17; AI source identity preserved; not manufacturer artwork."
+  }
+]

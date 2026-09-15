@@ -1,24 +1,23 @@
-# SET Lab — V16, catalogo completo e revisionato
+# SET Lab — V17, composizioni non-fold
 
-**152 PNG · 149/149 SKU · 0 mancanti.** SET01–15 da 10 immagini; SET16 residuo da 2: IPA 99% 100 ml e pinzette ESD.
+**29 esplosi illustrativi creati**, suddivisi per coppia di SET: 1 / 2 / 2 / 2 / 3 / 10 / 5 / 4. Il requisito fisso di 8 è superato: il numero segue le varianti disponibili, senza prodotto cartesiano.
 
-Repository privato: https://github.com/ESPNex/set-lab-recovery
+## Aprire la consegna
 
-## Revisione finale
+- **Galleria offline:** `finals/viewer.html`, con filtro per coppia e preview incorporati.
+- **29 immagini originali 2200×1600:** `finals/pair-*.png`.
+- **Rapporto:** [CONSEGNA-COMPOSIZIONI.md](CONSEGNA-COMPOSIZIONI.md).
+- **Coordinate composizioni, rotazioni e provenienza:** `finals/composition-manifest.json`.
+- **Coordinate componenti e hash correnti:** `coordinates-v17.json`, `asset-sha256-v17.json`.
 
-Leggere [REVISIONE-FINALE.md](REVISIONE-FINALE.md): revisione multimodale conclusa sui 16 SET scaricati indipendentemente, con 14 dettagli approfonditi. Hash, trasparenza, crop e copertura catalogo verificati. **Correzioni grafiche aperte; nessuna certificazione fisica/elettronica.** Rettificata la vecchia segnalazione sulla batteria6000: microtesto coerente.
+Fold e UTG dedicato esclusi dalle finali, conservati nello storico. Catalogo originario: 149 SKU / 152 PNG. Selezione attiva: **147 SKU / 150 PNG**, tutti rappresentati nella rispettiva coppia.
 
-- Progetto: `/usr/set-lab`
-- Clone indipendente: `/usr/set-lab-review/repo`
-- Coordinate, proporzioni e angoli: `coordinates-v16.json`; sedi delle 5 motherboard riepilogate nel rapporto.
-- Lista originale: `uploads/ls.ts`, preservata; manifest: `asset-sha256-v16.json`.
-- Esiti per file: `analysis/asset-audit.csv`; prove: `analysis/download-integrity.json` e `analysis/coordinate-checks.json`.
-- Tre SKU con alternative storiche: ant-wifi5, mic-1, th-vc. Tutti i 152 file sono distinti.
+Correzioni editoriali applicate a frontale32, RAM16, grafite dual e Dimensity8300. Dati e immagini pre-correzione restano nella storia Git. La lista `uploads/ls.ts` è invariata. Gli audit V16 si riferiscono al commit storico, non agli hash correnti.
 
-## Limiti e consegna successiva
+Le composizioni sono esplosi 2D, **non 29 telefoni tecnicamente validati**. Camere e altri moduli separati; alternative/consumabili sul banco. Riferimenti da altri SET marcati con asterisco. Sedi ambigue non forzate; eMMC non montata su UFS. Rapporti raster conservati, scale e limiti dichiarati.
 
-**8 immagini finali richieste, 0 prodotte.** Fit parziali e contact sheet non sono finali. Viewer storico limitato ai 60 originali. Correggere etichette RAM16/frontale32, conteggio grafite e geometrie ambigue prima delle composizioni; dettagli nel rapporto. Consumabili e utensili non montati nel frame.
+## Posizione e backup
 
-Il ramo corrente contiene solo i 152 PNG di catalogo, nessuna immagine raw/diagnostica. Dati, script e storia sono conservati. Alpha dei recuperi derivato da chroma key globale, non nativo; SET07 hard key, successivi smooth key/despill, niente rembg/flood fill.
+Progetto `/usr/set-lab`; clone di controllo `/usr/set-lab-review/repo`. GitHub privato: https://github.com/ESPNex/set-lab-recovery.
 
-`/usr` può essere azzerato: backup aggiornato su GitHub dopo push verificato. Il bundle nel workspace è storico, non V16. Analisi raster locali fuori Git. Non sono in corso generazioni in background.
+Il tree corrente contiene 152 PNG di catalogo e 29 PNG finali; nessun raw o contact sheet diagnostico. `/usr` può essere azzerato: recupero aggiornato su GitHub dopo push verificato. Il bundle nel workspace è storico, non V17. Il viewer originale a 60 asset è storico; la nuova galleria è `finals/viewer.html`.

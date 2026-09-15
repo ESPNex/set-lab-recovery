@@ -1,0 +1,18 @@
+{
+  "componentHashCount": 152,
+  "componentHashesPassed": true,
+  "finalImages": 29,
+  "uniqueFinalHashes": 29,
+  "activePairOwnedAssetCoverage": 150,
+  "activeSkuCount": 147,
+  "excludedSku": [
+    "disp-fold",
+    "glass-utg"
+  ],
+  "excludedAssetPlacements": 0,
+  "allPlacementRectsInCanvas": true,
+  "visualFamilySheetsReviewed": 8,
+  "individualFinalImagesReviewed": 3,
+  "physicalCompatibilityVerified": false,
+  "sourceCatalogRawSha256": "66e8aa5bfa9b78ce2f6003b5ed91646c3211cd03af13f5735dd1a05b488ea092"
+}
