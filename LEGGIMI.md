@@ -1,83 +1,79 @@
-# SET Lab — revisione12 / recupero SET09
+# SET Lab — revisione13 / recupero SET10
 
-## Risultato
+## Stato verificato
 
-**Archivio originale SET01–07 recuperato:70 PNG, tutti con hash identici ai registri storici.** Fonte https://files.catbox.moe/ujc2ul.zip, copia in `/usr/set-lab/downloads/recovered-originals-01-07.zip`. Metadati sovrapposti dell’archivio messi da parte, non sovrascritti ai registri attuali.
+**SET13–15 presenti e integri:30 PNG. SET10 rigenerato:10 nuovi PNG.** Disponibili ora130 asset (SET01–10,13–15), tutti verificati contro il manifest corrente. Restano SET11–12:20 immagini da rigenerare e2 SKU mai prodotti (IPA e pinzette). Registro storico150 file/147 SKU su149, NON150 file disponibili.
 
-**SET09 rigenerato:10 immagini nuove. SET08–09 completati come recupero; restano SET10–12,30 immagini.** Restano anche2 SKU mai generati: IPA e pinzette. Limite10 generazioni del turno raggiunto.
+**8 tavole finali confermate, zero prodotte.** Le12 diagnostiche RF di questo turno non sono le finali.
 
-Disponibili fisicamente120 immagini (SET01–09,13–15), tutte verificate contro il manifest corrente. Registro storico150 file/147 SKU, non150 file disponibili. Otto tavole finali confermate, zero prodotte.
+## GitHub
+
+In questo turno `gh auth status` sia standard sia con configurazione dedicata ha restituito NON AUTENTICATO, nonostante la conferma dell’utente. La prima autorizzazione di questo turno è stata completata dall’utente, ma il salvataggio è fallito con permission denied nella cartella dedicata /usr. Permessi corretti, directory creata con accesso700, nuova richiesta device avviata; codice temporaneo solo in chat. Questo spiega il mancato login locale e non è un errore dell’utente. Nessun push remoto dichiarato riuscito senza verifica. Nessuna password/token richiesto in chat.
+
+Git locale e file in `/usr/set-lab`; `/usr` non persistente. Checkpoint Git nel workspace: `set-lab-recovery.bundle`. Contiene direttamente60 PNG generati SET08–10,13–15 e i relativi raw/metadati; i70 originali SET01–07 sono collegati al loro archivio esterno verificato, non inclusi nel bundle. Conservare anche lo ZIP originale: https://files.catbox.moe/ujc2ul.zip. `restore_originals.py` ripristina e verifica70 hash senza sovrascrivere i registri recenti.
 
 ## Analisi multimodale
 
-Riesaminate le12 tavole disponibili: SET01–09 e13–15,120 immagini complessive. Game07 e nuovo RF09 anche in dettaglio. Non dichiarato riesame dei30 asset SET10–12 mancanti.
+Riesaminate13 tavole: SET01–10,13–15,130 asset. PCB RF09-R1 e grafite10 letti anche a piena risoluzione. SET11–12 assenti non riesaminati.
 
-Rilievi storici confermati: USB01 pannelli bianchi nel raw; frontale03 stampa52MP anziché32MP; RAM16 del06 marchio Samsung rispetto a catalogo SK hynix; Lite05 senza sedi RAM/UFS chiare; batteria07 microtesto contraddittorio. Recupero08 SIM con tre vani; fold14 rapporto geometrico errato; cover15 e fotocamere non corrispondono automaticamente. Questi difetti non vengono nascosti sotto altri pezzi.
-
-## Nuovo SET09
-
-| SKU | Esito |
+| SKU SET10 | Esito |
 |---|---|
-| back-green | LuxGuard verde salvia satinato, fori alpha. Disposizione non verificata rispetto al periscopio. |
-| bat-7000 | BYD7000mAh3.95V Si-C leggibile; nessuna capacità alternativa visibile. |
-| board-rf | SOC,RAM,UFS ben distinti e liberi da passivi; array UFS concentrico illustrativo, non pinout reale. Nome scheda ripetuto due volte. |
-| cam-peri2 | SONY200MP6xOIS leggibile; microtesto aggiuntivo decorativo non certificato. Ingresso quadrangolare, non validato rispetto ai fori cover. |
-| camf-12 | SONY12MP leggibile; riflesso blu e lieve alone/bordo non fisico. Apertura display non validata come misura. |
-| disp-oled63 | BOE OLED6.3,120Hz,1080x2400 leggibili, punch centrale e flex inferiore. |
-| frame-mag | Telaio Vertex Qi2 con anello inferiore e finestre alpha; nessuna misura N52/lega certificabile. |
-| glass-zaf | CrystalLux Synthetic Sapphire leggibile, punch superiore; lastra opaca illustrativa, non trasparenza ottica. |
-| spk-stereo-bot | Due driver, Goertek2x1.1W leggibile; nessuna misura acustica. |
-| usb-dp | Amphenol DP2.1 8K60 leggibile; residuo violaceo sul metallo e vista non strettamente ortografica. |
+| soc-8e2 | Qualcomm Snapdragon8 Elite Gen5 leggibile; slash decorativi stampati fra righe. Il nome SKU8e2 non significa Gen2. |
+| soc-dim95 | MediaTek Dimensity9500 leggibile, distinto da9400. |
+| soc-ten6 | Google TensorG6 leggibile, distinto daG4/G5. |
+| ram-18 | SK hynix18GB LPDDR5X9600MHz leggibile. |
+| ram-32 | SK hynix32GB LPDDR5X10667MHz leggibile. |
+| sto-1tb41 | KIOXIA1TB UFS4.1 leggibile; non4.0. |
+| sto-2tb | SAMSUNG2TB UFS4.1 leggibile. |
+| hap-dual | Esattamente due involucri Leaderdrive, marcati LRA L e LRA R; nessun2x ripetuto. Restano separati, non assumere una sede unica per entrambi. |
+| th-cu | CoolCo/Cu/0.4mm leggibile; strip rame appiattita molto allungata. Spessore illustrativo non misurato. |
+| th-gr2 | CoolCo Dual graphite0.2+0.2mm leggibile; contorni sovrapposti suggeriscono un terzo foglio. Geometria/conteggio ambiguo: inventario separato, correzione richiesta. |
 
-La piazzola UFS del nuovo RF è libera, a differenza del raster perduto: il precedente blocco per passivi è risolto SOLO per questa rigenerazione. Le griglie sono illustrative, non pinout. I chip SET10 saranno collocati dopo rigenerazione, non usando coordinate vecchie.
+La grafite ha un problema di conteggio/contorni: non correggerlo attribuendo automaticamente i margini a spessori reali. Inventario separato con segnalazione di correzione. Doppio LRA: un file inventario con due motori L/R, non due motori nella stessa sede singola. Entrambi gli asset hanno montaggio nullo.
 
-## Coordinate RF09-R1
+## Coordinate nuove sul RF09-R1
 
-Raster ritagliato1249×613, crop[82,79,1331,692]. Centro nominale[0.05,0.145,-3.35]cm, scala=min(6.55/1249,7.10/613). X destra,Y strati,Z lunghezza. Non misure CAD.
+PCB originale del SET09 precedente perduto; qui si usa ESCLUSIVAMENTE RF09 rigenerato: crop[82,79,1331,692], raster1249×613. Sedi libere: SoC[162,131,341,350],RAM[601,127,206,356],UFS[899,180,216,252]. Scala nominale s=min(6.55/1249,7.10/613), X=0.05+(u−1249/2)s, Z=−3.35+(v−613/2)s, Y da `ls.ts`. Nessun pinout ingegneristico.
 
-| Sede | Rect u,v,w,h nel crop px |
-|---|---|
-| SoC | [162,131,341,350] |
-| RAM | [601,127,206,356] |
-| UFS | [899,180,216,252] |
-
-`coordinates-v12.json`: board aggiornata; SoC/RAM/storage SET10 con montaggi nulli perché i raster mancano e la geometria RF è cambiata. Camere SET09 isolate per mancata verifica aperture. Altri pezzi fit uniforme nominale nei rispettivi slot, non prova fisica.
-
-| File SET09 | Crop L,T,R,B | Centro X,Y,Z cm | Bbox X,Y,Z cm |
-|---|---|---|---|
-| set09-back-green.png | [539, 60, 837, 709] | 0.000, -0.360, 0.000 | 7.255, 0.120, 15.800 |
-| set09-bat-7000.png | [100, 85, 667, 1292] | 0.000, -0.020, 3.500 | 3.194, 0.440, 6.800 |
-| set09-board-rf.png | [82, 79, 1331, 692] | 0.050, 0.145, -3.350 | 6.550, 0.140, 3.215 |
-| set09-cam-peri2.png | [93, 183, 1317, 587] | null | null |
-| set09-camf-12.png | [523, 204, 1080, 618] | null | null |
-| set09-disp-oled63.png | [547, 36, 861, 734] | 0.000, 0.460, 0.000 | 6.838, 0.120, 15.200 |
-| set09-frame-mag.png | [70, 70, 633, 1426] | 0.000, 0.120, 0.000 | 6.560, 0.900, 15.800 |
-| set09-glass-zaf.png | [67, 132, 637, 1387] | 0.000, 0.560, 0.000 | 6.994, 0.060, 15.400 |
-| set09-spk-stereo-bot.png | [186, 262, 1222, 508] | 1.700, -0.230, 7.050 | 2.400, 0.340, 0.570 |
-| set09-usb-dp.png | [519, 109, 889, 658] | 0.000, -0.230, 7.200 | 0.607, 0.300, 0.900 |
-
-## SET08 ricalcolato sul Game originale
-
-Recuperato il PNG Game07 identico, rifatti5 fit:2SoC,2RAM,1UFS. q=min(sedeW/cropW,sedeH/cropH), centro coincidente, angolo0°, nessuna deformazione. Quattro prove2SoC×2RAM con sto-512 in `analysis/fit-set08-recovery-game.jpg`. Solo contenimento grafico, NON compatibilità dei bus o BGA. Accessori fit nominale; SIM resta null per geometria difettosa.
+Fit uniforme q=min(sedeW/cropW,sedeH/cropH), centro coincidente,0° di rotazione raster. Nessuno stiramento. Le UFS sono incluse perché la nuova sede è libera, non perché sia stata provata compatibilità elettronica.
 
 | SKU | Centro u,v px | Disegno W,H px |
 |---|---|---|
-| ram-24 | 692.000, 311.000 | 214.000, 218.901 |
-| ram-8x | 692.000, 311.000 | 214.000, 243.603 |
-| soc-8s | 339.500, 323.000 | 223.419, 228.000 |
-| soc-d9400 | 339.500, 323.000 | 228.000, 228.000 |
-| sto-512 | 1044.500, 243.500 | 208.783, 241.000 |
+| ram-18 | 704.000, 305.000 | 206.000, 295.958 |
+| ram-32 | 704.000, 305.000 | 206.000, 306.834 |
+| soc-8e2 | 332.500, 306.000 | 341.000, 339.769 |
+| soc-dim95 | 332.500, 306.000 | 341.000, 344.123 |
+| soc-ten6 | 332.500, 306.000 | 341.000, 342.464 |
+| sto-1tb41 | 1007.000, 306.000 | 216.000, 237.192 |
+| sto-2tb | 1007.000, 306.000 | 216.000, 251.337 |
 
-## Pipeline e backup
+### Dodici prove
 
-Raw AI intatti; PNG alpha postprodotto con chroma-key globale smoothstep e despill2px, nessun rembg/flood fill o nuova ROI manuale. Vetri opachi illustrativi: non trasparenza ottica reale.
+3SoC×2RAM×2UFS, una sola variante per ruolo in ogni prova. `analysis/fit-set10-rf-recovery-1.jpg` e `-2.jpg`:6 combinazioni ciascuna. Nessuna asserzione di motherboard reale compatibile con tutti i SoC/RAM, nessun circuito funzionante certificato. Periferiche e strati termici non inclusi sotto i chip per nascondere difetti.
 
-Git locale in `/usr/set-lab`; GitHub NON autenticato e push NON eseguito. `/usr` non persistente: non è una garanzia di backup remoto.
+| File SET10 | Crop L,T,R,B px | Centro X,Y,Z cm | Bbox X,Y,Z cm |
+|---|---|---|---|
+| set10-hap-dual.png | [74, 229, 1335, 632] | null | null |
+| set10-ram-18.png | [100, 214, 716, 1099] | 0.467, 0.275, -3.358 | 1.080, 0.080, 1.552 |
+| set10-ram-32.png | [185, 211, 708, 990] | 0.467, 0.275, -3.358 | 1.080, 0.080, 1.609 |
+| set10-soc-8e2.png | [427, 111, 981, 663] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.782 |
+| set10-soc-dim95.png | [431, 110, 977, 661] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.805 |
+| set10-soc-ten6.png | [471, 150, 937, 618] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.796 |
+| set10-sto-1tb41.png | [439, 93, 969, 675] | 2.056, 0.275, -3.353 | 1.133, 0.080, 1.244 |
+| set10-sto-2tb.png | [459, 101, 948, 670] | 2.056, 0.275, -3.353 | 1.133, 0.080, 1.318 |
+| set10-th-cu.png | [83, 318, 1325, 450] | 0.200, 0.000, -3.500 | 5.600, 0.070, 0.595 |
+| set10-th-gr2.png | [216, 110, 1192, 658] | null | null |
 
-Per mantenere il checkpoint del workspace entro la capacità disponibile, il bundle Git contiene direttamente i50 asset generati SET08–09,13–15 con raw e metadati; gli originali70 recuperati rimangono un archivio esterno collegato tramite URL e SHA256. `restore_originals.py` li ripristina senza sovrascrivere file differenti e controlla gli hash. **Il bundle da solo non contiene i70 PNG originali**: conservare anche lo ZIP Catbox originale. I file sono tutti presenti in `/usr` in questa sessione. Dopo autorizzazione GitHub si potrà caricare anche il materiale originale nel repository remoto.
+Heatpipe con collocazione nominale dello slot thermal, non forma misurata della vasca. Spessore0.4mm stampato non sostituisce il valore nominale del catalogo. Haptics/grafite isolati senza coordinate assegnate.
 
-`set-lab-recovery.bundle` aggiornato è il checkpoint Git locale scaricabile. Viewer V1 recuperato nell’archivio originale, non aggiornato ai nuovi SET. Nessuna attività di generazione in background.
+## Pipeline e integrità
 
-## Prossimo
+Raw AI preservati,10 generazioni del turno. Alpha postprodotto: Pillow/NumPy global chroma-key smoothstep e despill2px. Nessun rembg/flood fill, nessuna ROI manuale nuova. Etichette illustrate non sono specifiche fisiche verificate.
 
-SET10: hap-dual,ram-18,ram-32,soc-8e2,soc-dim95,soc-ten6,sto-1tb41,sto-2tb,th-cu,th-gr2. Poi SET11–12 e2 consumabili; controlli finali ed8 tavole con PNG effettivi, alternative separate e riferimenti riutilizzati dichiarati.
+Manifest V13:150 hash storici,130 file locali verificati; i120 asset già disponibili sono invariati. Solo i10 hash SET10 sostituiti, precedenti hash riportati nei record come supersedesSha256. Vecchi record SET10 archiviati; tutti gli altri140 record restano invariati.
+
+Rilievi storici ancora validi: USB01 bande bianche, frontale03 stampa52MP, RAM06 marchio non conforme, Lite senza RAM/UFS identificabili, batteria07 microtesto contraddittorio, SIM08 tre vani, fold14 rapporto errato, aperture cover15 non coincidenti automaticamente con le camere. eMMC13 separata da UFS. Non nascondere questi problemi nelle finali.
+
+## Prossimo lotto
+
+SET11: back-alu,back-leather,bat-dual,cons-screws,frame-classic,soc-exy26,soc-g99,soc-helio,soc-tensor,sto-1tb. Poi SET12 e2 consumabili. Infine8 tavole da PNG effettivi, esploso leggibile, alternative separate e riferimenti motherboard riutilizzati dichiarati. Viewer V1 non aggiornato in questo turno; niente generazione in background.

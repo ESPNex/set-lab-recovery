@@ -1,24 +1,10 @@
 {
   "regeneratedSets": [
     8,
-    9
+    9,
+    10
   ],
   "pendingSets": [
-    {
-      "set": 10,
-      "skus": [
-        "hap-dual",
-        "ram-18",
-        "ram-32",
-        "soc-8e2",
-        "soc-dim95",
-        "soc-ten6",
-        "sto-1tb41",
-        "sto-2tb",
-        "th-cu",
-        "th-gr2"
-      ]
-    },
     {
       "set": 11,
       "skus": [
@@ -55,7 +41,7 @@
     "cons-ipa",
     "cons-tweezers"
   ],
-  "localAssetCount": 120,
+  "localAssetCount": 130,
   "historicalRecords": 150,
   "newFinalImagesCreated": 0,
   "allFinalImagesRequired": 8,

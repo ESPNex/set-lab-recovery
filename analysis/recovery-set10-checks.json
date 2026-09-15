@@ -1,0 +1,178 @@
+{
+  "localHashesVerified": 130,
+  "old120AvailableHashesUnchanged": true,
+  "other140MetadataRowsUnchanged": true,
+  "regenerated10AlphaValidated": true,
+  "contactSheetsReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15
+  ],
+  "fullResolutionReviewed": [
+    "RF09-R1",
+    "th-gr2-R1"
+  ],
+  "fits": [
+    {
+      "sku": "ram-18",
+      "center": [
+        704.0,
+        305.0
+      ],
+      "size": [
+        205.99999999999997,
+        295.9577922077922
+      ],
+      "slotRect": [
+        601,
+        127,
+        206,
+        356
+      ],
+      "angle": 0,
+      "scale": 0.3344155844155844,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "ram-32",
+      "center": [
+        704.0,
+        305.0
+      ],
+      "size": [
+        206.0,
+        306.8336520076482
+      ],
+      "slotRect": [
+        601,
+        127,
+        206,
+        356
+      ],
+      "angle": 0,
+      "scale": 0.3938814531548757,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-8e2",
+      "center": [
+        332.5,
+        306.0
+      ],
+      "size": [
+        341.0,
+        339.76895306859205
+      ],
+      "slotRect": [
+        162,
+        131,
+        341,
+        350
+      ],
+      "angle": 0,
+      "scale": 0.6155234657039711,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-dim95",
+      "center": [
+        332.5,
+        306.0
+      ],
+      "size": [
+        341.0,
+        344.1227106227106
+      ],
+      "slotRect": [
+        162,
+        131,
+        341,
+        350
+      ],
+      "angle": 0,
+      "scale": 0.6245421245421245,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-ten6",
+      "center": [
+        332.5,
+        306.0
+      ],
+      "size": [
+        341.0,
+        342.46351931330474
+      ],
+      "slotRect": [
+        162,
+        131,
+        341,
+        350
+      ],
+      "angle": 0,
+      "scale": 0.7317596566523605,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "sto-1tb41",
+      "center": [
+        1007.0,
+        306.0
+      ],
+      "size": [
+        216.0,
+        237.1924528301887
+      ],
+      "slotRect": [
+        899,
+        180,
+        216,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.4075471698113208,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "sto-2tb",
+      "center": [
+        1007.0,
+        306.0
+      ],
+      "size": [
+        216.0,
+        251.33742331288343
+      ],
+      "slotRect": [
+        899,
+        180,
+        216,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.44171779141104295,
+      "reference": "set09-board-rf.png",
+      "physicalCompatibilityVerified": false
+    }
+  ],
+  "compositionsCount": 12,
+  "finalImagesCreated": 0,
+  "twelveDiagnosticFitsVisuallyReviewed": true,
+  "fitCaveat": "Containment confirmed; differing package margins remain, no BGA/pinout validation."
+}

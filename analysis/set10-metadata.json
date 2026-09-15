@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set10-hap-dual.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      74,
+      229,
+      1335,
+      632
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2932,
+    "transparentPixels": 783150,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-ram-18.png",
+    "sourceSize": [
+      816,
+      1312
+    ],
+    "crop": [
+      100,
+      214,
+      716,
+      1099
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 741,
+    "transparentPixels": 525535,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-ram-32.png",
+    "sourceSize": [
+      896,
+      1200
+    ],
+    "crop": [
+      185,
+      211,
+      708,
+      990
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 918,
+    "transparentPixels": 669240,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-soc-8e2.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      427,
+      111,
+      981,
+      663
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1418,
+    "transparentPixels": 776578,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-soc-dim95.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      431,
+      110,
+      977,
+      661
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1699,
+    "transparentPixels": 785553,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-soc-ten6.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      471,
+      150,
+      937,
+      618
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1248,
+    "transparentPixels": 863902,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-sto-1tb41.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      439,
+      93,
+      969,
+      675
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 789,
+    "transparentPixels": 774365,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-sto-2tb.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      459,
+      101,
+      948,
+      670
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 508,
+    "transparentPixels": 803693,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-th-cu.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      83,
+      318,
+      1325,
+      450
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1319,
+    "transparentPixels": 923164,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set10-th-gr2.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      216,
+      110,
+      1192,
+      658
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2160,
+    "transparentPixels": 558364,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "file": "set10-hap-dual.png",
+    "sku": "hap-dual",
+    "slot": "haptics",
+    "set": 10,
+    "crop": [
+      194,
+      191,
+      1214,
+      581
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      2.5,
+      -0.23,
+      5.5
+    ],
+    "size": [
+      1.3,
+      0.3,
+      0.4970588235294118
+    ],
+    "angle": 0,
+    "status": "proposta nominale grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Due involucri metallici collegati da flex, LEADERDRIVE. La stampa 2xLRA compare su entrambi: si rappresentano due attuatori complessivi, non quattro.",
+    "boardLocal": null
+  },
+  {
+    "file": "set10-ram-18.png",
+    "sku": "ram-18",
+    "slot": "ram",
+    "set": 10,
+    "crop": [
+      498,
+      80,
+      909,
+      689
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SK hynix 18GB LPDDR5X leggibile. Rapporto di forma diverso dalla sede stretta RF: fit uniforme lascia margine verticale.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-ram-32.png",
+    "sku": "ram-32",
+    "slot": "ram",
+    "set": 10,
+    "crop": [
+      490,
+      76,
+      918,
+      694
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SK hynix 32GB LPDDR5X leggibile. Alternativa alla RAM18; stessa cautela sul rapporto d’aspetto.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-soc-8e2.png",
+    "sku": "soc-8e2",
+    "slot": "soc",
+    "set": 10,
+    "crop": [
+      408,
+      86,
+      1000,
+      683
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Qualcomm Snapdragon 8 Elite Gen 5 leggibile. Package quasi quadrato; nodo e prestazioni del catalogo non verificati.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-soc-dim95.png",
+    "sku": "soc-dim95",
+    "slot": "soc",
+    "set": 10,
+    "crop": [
+      146,
+      147,
+      878,
+      879
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Dimensity 9500 leggibile, package quadrato. Specifiche commerciali non ricavate dal raster.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-soc-ten6.png",
+    "sku": "soc-ten6",
+    "slot": "soc",
+    "set": 10,
+    "crop": [
+      167,
+      168,
+      857,
+      858
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Google Tensor G6 leggibile; quadrato con bordo dorato. Immagine concettuale, non fotografia autentica di prodotto.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-sto-1tb41.png",
+    "sku": "sto-1tb41",
+    "slot": "storage",
+    "set": 10,
+    "crop": [
+      481,
+      92,
+      928,
+      676
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "KIOXIA 1TB UFS4.1 leggibile. Asset isolato valido come illustrazione; montaggio su RF bloccato dalla sede UFS occupata.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-sto-2tb.png",
+    "sku": "sto-2tb",
+    "slot": "storage",
+    "set": 10,
+    "crop": [
+      446,
+      63,
+      961,
+      706
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "STALE: asset da rigenerare e coordinate da ricalcolare sul nuovo RF",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SAMSUNG 2TB UFS4.1 leggibile. Non sovrapporre allo storage Kioxia; montaggio su RF bloccato.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set10-th-cu.png",
+    "sku": "th-cu",
+    "slot": "thermal",
+    "set": 10,
+    "crop": [
+      78,
+      309,
+      1330,
+      460
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0.2,
+      0.0,
+      -3.5
+    ],
+    "size": [
+      5.6,
+      0.07,
+      0.6753993610223641
+    ],
+    "angle": 0,
+    "status": "proposta nominale grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Heatpipe rame molto lunga con due zone piatte e tratto stretto. Spessore 0.4mm e capacità dissipante non misurabili.",
+    "boardLocal": null
+  },
+  {
+    "file": "set10-th-gr2.png",
+    "sku": "th-gr2",
+    "slot": "thermal",
+    "set": 10,
+    "crop": [
+      348,
+      90,
+      1057,
+      685
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0.2,
+      0.0,
+      -3.5
+    ],
+    "size": [
+      5.6000000000000005,
+      0.07,
+      4.699576868829337
+    ],
+    "angle": 0,
+    "status": "proposta nominale grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Due fogli grafite sovrapposti e sfalsati, entrambi visibili. Spessori 0.2+0.2mm non verificabili dal top-down.",
+    "boardLocal": null
+  }
+]
