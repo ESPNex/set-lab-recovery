@@ -1,5 +1,5 @@
 {
-  "status": "V18_VISUAL_PLACEMENT_DELIVERED_NOT_ENGINEERING_VALIDATED",
+  "status": "V19_SINGLE_MEMORY_VISUAL_FIT_REVIEW",
   "requestedCount": null,
   "supersededFixedCount": 8,
   "createdCount": 29,
@@ -85,9 +85,11 @@
   "validatedCount": 0,
   "newTechnicalImageGeneration": "REQUIRES_REAL_DESIGN_AND_TESTS",
   "audit": "electronics-audit/AUDIT-ELETTRONICO.md",
-  "currentVisualVersion": 18,
+  "currentVisualVersion": 19,
   "currentVisualCount": 29,
-  "currentVisualManifest": "visual-v18/posizionamenti-v18.json",
+  "currentVisualManifest": "visual-v19/posizionamenti-v19.json",
   "newVisualImageGeneration": "AUTHORIZED_BY_USER",
-  "workspaceDelivery": "Configurazioni-V18"
+  "workspaceDelivery": "Configurazioni-V19",
+  "memoryPolicy": "One visible RAM and one visible storage, no duplicate details/inventory",
+  "independentClone": "/usr/set-lab-review-v19/repo"
 }

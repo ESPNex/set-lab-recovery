@@ -1,16 +1,14 @@
-# SET Lab — consegna V18 nel workspace
+# SET Lab — V19
 
-**29 nuove proposte di posizionamento visivo**, con motherboard+batteria sul telaio, cover, piano retro/termica, periferiche ai bordi, display e vetro. Non sono collaudi elettronici.
+29 PNG aggiornati: **una sola RAM e una sola memoria di archiviazione visibile per tavola**, senza alternative laterali né duplicati negli ingrandimenti PCB.
 
-- Workspace: `Configurazioni-V18/GALLERIA.html`, 29 PNG e `posizionamenti-v18.json`.
-- Download completo: `Configurazioni-V18.zip` nel workspace.
-- Copia repository: `visual-v18/`.
-- Riesaminati 5 crop motherboard, 4 atlanti esterni e tutte le 8 tavole delle nuove immagini; due immagini finali lette individualmente.
-- Rimossi nelle nuove selezioni i 9 conflitti di tipo RAM già documentati; package, PCB e sistema restano non qualificati.
-- Per coppia: 1 / 2 / 2 / 2 / 3 / 10 / 5 / 4. 150 asset attivi rappresentati; fold e UTG esclusi.
+- Consegna workspace: `Configurazioni-V19/`, galleria `GALLERIA.html` e `Configurazioni-V19.zip`.
+- Repository: `visual-v19/`; esiti in `visual-v19/LEGGIMI.md` e `posizionamenti-v19.json`.
+- Nuovo download GitHub: `/usr/set-lab-review-v19/repo`.
+- Verifica del vincolo memoria: `visual-v19/verifica-memorie.csv`, 29/29 passati.
 
-L'audit elettronico precedente resta valido come limite: [AUDIT-ELETTRONICO](electronics-audit/AUDIT-ELETTRONICO.md). Le geometrie V18 sono stime, non istruzioni di fabbricazione.
+Analisi multimodale delle forme e degli incastri su otto tavole sorgente scaricate e otto tavole di risultati. Riscontri specifici su telaio classic, vasca flat, anello magnetico, cover multifornate e fori dei vetri. **Non sono configurazioni fisicamente collaudate.** I confronti che non dimostrano un incastro sono segnalati, non dichiarati riusciti.
 
-Il vecchio bundle da 121 MiB è conservato, con hash verificato prima della rimozione del duplicato, in `/usr/set-lab/downloads/historical-workspace.bundle`. È stato spostato per lasciare nel workspace le nuove immagini e lo ZIP entro il limite di persistenza. Non era un backup aggiornato; il backup corrente del progetto è GitHub.
+Fold e UTG esclusi. V17/V18 e catalogo conservati come storico; il precedente audit elettronico resta in `electronics-audit/`. Il requisito di una sola memoria prevale sulla visualizzazione di tutte le memorie alternative.
 
-Repository privato: https://github.com/ESPNex/set-lab-recovery. `/usr` può essere azzerato; le nuove immagini sono anche nel workspace e nel repository dopo push verificato.
+GitHub privato: https://github.com/ESPNex/set-lab-recovery. `/usr` può essere azzerato; la consegna aggiornata è anche nel workspace e su GitHub dopo push verificato. ZIP V18 preservato in `/usr/set-lab-delivery/Configurazioni-V18.zip`; bundle storico in `/usr/set-lab/downloads/historical-workspace.bundle`.
