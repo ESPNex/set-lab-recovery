@@ -1,0 +1,419 @@
+[
+  {
+    "file": "set11-back-alu.png",
+    "sku": "back-alu",
+    "slot": "backcover",
+    "set": 11,
+    "crop": [
+      29,
+      38,
+      676,
+      1466
+    ],
+    "sourceSize": [
+      704,
+      1504
+    ],
+    "pos": [
+      0,
+      -0.36,
+      0
+    ],
+    "size": [
+      7.158683473389356,
+      0.12,
+      15.8
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Cover argento spazzolata con foro superiore sinistro; lega6013 non ricavabile dall\u2019immagine.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set11-back-leather.png",
+    "sku": "back-leather",
+    "slot": "backcover",
+    "set": 11,
+    "crop": [
+      63,
+      135,
+      642,
+      1358
+    ],
+    "sourceSize": [
+      704,
+      1504
+    ],
+    "pos": [
+      0,
+      -0.36,
+      0
+    ],
+    "size": [
+      7.3999999999999995,
+      0.12,
+      15.630742659758203
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Cover marrone con texture granulata e bordo; PU bio-based non verificabile, foro camera vuoto.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set11-bat-dual.png",
+    "sku": "bat-dual",
+    "slot": "battery",
+    "set": 11,
+    "crop": [
+      124,
+      60,
+      1329,
+      710
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      -0.02,
+      3.5
+    ],
+    "size": [
+      3.66804979253112,
+      0.44,
+      6.8
+    ],
+    "angle": 90,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Due pouch affiancate con etichetta unica ATL / DUAL CELL / TOTAL5500mAh / 3.87V /21.3Wh. Capacit\u00e0 complessiva, non 5500mAh per pouch. Collegamento parallelo non verificabile.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set11-cons-screws.png",
+    "sku": "cons-screws",
+    "slot": "frame",
+    "set": 11,
+    "crop": [
+      206,
+      234,
+      1204,
+      535
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "SOLO INVENTARIO ACCESSORI; nessun montaggio nel frame",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Sei viti visibili in due file da tre; file di gruppo conservato come singolo SKU accessorio. Diametro M1.6 non misurabile; leggere frange violacee residue sul metallo.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set11-frame-classic.png",
+    "sku": "frame-classic",
+    "slot": "frame",
+    "set": 11,
+    "crop": [
+      70,
+      65,
+      1338,
+      707
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      0.12,
+      0
+    ],
+    "size": [
+      7.4,
+      0.9,
+      14.61557632398754
+    ],
+    "angle": 90,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Telaio prodotto in orizzontale con foro home a destra e banda di dettagli laterali: non \u00e8 una proiezione CAD pura. Fondo nell\u2019apertura ripulito via alpha ROI; per il layout ritratto serve rotazione oraria90\u00b0.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set11-soc-exy26.png",
+    "sku": "soc-exy26",
+    "slot": "soc",
+    "set": 11,
+    "crop": [
+      403,
+      75,
+      1005,
+      693
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1816823651591637
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SAMSUNG Exynos2600 leggibile; forma quasi quadrata. Le specifiche commerciali del catalogo non sono state verificate.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        232.00664451827242
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.3754152823920266,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico della piazzola maggiore",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set11-soc-g99.png",
+    "sku": "soc-g99",
+    "slot": "soc",
+    "set": 11,
+    "crop": [
+      212,
+      213,
+      812,
+      812
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1491701658890618
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Helio G99 leggibile; package quasi quadrato. Non \u00e8 stata verificata alcuna specifica di processo o pinout.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        225.62333333333333
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.37666666666666665,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico della piazzola maggiore",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set11-soc-helio.png",
+    "sku": "soc-helio",
+    "slot": "soc",
+    "set": 11,
+    "crop": [
+      164,
+      164,
+      860,
+      861
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.152742509965857
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "UNISOC T7250 leggibile: soc-helio \u00e8 un alias interno, non un chip MediaTek Helio. Cornice dorata interna illustrativa.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.32471264367817
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.32471264367816094,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico della piazzola maggiore",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set11-soc-tensor.png",
+    "sku": "soc-tensor",
+    "slot": "soc",
+    "set": 11,
+    "crop": [
+      472,
+      152,
+      937,
+      616
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1486131875114969
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Google Tensor G5 leggibile; package quasi quadrato, nessuna validazione di prodotto reale.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        225.51397849462364
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.4860215053763441,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico della piazzola maggiore",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set11-sto-1tb.png",
+    "sku": "sto-1tb",
+    "slot": "storage",
+    "set": 11,
+    "crop": [
+      440,
+      99,
+      968,
+      686
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      1.0813958009331262,
+      0.275,
+      -2.9960147744945567
+    ],
+    "size": [
+      0.5543467720782851,
+      0.08,
+      0.6162908242612753
+    ],
+    "angle": 0,
+    "status": "ipotesi grafica UFS su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SAMSUNG 1TB UFS4.0 leggibile, distinto dai precedenti UFS4.1. Attribuzione sede UFS sul Pro resta ipotetica.",
+    "boardLocal": {
+      "center": [
+        845.5,
+        402.5
+      ],
+      "size": [
+        108.83816013628619,
+        121.0
+      ],
+      "slotRect": [
+        786,
+        342,
+        119,
+        121
+      ],
+      "angle": 0,
+      "scale": 0.2061328790459966,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "ipotesi UFS, serigrafia di gruppo non univoca",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  }
+]

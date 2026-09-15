@@ -1,0 +1,141 @@
+{
+  "localHashesVerified": 140,
+  "old130AvailableHashesUnchanged": true,
+  "other140RowsUnchanged": true,
+  "contactSheetsReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15
+  ],
+  "nativeReviewed": [
+    "Pro03",
+    "frame-classic11",
+    "bat-dual11"
+  ],
+  "fits": [
+    {
+      "sku": "soc-exy26",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.0
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-g99",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        230.74125874125875
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-helio",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.48602150537636
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-tensor",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.0
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "sto-1tb",
+      "center": [
+        845.5,
+        402.5
+      ],
+      "size": [
+        119.0,
+        114.01860465116279
+      ],
+      "slotRect": [
+        786,
+        342,
+        119,
+        121
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    }
+  ],
+  "partialCompositions": 4,
+  "finalImagesCreated": 0,
+  "fourPartialFitsVisuallyReviewed": true
+}

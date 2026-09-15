@@ -10,3 +10,12 @@ __pycache__/
 .sudo_as_admin_successful
 # SET01-07 tracked after successful authentication; user archive also retained externally.
 /recovered-original-archive/
+
+# User-requested delivery cleanup: working images remain local, not in main.
+/new_raw/
+/analysis/*.png
+/analysis/*.jpg
+/analysis/*.jpeg
+/analysis/*.webp
+/analysis/*.gif
+/analysis/*.svg

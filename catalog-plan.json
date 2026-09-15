@@ -49,7 +49,7 @@
   "pairingNote": "Dopo i SET09-10 non restano nuove motherboard nel catalogo. I lotti sono assortimenti di varianti, non kit meccanici autosufficienti. Consumabili non vanno montati nello slot frame solo perché il catalogo lo usa come categoria tecnica.",
   "finalImagesPlan": "final-compositions-plan.json",
   "finalImagesRequested": 8,
-  "locallyAvailableAssetCount": 130,
+  "locallyAvailableAssetCount": 140,
   "assemblyWarnings": [
     "SET15 cover hole patterns differ; neither dual horizontal camera nor periscope has a validated matching cover. Keep separated in exploded view.",
     "SET01-12 files absent: recover before multimodal review and final compositing."

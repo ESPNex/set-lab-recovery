@@ -2,24 +2,10 @@
   "regeneratedSets": [
     8,
     9,
-    10
+    10,
+    11
   ],
   "pendingSets": [
-    {
-      "set": 11,
-      "skus": [
-        "back-alu",
-        "back-leather",
-        "bat-dual",
-        "cons-screws",
-        "frame-classic",
-        "soc-exy26",
-        "soc-g99",
-        "soc-helio",
-        "soc-tensor",
-        "sto-1tb"
-      ]
-    },
     {
       "set": 12,
       "skus": [
@@ -41,7 +27,7 @@
     "cons-ipa",
     "cons-tweezers"
   ],
-  "localAssetCount": 130,
+  "localAssetCount": 140,
   "historicalRecords": 150,
   "newFinalImagesCreated": 0,
   "allFinalImagesRequired": 8,

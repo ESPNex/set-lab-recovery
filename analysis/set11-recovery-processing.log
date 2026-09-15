@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set11-back-alu.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      22,
+      25,
+      682,
+      1497
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 4935,
+    "transparentPixels": 159354,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-back-leather.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      28,
+      35,
+      676,
+      1486
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2313,
+    "transparentPixels": 197582,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-bat-dual.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      73,
+      72,
+      1335,
+      694
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3596,
+    "transparentPixels": 398108,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-cons-screws.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      95,
+      91,
+      1312,
+      684
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 4674,
+    "transparentPixels": 888705,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-frame-classic.png",
+    "sourceSize": [
+      768,
+      1376
+    ],
+    "crop": [
+      60,
+      62,
+      708,
+      1314
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 5901,
+    "transparentPixels": 797152,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-soc-exy26.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      456,
+      136,
+      952,
+      632
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1864,
+    "transparentPixels": 835354,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-soc-g99.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      418,
+      92,
+      990,
+      676
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 915,
+    "transparentPixels": 747296,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-soc-helio.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      472,
+      152,
+      937,
+      618
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1466,
+    "transparentPixels": 864670,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-soc-tensor.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      434,
+      114,
+      974,
+      654
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2103,
+    "transparentPixels": 789844,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set11-sto-1tb.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      489,
+      178,
+      919,
+      590
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1324,
+    "transparentPixels": 904256,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

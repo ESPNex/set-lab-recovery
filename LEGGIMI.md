@@ -1,85 +1,63 @@
-# SET Lab — revisione13 / recupero SET10
+# SET Lab — revisione14 / SET11 rigenerato
 
-## Stato verificato
+## Repository ripulito
 
-**SET13–15 presenti e integri:30 PNG. SET10 rigenerato:10 nuovi PNG.** Disponibili ora130 asset (SET01–10,13–15), tutti verificati contro il manifest corrente. Restano SET11–12:20 immagini da rigenerare e2 SKU mai prodotti (IPA e pinzette). Registro storico150 file/147 SKU su149, NON150 file disponibili.
+Repository privato: https://github.com/ESPNex/set-lab-recovery
 
-**8 tavole finali confermate, zero prodotte.** Le12 diagnostiche RF di questo turno non sono le finali.
+Richiesta utente: eliminare immagini inutili o in più. Rimossi dalla versione corrente **70 raw e27 immagini diagnostiche** precedentemente tracciate. Non sono stati eliminati componenti di catalogo. I nuovi raw/diagnostici SET11 restano solo materiali di lavoro in `/usr`, esclusi dal push. Nel ramo corrente restano **140 immagini di componenti**, in `originals/` (60) e `generated/` (80), più dati, script e viewerV1 già richiesto. Nessun contatto-sheet, crop o mockup aggiuntivo nel ramo corrente.
 
-## GitHub — backup remoto riuscito
+Rimozione normale Git, non riscrittura della storia: raw/diagnostiche già caricate restano recuperabili nei vecchi commit. `/usr` non persistente; dopo un reset le tavole si ricostruiscono dai PNG, i raw nuovi non caricati non sono garantiti. Le immagini di lavoro non sono SKU aggiuntivi e non vengono conteggiate nel catalogo.
 
-**Repository privato: https://github.com/ESPNex/set-lab-recovery**
+## Stato pipeline
 
-Autorizzazione riuscita come ESPNex, repository creato e push verificato: commit locale uguale a main remoto, inventario dell’albero GitHub con **130 PNG asset +70 raw**. Sono inclusi direttamente anche i70 originali recuperati SET01–07 e il viewer V1: il remoto non dipende dal solo collegamento Catbox.
+SET11 rigenerato da `ls.ts`:10 nuovi PNG. Disponibili140 immagini effettive SET01–11,13–15, hash verificati. Rimane SET12 da rigenerare (10) e2 SKU mai prodotti (IPA/pinzette). Registro storico150 file/147 SKU su149, non150 file ora presenti. **8 finali previste, zero create.**
 
-L’errore precedente era il salvataggio delle credenziali in una directory /usr non scrivibile: l’utente aveva autorizzato correttamente. Directory creata, permessi corretti, nuova autorizzazione salvata fuori dal progetto, mai inclusa in Git. Accesso HTTPS; repository privato, nessun token/password in chat o nei file del progetto.
+Il checkpoint nel workspace `set-lab-recovery.bundle` è storico, precedente alla pulizia e al SET11: non rappresenta lo stato corrente. Fonte corrente: repository GitHub. Non rigenerato il bundle completo perché contiene la storia e supererebbe lo spazio persistente disponibile.
 
-`analysis/github-backup-verification.json` registra il commit del caricamento degli asset, conteggio remoto e privacy. Recupero consigliato dopo un reset: autenticarsi e `git clone https://github.com/ESPNex/set-lab-recovery.git`. /usr resta non persistente, ma i file sono ora caricati su GitHub.
+## Analisi eseguita
 
-Il bundle nel workspace resta il checkpoint **precedente al caricamento degli originali su GitHub**, commit db10b994: contiene60 asset SET08–10,13–15 con raw, non i70 originali. Non va confuso con il repository remoto più completo. Conservare comunque lo ZIP originale https://files.catbox.moe/ujc2ul.zip. Nessun file viene eliminato da /usr durante questa verifica.
+Riesaminate le14 tavole disponibili (140 asset); Pro03, nuovo telaio classico e batteria dual letti in dettaglio. SET12 assente non riesaminato. Quattro composizioni parziali SoC+UFS generate per analisi locale, non aggiunte al repository e non considerate finali.
 
-## Analisi multimodale
-
-Riesaminate13 tavole: SET01–10,13–15,130 asset. PCB RF09-R1 e grafite10 letti anche a piena risoluzione. SET11–12 assenti non riesaminati.
-
-| SKU SET10 | Esito |
+| SKU SET11 | Esito |
 |---|---|
-| soc-8e2 | Qualcomm Snapdragon8 Elite Gen5 leggibile; slash decorativi stampati fra righe. Il nome SKU8e2 non significa Gen2. |
-| soc-dim95 | MediaTek Dimensity9500 leggibile, distinto da9400. |
-| soc-ten6 | Google TensorG6 leggibile, distinto daG4/G5. |
-| ram-18 | SK hynix18GB LPDDR5X9600MHz leggibile. |
-| ram-32 | SK hynix32GB LPDDR5X10667MHz leggibile. |
-| sto-1tb41 | KIOXIA1TB UFS4.1 leggibile; non4.0. |
-| sto-2tb | SAMSUNG2TB UFS4.1 leggibile. |
-| hap-dual | Esattamente due involucri Leaderdrive, marcati LRA L e LRA R; nessun2x ripetuto. Restano separati, non assumere una sede unica per entrambi. |
-| th-cu | CoolCo/Cu/0.4mm leggibile; strip rame appiattita molto allungata. Spessore illustrativo non misurato. |
-| th-gr2 | CoolCo Dual graphite0.2+0.2mm leggibile; contorni sovrapposti suggeriscono un terzo foglio. Geometria/conteggio ambiguo: inventario separato, correzione richiesta. |
+| back-alu | Vertex alluminio satinato, apertura camera passante, lega non misurata. |
+| back-leather | EcoLine marrone, trama e cuciture illustrate, apertura camera passante; materiale PU non certificato. |
+| bat-dual | ATL DUAL CELL5500mAh TOTAL3.87V leggibile. Due pouch, capacità totale esplicita, circuito parallelo non validato. |
+| cons-screws | Sei viti Phillips separate. DiametroM1.6 non misurabile dal raster, un solo SKU inventario. |
+| frame-classic | Vista frontale più pulita del raster perduto, centro e home trasparenti. Foro superiore camera illustrato scuro. Scelta apertura16:9; contraddizione catalogo4:3/16:9 ancora aperta. |
+| soc-exy26 | Samsung Exynos2600 leggibile. |
+| soc-g99 | MediaTek HelioG99 leggibile. |
+| soc-helio | UNISOC T7250 leggibile: SKU soc-helio non implica Helio/MediaTek. |
+| soc-tensor | Google TensorG5 leggibile. |
+| sto-1tb | Samsung1TB UFS4.0 leggibile, non4.1; package generato quasi quadrato. |
 
-La grafite ha un problema di conteggio/contorni: non correggerlo attribuendo automaticamente i margini a spessori reali. Inventario separato con segnalazione di correzione. Doppio LRA: un file inventario con due motori L/R, non due motori nella stessa sede singola. Entrambi gli asset hanno montaggio nullo.
+Il telaio ora ha centro vuoto pulito e home passante, senza ritaglio ROI manuale. Apertura portrait16:9 circa, non prova di compatibilità: `ls.ts` contraddice4:3 e16:9. L’etichetta5500mAh TOTAL evita di attribuire5500 a ciascuna pouch; tensione/materiali restano illustrativi.
 
-## Coordinate nuove sul RF09-R1
+## Coordinate e ipotesi
 
-PCB originale del SET09 precedente perduto; qui si usa ESCLUSIVAMENTE RF09 rigenerato: crop[82,79,1331,692], raster1249×613. Sedi libere: SoC[162,131,341,350],RAM[601,127,206,356],UFS[899,180,216,252]. Scala nominale s=min(6.55/1249,7.10/613), X=0.05+(u−1249/2)s, Z=−3.35+(v−613/2)s, Y da `ls.ts`. Nessun pinout ingegneristico.
+Pro03 riutilizzato, nessuna nuova motherboard: SoC[520,203,226,239], ipotesi UFS[786,342,119,121] nel crop1286×666. Serigrafia SOC/RAM/UFS ambigua: queste assegnazioni non sono pinout. RAM assente nelle quattro prove. Anche Helio/Unisoc non sono dichiarati compatibili con UFS4.0: solo test raster.
 
-Fit uniforme q=min(sedeW/cropW,sedeH/cropH), centro coincidente,0° di rotazione raster. Nessuno stiramento. Le UFS sono incluse perché la nuova sede è libera, non perché sia stata provata compatibilità elettronica.
+Fit uniforme q=min(slotW/cropW,slotH/cropH); X=0.05+(u−1286/2)s, Z=−3.35+(v−666/2)s con s=min(6.55/1286,7.10/666). Y da `ls.ts`, rotazione0°. Unità cm nominali, nessuna deformazione. Cover e batteria fit nominale; viti pos/size/angle null perché inventario.
 
-| SKU | Centro u,v px | Disegno W,H px |
-|---|---|---|
-| ram-18 | 704.000, 305.000 | 206.000, 295.958 |
-| ram-32 | 704.000, 305.000 | 206.000, 306.834 |
-| soc-8e2 | 332.500, 306.000 | 341.000, 339.769 |
-| soc-dim95 | 332.500, 306.000 | 341.000, 344.123 |
-| soc-ten6 | 332.500, 306.000 | 341.000, 342.464 |
-| sto-1tb41 | 1007.000, 306.000 | 216.000, 237.192 |
-| sto-2tb | 1007.000, 306.000 | 216.000, 251.337 |
-
-### Dodici prove
-
-3SoC×2RAM×2UFS, una sola variante per ruolo in ogni prova. `analysis/fit-set10-rf-recovery-1.jpg` e `-2.jpg`:6 combinazioni ciascuna. Nessuna asserzione di motherboard reale compatibile con tutti i SoC/RAM, nessun circuito funzionante certificato. Periferiche e strati termici non inclusi sotto i chip per nascondere difetti.
-
-| File SET10 | Crop L,T,R,B px | Centro X,Y,Z cm | Bbox X,Y,Z cm |
+| File | Crop L,T,R,B px | Centro X,Y,Z cm | Bbox X,Y,Z cm |
 |---|---|---|---|
-| set10-hap-dual.png | [74, 229, 1335, 632] | null | null |
-| set10-ram-18.png | [100, 214, 716, 1099] | 0.467, 0.275, -3.358 | 1.080, 0.080, 1.552 |
-| set10-ram-32.png | [185, 211, 708, 990] | 0.467, 0.275, -3.358 | 1.080, 0.080, 1.609 |
-| set10-soc-8e2.png | [427, 111, 981, 663] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.782 |
-| set10-soc-dim95.png | [431, 110, 977, 661] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.805 |
-| set10-soc-ten6.png | [471, 150, 937, 618] | -1.481, 0.285, -3.353 | 1.788, 0.100, 1.796 |
-| set10-sto-1tb41.png | [439, 93, 969, 675] | 2.056, 0.275, -3.353 | 1.133, 0.080, 1.244 |
-| set10-sto-2tb.png | [459, 101, 948, 670] | 2.056, 0.275, -3.353 | 1.133, 0.080, 1.318 |
-| set10-th-cu.png | [83, 318, 1325, 450] | 0.200, 0.000, -3.500 | 5.600, 0.070, 0.595 |
-| set10-th-gr2.png | [216, 110, 1192, 658] | null | null |
+| set11-back-alu.png | [22, 25, 682, 1497] | 0.000, -0.360, 0.000 | 7.084, 0.120, 15.800 |
+| set11-back-leather.png | [28, 35, 676, 1486] | 0.000, -0.360, 0.000 | 7.056, 0.120, 15.800 |
+| set11-bat-dual.png | [73, 72, 1335, 694] | 0.000, -0.020, 3.500 | 6.400, 0.440, 3.154 |
+| set11-cons-screws.png | [95, 91, 1312, 684] | null | null |
+| set11-frame-classic.png | [60, 62, 708, 1314] | 0.000, 0.120, 0.000 | 7.400, 0.900, 14.298 |
+| set11-soc-exy26.png | [456, 136, 952, 632] | -0.001, 0.285, -3.403 | 1.151, 0.100, 1.151 |
+| set11-soc-g99.png | [418, 92, 990, 676] | -0.001, 0.285, -3.403 | 1.151, 0.100, 1.175 |
+| set11-soc-helio.png | [472, 152, 937, 618] | -0.001, 0.285, -3.403 | 1.151, 0.100, 1.154 |
+| set11-soc-tensor.png | [434, 114, 974, 654] | -0.001, 0.285, -3.403 | 1.151, 0.100, 1.151 |
+| set11-sto-1tb.png | [489, 178, 919, 590] | 1.081, 0.275, -2.996 | 0.606, 0.080, 0.581 |
 
-Heatpipe con collocazione nominale dello slot thermal, non forma misurata della vasca. Spessore0.4mm stampato non sostituisce il valore nominale del catalogo. Haptics/grafite isolati senza coordinate assegnate.
+## Pipeline, integrità e limiti
 
-## Pipeline e integrità
+Alpha postprodotto con chroma-key globale graduato smoothstep e despill2px Pillow/NumPy. Nessun rembg, flood fill o nuova ROI manuale. I10 nuovi raw sono preservati localmente ma non aggiunti alla consegna Git. Script di analisi producono file ignorati da Git.
 
-Raw AI preservati,10 generazioni del turno. Alpha postprodotto: Pillow/NumPy global chroma-key smoothstep e despill2px. Nessun rembg/flood fill, nessuna ROI manuale nuova. Etichette illustrate non sono specifiche fisiche verificate.
+V14 conserva gli altri140 record. I130 PNG già presenti restano invariati;10 hash SET11 nuovi con riferimento ai precedenti in supersedesSha256. Viti sei per immagine ma un solo SKU. Diagnostiche escluse dal conteggio.
 
-Manifest V13:150 hash storici,130 file locali verificati; i120 asset già disponibili sono invariati. Solo i10 hash SET10 sostituiti, precedenti hash riportati nei record come supersedesSha256. Vecchi record SET10 archiviati; tutti gli altri140 record restano invariati.
+Persistono difetti storici: USB01 bande bianche, frontale03 etichetta52MP, RAM06 marca diversa, Lite senza sedi RAM/UFS certe, batteria07 microtesto, SIM08 tre vani, grafite10 conteggio ambiguo, fold14 rapporto errato, cover15 aperture non coincidenti automaticamente. eMMC13 non è UFS. Non nascondere difetti sotto altri pezzi nelle finali.
 
-Rilievi storici ancora validi: USB01 bande bianche, frontale03 stampa52MP, RAM06 marchio non conforme, Lite senza RAM/UFS identificabili, batteria07 microtesto contraddittorio, SIM08 tre vani, fold14 rapporto errato, aperture cover15 non coincidenti automaticamente con le camere. eMMC13 separata da UFS. Non nascondere questi problemi nelle finali.
-
-## Prossimo lotto
-
-SET11: back-alu,back-leather,bat-dual,cons-screws,frame-classic,soc-exy26,soc-g99,soc-helio,soc-tensor,sto-1tb. Poi SET12 e2 consumabili. Infine8 tavole da PNG effettivi, esploso leggibile, alternative separate e riferimenti motherboard riutilizzati dichiarati. Viewer V1 non aggiornato in questo turno; niente generazione in background.
+Prossimo: SET12, poi2 consumabili e8 tavole finali con componenti reali dell’inventario, alternative separate e riferimenti riutilizzati dichiarati. Nessuna generazione in background. Il viewer storico non è aggiornato a tutti i SET.

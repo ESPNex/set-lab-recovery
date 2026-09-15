@@ -119,8 +119,8 @@
   "supersedesCount": 20,
   "requirementSource": "Latest user correction: final8 images, not20.",
   "blockingReasons": [
-    "Regenerate SET11-12:20 images",
+    "Regenerate SET12:10 images",
     "Generate2 consumables",
-    "Resolve or separately display documented defects; final visual review"
+    "Resolve or separately display documented defects and visually review finals"
   ]
 }

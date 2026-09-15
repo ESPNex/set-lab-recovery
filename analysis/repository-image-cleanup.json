@@ -1,0 +1,397 @@
+{
+  "removedFromCurrentTree": 97,
+  "raw": 70,
+  "analysisImages": 27,
+  "localWorkingFilesPreserved": true,
+  "historyRewritten": false,
+  "removed": [
+    {
+      "path": "analysis/ant-detail.png",
+      "sha256": "b88e1df26db266067a286a167a97ed57904f0b77615c995f40a653e9c3ec43cc"
+    },
+    {
+      "path": "analysis/fit-set08-recovery-game.jpg",
+      "sha256": "66f75ac2af52ca23475221aa882fbb5e073ab3447422ac37718d39bda3caa412"
+    },
+    {
+      "path": "analysis/fit-set10-rf-recovery-1.jpg",
+      "sha256": "c0b0028a5680ac369e444efd4e4543835bf2a65c29acbf26a6a160ca2a1fab03"
+    },
+    {
+      "path": "analysis/fit-set10-rf-recovery-2.jpg",
+      "sha256": "9d64ab73eaffad6c281d0e252e204cf4a444d8d6001af7c2b973d6b8cd22a59c"
+    },
+    {
+      "path": "analysis/fit-set13-game-reference.jpg",
+      "sha256": "38903da6471295b9307c2c515cfb6e88a5056f6817a06b4f63888d49541309d4"
+    },
+    {
+      "path": "analysis/fit-set14-nominal.jpg",
+      "sha256": "bc6246db978d13818674df0f236e2fff49538ad095f5539443fa8afa995a294f"
+    },
+    {
+      "path": "analysis/fit-set15-nominal.jpg",
+      "sha256": "ba4f8482e87b2d59f3215f8a99bb5144bc1756ae5a0d037bcf4f3857f0ae52b7"
+    },
+    {
+      "path": "analysis/set01-pcb-bare.png",
+      "sha256": "ee67fe299e8c701abedf676aff515601e64f38c0ecdc1293bc01d36d00d16926"
+    },
+    {
+      "path": "analysis/set01.jpg",
+      "sha256": "4d042bff9d4045f25f532375a9ce63decc9d728062549e8178fe8060142386f4"
+    },
+    {
+      "path": "analysis/set02.jpg",
+      "sha256": "b7b1f32849e1b3e9b024120742833456550be8fc66d3ca512dfb8caa3fec88f3"
+    },
+    {
+      "path": "analysis/set03-board-pro.png",
+      "sha256": "2e8724a8ddea4346a0d714694ec6ac3d8eee3d32b5cbc1aeb5d3afd9c44d614c"
+    },
+    {
+      "path": "analysis/set03.jpg",
+      "sha256": "5ec95fad2572897007715f5210e820d693d13d62ee39355cd0db1b8649bd2dd4"
+    },
+    {
+      "path": "analysis/set04.jpg",
+      "sha256": "2a99d514ec82bdc6758945a11c6b1f82089f73d81d60df296b4326ac29a533bf"
+    },
+    {
+      "path": "analysis/set05-board-lite.png",
+      "sha256": "80591d560fa7fd5d4a8bbe3bb0e5561c810de3f7c789370bab201003da180702"
+    },
+    {
+      "path": "analysis/set05.jpg",
+      "sha256": "dbdebe5480d2a2fa3e311949dff8518ce4413b1dffb4b5aa1d810f7971c964f7"
+    },
+    {
+      "path": "analysis/set06.jpg",
+      "sha256": "50582555c3ef25cdc60422dfc27581e5fc52c31c9ec1abee1a229e48e2253b6a"
+    },
+    {
+      "path": "analysis/set07-board-game.png",
+      "sha256": "c75d13cc10320f0f0a093326a82e7ba15aa045c1a36ebce1bcd68b98c12f75de"
+    },
+    {
+      "path": "analysis/set07.jpg",
+      "sha256": "ff51e35be378a04d2ff2a886a5001f26ae8c04e52d39cb1d72b755995e51d861"
+    },
+    {
+      "path": "analysis/set08.jpg",
+      "sha256": "7f09f94487fe46445d690f27849bf02069b8f92ab4c9480b6de667d02e84bdb6"
+    },
+    {
+      "path": "analysis/set09-board-rf.png",
+      "sha256": "4f2a06dc1feb91cd4a78cc3d312d3e0685ae0cb041663037b9571300950523ff"
+    },
+    {
+      "path": "analysis/set09-frame-mag.png",
+      "sha256": "e0971b2549814baea91f46639979945b8bc0d4d2014837cdfd95b991e6dc052c"
+    },
+    {
+      "path": "analysis/set09.jpg",
+      "sha256": "b7ca12a787eead5095babc22e0a01e00312a4e4889f8a2fa46cd470008981e15"
+    },
+    {
+      "path": "analysis/set10.jpg",
+      "sha256": "e967fc83f44d73ad1eb1d1d0c79faf68fda323324c84e105f9263d92ca97afdb"
+    },
+    {
+      "path": "analysis/set13.jpg",
+      "sha256": "6fc17756a17f625a7f3f107cf61a769524095a8f89c1ab195d3ff221aa344150"
+    },
+    {
+      "path": "analysis/set14.jpg",
+      "sha256": "bc4a735729e980487829877cbe69741c7bb4d849ac872f8b811e4fd8de04978a"
+    },
+    {
+      "path": "analysis/set15.jpg",
+      "sha256": "7680e1023f26ea6c5ea25655c156c88216e093ec9c3d21254e663fc8151c4391"
+    },
+    {
+      "path": "analysis/viewer-check.png",
+      "sha256": "c3af8de8cebc9f97be0cbbdba3a48f7c501d6639a421c8235974f1d361bad197"
+    },
+    {
+      "path": "new_raw/set07-back-blue.png",
+      "sha256": "9ed3ca00183007be1ee6c23b20e71601f3dd686df8ac53150128d7e8b149448d"
+    },
+    {
+      "path": "new_raw/set07-bat-6000.png",
+      "sha256": "43a51118a6bbc02690a2dce44926001978885372d529077f8dd0c85b08e97192"
+    },
+    {
+      "path": "new_raw/set07-board-game.png",
+      "sha256": "ed7b3256d1e43f59098f8069120a7a2d1911115ba3af0d7ad0ca8d91afd4d338"
+    },
+    {
+      "path": "new_raw/set07-cam-1inch.png",
+      "sha256": "dc466e2fc448467d6c2dfbb4c69e39480776715d3659a7ac4632a93f183ab8b2"
+    },
+    {
+      "path": "new_raw/set07-camf-50.png",
+      "sha256": "c90e277a1a0a9412bd2eec149a25d61d53e06e9378dad0ec8e5c12240b26f8fc"
+    },
+    {
+      "path": "new_raw/set07-disp-2k.png",
+      "sha256": "23f86ddffbb4281f61068de462adbe4b8ef54b6a085a2d1c83122e8f1a718e03"
+    },
+    {
+      "path": "new_raw/set07-frame-flat.png",
+      "sha256": "46bb94fdc576def1be31e30b3ddc9278817b09a09d2f5305db2f09844972c6cd"
+    },
+    {
+      "path": "new_raw/set07-glass-armor.png",
+      "sha256": "7a239a704792f0963a678bf6e09821a06d4912757a50ca7f1f1178ad9872237b"
+    },
+    {
+      "path": "new_raw/set07-spk-dual.png",
+      "sha256": "bba9956079b4ac9c8fa297dc4304551451552039e5f52b8296974f0a314b6ee1"
+    },
+    {
+      "path": "new_raw/set07-usb-40b.png",
+      "sha256": "70d82f590a607f8f2d5d48451baa11673c14f9387feede8ed6c77fc535b04019"
+    },
+    {
+      "path": "new_raw/set08-ant-uwb.png",
+      "sha256": "85c4ee5156441ab2795ad7cc917402472986db63c7998cd46cd872cee1d73239"
+    },
+    {
+      "path": "new_raw/set08-hap-z.png",
+      "sha256": "f72a704d3d2d59c6794e65c1f32f211e97dbc7b5f0028c2fa23c9abee6402afa"
+    },
+    {
+      "path": "new_raw/set08-mic-1.png",
+      "sha256": "ee25be0b028bb7114b0ad25ab959f84197fc89e0211e5c7b308430fa82b504c7"
+    },
+    {
+      "path": "new_raw/set08-ram-24.png",
+      "sha256": "4c29709f1ddff96fee87c7f106608d947cf9cbb422cea2db322a36b6377205a0"
+    },
+    {
+      "path": "new_raw/set08-ram-8x.png",
+      "sha256": "871df9d3853d939714d4070b277665649d2cb7596dcfa5c5ec82892637b66d8a"
+    },
+    {
+      "path": "new_raw/set08-sim-hybrid.png",
+      "sha256": "93380988568a6c451f1d92c0af2aa1bb4432f1ff30aefd1bf2e6deaf927219c9"
+    },
+    {
+      "path": "new_raw/set08-soc-8s.png",
+      "sha256": "f7a2d7352ae48ae7300b8205ad74ffb1fc6cf30c58b3f6ff190918c7a556b403"
+    },
+    {
+      "path": "new_raw/set08-soc-d9400.png",
+      "sha256": "f3603b5c4956cdefb55def976b0b39ed203bbdecd382b01e73238215fc9fa319"
+    },
+    {
+      "path": "new_raw/set08-sto-512.png",
+      "sha256": "af5d8c78de2a5ae2815cd56a4029164cb45b2797b98aa94e393dc70cc7a2cd45"
+    },
+    {
+      "path": "new_raw/set08-th-coil.png",
+      "sha256": "9b470aa8f056fa4bb11d3c879a9b062f803c5514825c5fc8e414f1d6ae29c35e"
+    },
+    {
+      "path": "new_raw/set09-back-green.png",
+      "sha256": "f3f7ce6f4cc6f520a51b91850c8f2eab899af7fe5c7efbf48da67786a6f4c266"
+    },
+    {
+      "path": "new_raw/set09-bat-7000.png",
+      "sha256": "ddf4310eb2aa09401ec3bf875398a974f85f2987321058cf74f03770a115b2b9"
+    },
+    {
+      "path": "new_raw/set09-board-rf.png",
+      "sha256": "c4352f6d0f03aee7ee4cf0649d42fa552cab4e63a8988d24720197a2dc9299a7"
+    },
+    {
+      "path": "new_raw/set09-cam-peri2.png",
+      "sha256": "35d45c937bb3acce9b0efd5546d7910ab35817be31b250d3a943499d80877767"
+    },
+    {
+      "path": "new_raw/set09-camf-12.png",
+      "sha256": "fb15d723b19687f69743065c480d370a35242b0fbdd7805474f243bdcc707ae7"
+    },
+    {
+      "path": "new_raw/set09-disp-oled63.png",
+      "sha256": "83db907ce2e9aa25638e11b15a638e7425fce20694ca105783384fc7ffaa1b6d"
+    },
+    {
+      "path": "new_raw/set09-frame-mag.png",
+      "sha256": "52f97cbb44499c3680ab14187989503bc3290c8080726b4061a3477783b13c6c"
+    },
+    {
+      "path": "new_raw/set09-glass-zaf.png",
+      "sha256": "c947d41fc367d7449e3162d61407b2a480b78e9aecabb1cf4451cfc6577d1849"
+    },
+    {
+      "path": "new_raw/set09-spk-stereo-bot.png",
+      "sha256": "744b95b69dd75753e7fd86c35592e73679b2dd44f08160320a0049d92935eb8f"
+    },
+    {
+      "path": "new_raw/set09-usb-dp.png",
+      "sha256": "8647dfc1f823da6cc3ce6eae6254520c1facb6b82d29481c020afa0c7575e80d"
+    },
+    {
+      "path": "new_raw/set10-hap-dual.png",
+      "sha256": "0472f71d154c4e4c0997b5e7fe43f8d4a92446b9b99404c87629b91695d04c55"
+    },
+    {
+      "path": "new_raw/set10-ram-18.png",
+      "sha256": "f8d1cb6fe0ad2f09a177e76886e8f9a22d298b69d307ff1e4f80437818d43b50"
+    },
+    {
+      "path": "new_raw/set10-ram-32.png",
+      "sha256": "08a6480efc66f53e721369acade5896a1af3c9f7a1b6fef576287d103ec90a5c"
+    },
+    {
+      "path": "new_raw/set10-soc-8e2.png",
+      "sha256": "dccd83b54cf97010a4d3afbbcf545efc2247a65e347007644e603e8ad727c99f"
+    },
+    {
+      "path": "new_raw/set10-soc-dim95.png",
+      "sha256": "60eab9180a4718fbe1ada6aaae911a254d64f8a520dfb05b8dd24f5bbee9f312"
+    },
+    {
+      "path": "new_raw/set10-soc-ten6.png",
+      "sha256": "3f4e90a68c00e0dadddd11f1fbd0dcbd684bca3422e1cbac7fe0aa49056a57f4"
+    },
+    {
+      "path": "new_raw/set10-sto-1tb41.png",
+      "sha256": "ecbd3e411e0c57f94f8930522d050bb1b96b440e4c3d2f66c70c74087de18bdc"
+    },
+    {
+      "path": "new_raw/set10-sto-2tb.png",
+      "sha256": "f9185569133f675a70d274c5e5bb7c8254ef286fbd80f8b5c41fe2981c796a29"
+    },
+    {
+      "path": "new_raw/set10-th-cu.png",
+      "sha256": "494f2b4fb30585dc9492a04c5c5fbe8b4c7b51d92f21fc4feb2706c9f7cc737e"
+    },
+    {
+      "path": "new_raw/set10-th-gr2.png",
+      "sha256": "edb9fd218ff2756a3380cd54c99090268948481458faf0aad06d09129b500f69"
+    },
+    {
+      "path": "new_raw/set13-bat-3500.png",
+      "sha256": "cb490b83b8b8379e88b23f9a726d52b6fb01bb06d3a74eff40c85e51ce205311"
+    },
+    {
+      "path": "new_raw/set13-bat-4000.png",
+      "sha256": "22dac9ce8011148070be3b5ece5a19732ab3806e959e2c01afd695cb366ba266"
+    },
+    {
+      "path": "new_raw/set13-bat-5500.png",
+      "sha256": "6815d13aeb975c1e7a29e6b2d052b8f49e355f17e68954b48d9d728bf112b387"
+    },
+    {
+      "path": "new_raw/set13-ram-12lp4.png",
+      "sha256": "e4ee7f955cce1e2d591a1551afdf436606384fc0c430eb876adfa21238756e7d"
+    },
+    {
+      "path": "new_raw/set13-soc-ex2500.png",
+      "sha256": "647cb376eb01103852e1af52b684f0fcc49963e3bacbc4f9689c44546ad0ef71"
+    },
+    {
+      "path": "new_raw/set13-soc-kirin.png",
+      "sha256": "0388e39840b55ec0400a4a165cdf0a77bbdeefd88ca9d63f10da793072b60eef"
+    },
+    {
+      "path": "new_raw/set13-soc-tensor4.png",
+      "sha256": "7aecd63fabcb6ae0b164ba998a6f70bcd0f2dad94b26be93827a76076659c537"
+    },
+    {
+      "path": "new_raw/set13-sto-256u4.png",
+      "sha256": "50d715c20fdb92736f1f50f0b3ebd98c248afb312e181e07de3c589f4f719da4"
+    },
+    {
+      "path": "new_raw/set13-sto-32.png",
+      "sha256": "35070c94b17487c209179b1c4896acf195f757749bbdd06b6612598a3ebc6fbd"
+    },
+    {
+      "path": "new_raw/set13-sto-512u31.png",
+      "sha256": "36474e750e0b037886010057ba3c1352e374ddc821e07a261ba7da001743febb"
+    },
+    {
+      "path": "new_raw/set14-back-red.png",
+      "sha256": "d654803295f15cb097f6d96258a7ce09e54c29a34bb9d9f941ba2c3e0686950c"
+    },
+    {
+      "path": "new_raw/set14-bat-8000.png",
+      "sha256": "855836062700ab60816de5486f636bc7f960b6df8ec3dadbfa3add63cd969a60"
+    },
+    {
+      "path": "new_raw/set14-bat-stacked.png",
+      "sha256": "f6429ceb26f8bc20ae5f796c2c73b041bef8d264d1d3daf8c1304dc51841b416"
+    },
+    {
+      "path": "new_raw/set14-disp-eco.png",
+      "sha256": "d9364f1bd5e4fdf507a9c09f098ef2e5e8e06ae0690eefdb00d5bfebab22c45c"
+    },
+    {
+      "path": "new_raw/set14-disp-fold.png",
+      "sha256": "21a9370aeea4741a95012102b32ba601e449c4efbd835cab2845d5091e0d6e7a"
+    },
+    {
+      "path": "new_raw/set14-disp-lcd67.png",
+      "sha256": "e07f889311d94505ea96debdbdd7cc407047aa205707b444e62a3dfe90448657"
+    },
+    {
+      "path": "new_raw/set14-disp-oled61.png",
+      "sha256": "0156b1212f1880c4ede5706ab4b180e2853f9a92dce8c90f0df8200986a6d401"
+    },
+    {
+      "path": "new_raw/set14-glass-gg3.png",
+      "sha256": "2d5bb51288f5047e83b3ef55d4ef0f629433e6dea9a78d35e358bc9777d3ac67"
+    },
+    {
+      "path": "new_raw/set14-glass-gg7.png",
+      "sha256": "fa1b0d7e879bd15e476b2f18cf85ea32b4f5f8a697e9ea472967d96a9844add2"
+    },
+    {
+      "path": "new_raw/set14-glass-utg.png",
+      "sha256": "3a14eb1571ec0a6febc73055a706a3462417ac8d59e4b7d5bb652b0c6f06900b"
+    },
+    {
+      "path": "new_raw/set15-back-black.png",
+      "sha256": "16b926b8ef918b5394b48d4f0247b70c980787ce888f8a672f458ed9442a5368"
+    },
+    {
+      "path": "new_raw/set15-back-carbon.png",
+      "sha256": "208e8b7b222ac11fdeea428250a87699cc2804a5e35ced3bd6014fb76e3874f4"
+    },
+    {
+      "path": "new_raw/set15-back-white.png",
+      "sha256": "3e63b2e31f2aab64806d886146ecca602755b22a4d10a6de3d6fdd972bed74da"
+    },
+    {
+      "path": "new_raw/set15-back-wood.png",
+      "sha256": "3f6d63fc56f302bc4cbeb3c82a873492cda443ea622c455d23ac263983e4bbdb"
+    },
+    {
+      "path": "new_raw/set15-cam-peri10.png",
+      "sha256": "030c774502e5e65e99bb71b7ba2454575bedb444239ee9187df9a710b0b6e499"
+    },
+    {
+      "path": "new_raw/set15-cam-uw.png",
+      "sha256": "5b581f7e57a2f433638e9f9e3788019d292da4801d8697b253847c253c8309ba"
+    },
+    {
+      "path": "new_raw/set15-cons-kapton.png",
+      "sha256": "7043adf0b632a59b2d57735d8b8b99b705182644f08f78ea6f1c23d7ae0c3247"
+    },
+    {
+      "path": "new_raw/set15-cons-thermalp.png",
+      "sha256": "d4c76aa96436ccba28912ca47053513859038f246345f380aefbfbad19f47339"
+    },
+    {
+      "path": "new_raw/set15-spk-hires.png",
+      "sha256": "50661c86e98d0d977af1dfaa6b531685543ec5515206da1a1dbe1087965341da"
+    },
+    {
+      "path": "new_raw/set15-usb-pd.png",
+      "sha256": "535b507d6f29a0b0a8fe3dd610d7896eb987763f6de8bccf3101db471420f1b7"
+    }
+  ]
+}
