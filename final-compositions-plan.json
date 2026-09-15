@@ -1,6 +1,6 @@
 {
   "requestedCount": 8,
-  "status": "CATALOG_COMPLETE_REVIEW_PENDING",
+  "status": "CATALOG_REVIEWED_CORRECTIONS_PENDING",
   "method": "Compositing of existing PNG assets with proportionate transforms; preserve exact asset identity.",
   "layout": "One readable exploded assembly per pair, outer layers separated, alternatives in labeled side inventory. Components not hidden by covers.",
   "prerequisites": [
@@ -114,11 +114,11 @@
       "qualityNote": "No physical/electrical compatibility implied."
     }
   ],
-  "lastPairNote": "Last pending production lot contains 2 SKU, not 10. Pair15-16 can still have one final composition using all supplied assets plus labeled references; do not invent SKU or conceal short count.",
+  "lastPairNote": "SET16 completed with 2 residual SKU, not 10; pair15-16 may use labeled borrowed references. No invented SKU.",
   "createdCount": 0,
   "supersedesCount": 20,
   "requirementSource": "Latest user correction: final8 images, not20.",
   "blockingReasons": [
-    "Independent downloaded-repository review and documented geometry/label defects"
+    "Documented label corrections and geometry limitations; independent downloaded-source review completed"
   ]
 }

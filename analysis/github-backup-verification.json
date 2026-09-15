@@ -1,11 +1,13 @@
 {
   "repository": "https://github.com/ESPNex/set-lab-recovery",
-  "assetPayloadCommit": "738b10244dcb3e03eb3ac39320d03bf783506925",
+  "assetPayloadCommit": "32f7d6cea73af18ccb45c0699d4c5fafc8126e67",
   "remoteCommitMatched": true,
-  "remoteCurrentImageCount": 150,
+  "remoteCurrentImageCount": 152,
   "remoteCurrentRawImageCount": 0,
   "remoteCurrentAnalysisImageCount": 0,
   "remainingRegenerationSets": [],
-  "newRemainingSku": 2,
-  "catalogFilePresent": true
+  "newRemainingSku": 0,
+  "catalogFilePresent": true,
+  "verificationMethod": "Independent fresh GitHub clone; all 152 manifest hashes verified",
+  "details": "download-integrity.json"
 }

@@ -1,0 +1,52 @@
+{
+  "reviewedCommit": "32f7d6cea73af18ccb45c0699d4c5fafc8126e67",
+  "sourceRepo": "https://github.com/ESPNex/set-lab-recovery",
+  "downloadedTo": "/usr/set-lab-review/repo",
+  "independentFreshClone": true,
+  "catalogEntries": 149,
+  "assetImages": 152,
+  "uniqueAssetHashes": 152,
+  "missingSku": [],
+  "extraImages": [],
+  "sets": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10,
+    "10": 10,
+    "11": 10,
+    "12": 10,
+    "13": 10,
+    "14": 10,
+    "15": 10,
+    "16": 2
+  },
+  "multiAssetSku": {
+    "ant-wifi5": [
+      "originals/set02-ant-wifi5.png",
+      "originals/set02-antenna-flex.png"
+    ],
+    "mic-1": [
+      "originals/set02-mic.png",
+      "generated/set08-mic-1.png"
+    ],
+    "th-vc": [
+      "originals/set02-vapor-chamber.png",
+      "originals/set04-th-vc.png"
+    ]
+  },
+  "alphaModes": {
+    "RGBA": 152
+  },
+  "withoutTransparency": [],
+  "catalogRawSha256": "66e8aa5bfa9b78ce2f6003b5ed91646c3211cd03af13f5735dd1a05b488ea092",
+  "catalogNormalizedSha256": "a13ffaefe251720cd27a36990804b7871e15bb6f536c7a4171ed2b816177329e",
+  "catalogNormalizedMatchesRegistry": true,
+  "allRegisteredCropsInBounds": true,
+  "allAssetHashesMatchManifest": true
+}

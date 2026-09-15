@@ -1,0 +1,7 @@
+{
+  "boardLocalTests": 29,
+  "containedCount": 29,
+  "failures": [],
+  "aspectWarnings": [],
+  "note": "Geometric test uses registered raster angles, not Three.js orientation or real components."
+}

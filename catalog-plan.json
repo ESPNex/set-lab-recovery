@@ -16,7 +16,9 @@
     {
       "file": "set07-bat-6000.png",
       "issue": "contradictory capacity microtext",
-      "blocks": "technical label acceptance"
+      "blocks": null,
+      "status": "WITHDRAWN_AFTER_DOWNLOADED_DETAIL_REVIEW",
+      "resolution": "Capacity microtext consistent on new full-resolution inspection"
     },
     {
       "file": "set14-disp-fold.png",
@@ -45,5 +47,6 @@
     "SET01-12 files absent: recover before multimodal review and final compositing."
   ],
   "recoveryPlan": "recovery-plan.json",
-  "status": "CATALOG_REPRESENTATION_COMPLETE_REVIEW_PENDING"
+  "status": "CATALOG_COMPLETE_REVIEWED_WITH_CORRECTIONS",
+  "reviewReport": "REVISIONE-FINALE.md"
 }

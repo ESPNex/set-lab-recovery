@@ -1,0 +1,31 @@
+{
+  "reviewedAssetCommit": "32f7d6cea73af18ccb45c0699d4c5fafc8126e67",
+  "visualReviewComplete": true,
+  "contactSheetsReviewed": 16,
+  "assetsReviewedAtSheetScale": 152,
+  "fullResolutionDetailsReviewed": 14,
+  "engineeringCompatibilityVerified": false,
+  "status": "CATALOG_COMPLETE_REVIEWED_WITH_CORRECTIONS",
+  "specificIssues": {
+    "set03-camf-32.png": "Marcatura risoluzione ambigua S2/52 MP anziché 32 MP chiaramente leggibile; catalogo Sony IMX615 32 MP AF.",
+    "set06-ram-16.png": "Marca raster Samsung, catalogo SK Hynix; 16 GB e 9600 coerenti ma identità da correggere.",
+    "set08-sim-hybrid.png": "Tre vani visibili: non assumere geometria del carrello ibrido verificata; montaggio sospeso.",
+    "set10-th-gr2.png": "Tre sagome/fogli visibili rispetto a Dual graphite 0.2 + 0.2 mm: chiarire/correggere conteggio.",
+    "set12-soc-d8300.png": "Nome Dimensity 8300 leggibile; MT6880V e sigle CPU/GPU extra non verificate: rimuovere o verificare.",
+    "set14-disp-fold.png": "Display largo nel raster; rapporto attivo e accoppiamento UTG/frame non validati; non montare automaticamente.",
+    "set03-board-pro.png": "Assegnazione RAM/UFS ipotetica tra footprint; raster largo rispetto alle dimensioni nominali. Nessuna validazione PCB.",
+    "set05-board-lite.png": "Footprint SoC evidente; RAM/UFS non individuati esplicitamente: vietato dedurne sedi certe."
+  },
+  "crossCuttingWarnings": [
+    "Aperture cover/camera SET09 e SET15 non verificate",
+    "Frame classico SET11: descrizione catalogo 4:3/16:9 ambigua",
+    "Trasparenza ottica vetri e materiali non certificata",
+    "SET07 alpha hard key: rischio bordo; altri recuperati smooth key, non alpha nativo",
+    "Viewer storico contiene solo 60 asset",
+    "8 composizioni finali ancora 0"
+  ],
+  "withdrawnIssue": {
+    "file": "set07-bat-6000.png",
+    "reason": "Capacity microtext consistent on new full-resolution inspection"
+  }
+}
