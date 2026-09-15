@@ -1,0 +1,10 @@
+{
+  "path": "uploads/ls.ts",
+  "skuCount": 149,
+  "uniqueSkuCount": 149,
+  "rawSha256": "66e8aa5bfa9b78ce2f6003b5ed91646c3211cd03af13f5735dd1a05b488ea092",
+  "normalizedLfSha256": "a13ffaefe251720cd27a36990804b7871e15bb6f536c7a4171ed2b816177329e",
+  "matchesGit": true,
+  "matchesUserArchive": true,
+  "note": "Raw CRLF and LF-normalized hashes differ only by line endings; no catalog loss."
+}

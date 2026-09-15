@@ -1,0 +1,432 @@
+[
+  {
+    "file": "set12-cons-glue.png",
+    "sku": "cons-glue",
+    "slot": "frame",
+    "set": 12,
+    "crop": [
+      620,
+      87,
+      788,
+      681
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "SOLO INVENTARIO ACCESSORI; non montare nel frame",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Tubetto chiuso B-7000 /15ml /SBS PARTS leggibile. Solo accessorio: non dimostra volume reale o formulazione.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set12-cons-tabs.png",
+    "sku": "cons-tabs",
+    "slot": "frame",
+    "set": 12,
+    "crop": [
+      508,
+      64,
+      900,
+      715
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": null,
+    "size": null,
+    "angle": null,
+    "status": "SOLO INVENTARIO ACCESSORI; non montare nel frame",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Tre strisce bianche con estremita arancioni su supporto chiaro rosato. Il supporto e conservato: la sua trasmissione ottica non e un matting fisico. Un solo SKU.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set12-frame-mg.png",
+    "sku": "frame-mg",
+    "slot": "frame",
+    "set": 12,
+    "crop": [
+      40,
+      52,
+      665,
+      1454
+    ],
+    "sourceSize": [
+      704,
+      1504
+    ],
+    "pos": [
+      0,
+      0.12,
+      0
+    ],
+    "size": [
+      7.043509272467904,
+      0.9,
+      15.800000000000002
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Telaio chiaro opaco verticale con traversa e cavita visibili. LegaAZ91D e peso138g sono specifiche di catalogo, non misure del raster.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set12-frame-ss.png",
+    "sku": "frame-ss",
+    "slot": "frame",
+    "set": 12,
+    "crop": [
+      90,
+      101,
+      677,
+      1276
+    ],
+    "sourceSize": [
+      768,
+      1376
+    ],
+    "pos": [
+      0,
+      0.12,
+      0
+    ],
+    "size": [
+      7.4,
+      0.9,
+      14.812606473594549
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Telaio scuro lucido in verticale, due grandi aperture e dettagli inferiori. Aspetto metallico, lega316L e peso198g non verificabili.",
+    "boardLocal": null,
+    "boardReference": null
+  },
+  {
+    "file": "set12-soc-6g1.png",
+    "sku": "soc-6g1",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      189,
+      189,
+      834,
+      835
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1528732805285304
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Qualcomm Snapdragon 6 Gen1 leggibile. Simbolo grafico aggiuntivo accanto al marchio illustrativo.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.00000000000003,
+        226.35038759689925
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.35038759689922483,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set12-soc-7g3.png",
+    "sku": "soc-7g3",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      170,
+      171,
+      854,
+      853
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1477228906896584
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Qualcomm Snapdragon 7 Gen3 leggibile, senza segno piu; distinto da soc-7g2 (7+ Gen3).",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        225.33918128654972
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.3304093567251462,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set12-soc-8g2.png",
+    "sku": "soc-8g2",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      170,
+      170,
+      854,
+      853
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1494057688284995
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Qualcomm Snapdragon 8 Gen2 leggibile. Non confondere con gli Elite dei SET precedenti.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        225.66959064327486
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.3304093567251462,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set12-soc-d7300.png",
+    "sku": "soc-d7300",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      124,
+      125,
+      900,
+      899
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1481219236504145
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Dimensity7300 leggibile. Package quasi quadrato, pinout non verificato.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.00000000000003,
+        225.4175257731959
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.2912371134020619,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set12-soc-d8300.png",
+    "sku": "soc-d8300",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      102,
+      102,
+      922,
+      922
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1510886469673407
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Dimensity8300 leggibile, senza Ultra; distinto dal Dimensity8300-Ultra del SET06.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.00000000000003,
+        226.00000000000003
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.275609756097561,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  },
+  {
+    "file": "set12-soc-d9300.png",
+    "sku": "soc-d9300",
+    "slot": "soc",
+    "set": 12,
+    "crop": [
+      165,
+      165,
+      858,
+      860
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -0.0009331259720062185,
+      0.285,
+      -3.4034797822706064
+    ],
+    "size": [
+      1.1510886469673407,
+      0.1,
+      1.1544106921245336
+    ],
+    "angle": 0,
+    "status": "fit grafico SoC su PCB Pro riutilizzato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Dimensity 9300+ leggibile, segno + presente.",
+    "boardLocal": {
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.00000000000003,
+        226.65223665223667
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "scale": 0.32611832611832614,
+      "reference": "set03-board-pro.png",
+      "referenceBorrowed": true,
+      "confidence": "riferimento grafico piazzola maggiore Pro",
+      "physicalCompatibilityVerified": false
+    },
+    "boardReference": "set03-board-pro.png"
+  }
+]

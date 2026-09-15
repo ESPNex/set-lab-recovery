@@ -3,34 +3,20 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
-  "pendingSets": [
-    {
-      "set": 12,
-      "skus": [
-        "cons-glue",
-        "cons-tabs",
-        "frame-mg",
-        "frame-ss",
-        "soc-6g1",
-        "soc-7g3",
-        "soc-8g2",
-        "soc-d7300",
-        "soc-d8300",
-        "soc-d9300"
-      ]
-    }
-  ],
+  "pendingSets": [],
   "awaitingUserArchives": [],
   "pendingNewSku": [
     "cons-ipa",
     "cons-tweezers"
   ],
-  "localAssetCount": 140,
+  "localAssetCount": 150,
   "historicalRecords": 150,
   "newFinalImagesCreated": 0,
   "allFinalImagesRequired": 8,
   "restoredOriginalAssets": 70,
-  "originalArchiveSource": "https://files.catbox.moe/ujc2ul.zip"
+  "originalArchiveSource": "https://files.catbox.moe/ujc2ul.zip",
+  "status": "RECOVERY_COMPLETE;2 new catalog SKU pending"
 }

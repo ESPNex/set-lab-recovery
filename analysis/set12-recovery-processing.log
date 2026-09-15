@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set12-cons-glue.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      280,
+      271,
+      1128,
+      502
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 5136,
+    "transparentPixels": 948367,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-cons-tabs.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      436,
+      67,
+      973,
+      702
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3458,
+    "transparentPixels": 806571,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-frame-mg.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      546,
+      55,
+      862,
+      717
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3930,
+    "transparentPixels": 998251,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-frame-ss.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      57,
+      156,
+      647,
+      1364
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 10917,
+    "transparentPixels": 815150,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-6g1.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      456,
+      134,
+      952,
+      636
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 838,
+    "transparentPixels": 833449,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-7g3.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      491,
+      166,
+      917,
+      602
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1662,
+    "transparentPixels": 895762,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-8g2.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      459,
+      139,
+      949,
+      629
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 724,
+    "transparentPixels": 842544,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-d7300.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      450,
+      130,
+      958,
+      642
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1017,
+    "transparentPixels": 821305,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-d8300.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      262,
+      262,
+      762,
+      762
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 159,
+    "transparentPixels": 798577,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set12-soc-d9300.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      467,
+      148,
+      940,
+      621
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 494,
+    "transparentPixels": 858132,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

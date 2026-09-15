@@ -1,16 +1,5 @@
 {
-  "availableCount": 140,
-  "missingCount": 10,
-  "missing": [
-    "generated/set12-cons-glue.png",
-    "generated/set12-cons-tabs.png",
-    "generated/set12-frame-mg.png",
-    "generated/set12-frame-ss.png",
-    "generated/set12-soc-6g1.png",
-    "generated/set12-soc-7g3.png",
-    "generated/set12-soc-8g2.png",
-    "generated/set12-soc-d7300.png",
-    "generated/set12-soc-d8300.png",
-    "generated/set12-soc-d9300.png"
-  ]
+  "availableCount": 150,
+  "missingCount": 0,
+  "missing": []
 }

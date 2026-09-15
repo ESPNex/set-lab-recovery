@@ -1,0 +1,162 @@
+{
+  "localHashesVerified": 150,
+  "old140AvailableHashesUnchanged": true,
+  "other140RowsUnchanged": true,
+  "contactSheetsReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "fits": [
+    {
+      "sku": "soc-6g1",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        228.73387096774192
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-7g3",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        231.30516431924883
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-8g2",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.0
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-d7300",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        227.7795275590551
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-d8300",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.0
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-d9300",
+      "center": [
+        633.0,
+        322.5
+      ],
+      "size": [
+        226.0,
+        226.0
+      ],
+      "slotRect": [
+        520,
+        203,
+        226,
+        239
+      ],
+      "angle": 0,
+      "reference": "set03-board-pro.png",
+      "borrowed": true,
+      "hypothesis": true,
+      "physicalCompatibilityVerified": false
+    }
+  ],
+  "partialCompositions": 6,
+  "finalImagesCreated": 0,
+  "catalogSku149": true,
+  "catalogBytesMatchGit": true,
+  "catalogNormalizedHashMatchesRegistry": true,
+  "sixPartialFitsVisuallyReviewed": true
+}

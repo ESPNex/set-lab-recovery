@@ -1,0 +1,6040 @@
+{
+  "version": 15,
+  "units": "cm nominali di simulazione, non dimensioni misurate",
+  "axes": "x destra, y spessore, z basso del telefono",
+  "angle": "rotazione 2D oraria rispetto al raster; non yaw del renderer non fornito",
+  "boards": [
+    {
+      "pair": 1,
+      "file": "set01-pcb-bare.png",
+      "crop": [
+        98,
+        186,
+        606,
+        846
+      ],
+      "raster": [
+        508,
+        660
+      ],
+      "center": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "scale": 0.010757575757575757,
+      "size": [
+        5.464848484848485,
+        0.14,
+        7.1
+      ],
+      "yaw": 0,
+      "slots": {
+        "soc": [
+          139,
+          244,
+          158,
+          157
+        ],
+        "ram": [
+          129,
+          449,
+          174,
+          114
+        ],
+        "storage": [
+          356,
+          350,
+          132,
+          157
+        ]
+      }
+    },
+    {
+      "pair": 2,
+      "file": "set03-board-pro.png",
+      "crop": [
+        60,
+        58,
+        1346,
+        724
+      ],
+      "raster": [
+        1286,
+        666
+      ],
+      "center": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "scale": 0.005093312597200622,
+      "size": [
+        6.550000000000001,
+        0.14,
+        3.3921461897356147
+      ],
+      "yaw": 0,
+      "slots": {
+        "soc": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "ram": [
+          786,
+          184,
+          119,
+          123
+        ],
+        "storage": [
+          786,
+          342,
+          119,
+          121
+        ]
+      }
+    },
+    {
+      "pair": 3,
+      "file": "set05-board-lite.png",
+      "crop": [
+        71,
+        62,
+        1336,
+        708
+      ],
+      "raster": [
+        1265,
+        646
+      ],
+      "center": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "scale": 0.0051778656126482215,
+      "size": [
+        6.55,
+        0.14,
+        3.344901185770751
+      ],
+      "yaw": 0,
+      "slots": {
+        "soc": [
+          470,
+          158,
+          327,
+          328
+        ]
+      }
+    },
+    {
+      "pair": 4,
+      "file": "set07-board-game.png",
+      "crop": [
+        68,
+        66,
+        1340,
+        705
+      ],
+      "raster": [
+        1272,
+        639
+      ],
+      "center": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "scale": 0.00514937106918239,
+      "size": [
+        6.55,
+        0.14,
+        3.290448113207547
+      ],
+      "yaw": 0,
+      "slots": {
+        "soc": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "ram": [
+          585,
+          185,
+          214,
+          252
+        ],
+        "storage": [
+          938,
+          123,
+          213,
+          241
+        ]
+      }
+    },
+    {
+      "pair": 5,
+      "file": "set09-board-rf.png",
+      "crop": [
+        82,
+        79,
+        1331,
+        692
+      ],
+      "raster": [
+        1249,
+        613
+      ],
+      "center": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "scale": 0.005244195356285028,
+      "size": [
+        6.55,
+        0.14,
+        3.2146917534027217
+      ],
+      "yaw": 0,
+      "slots": {
+        "soc": [
+          162,
+          131,
+          341,
+          350
+        ],
+        "ram": [
+          601,
+          127,
+          206,
+          356
+        ],
+        "storage": [
+          899,
+          180,
+          216,
+          252
+        ]
+      },
+      "slotPlacementAllowed": {
+        "soc": true,
+        "ram": true,
+        "storage": true
+      },
+      "slotStatus": {
+        "soc": "BARE GRAPHIC SEAT; physical/electrical fit NOT verified",
+        "ram": "BARE GRAPHIC SEAT; physical/electrical fit NOT verified",
+        "storage": "BARE GRAPHIC SEAT; physical/electrical fit NOT verified"
+      },
+      "assetRevision": "recovery-r1",
+      "notes": "Old occupied UFS defect absent in new raster. Gold dots only, pinout not validated."
+    }
+  ],
+  "items": [
+    {
+      "file": "set07-back-blue.png",
+      "sku": "back-blue",
+      "slot": "backcover",
+      "set": 7,
+      "crop": [
+        84,
+        75,
+        685,
+        1302
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.4,
+        0.12,
+        15.107820299500833
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-bat-6000.png",
+      "sku": "bat-6000",
+      "slot": "battery",
+      "set": 7,
+      "crop": [
+        444,
+        52,
+        964,
+        718
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.309309309309309,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-board-game.png",
+      "sku": "board-game",
+      "slot": "motherboard",
+      "set": 7,
+      "crop": [
+        68,
+        66,
+        1340,
+        705
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "size": [
+        6.55,
+        0.14,
+        3.290448113207547
+      ],
+      "angle": 0,
+      "status": "riferimento raster in ingombro nominale",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-cam-1inch.png",
+      "sku": "cam-1inch",
+      "slot": "cameraRear",
+      "set": 7,
+      "crop": [
+        413,
+        30,
+        995,
+        739
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -2.0,
+        -0.55,
+        -5.7
+      ],
+      "size": [
+        2.2984485190409027,
+        0.38,
+        2.8000000000000003
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-camf-50.png",
+      "sku": "camf-50",
+      "slot": "cameraFront",
+      "set": 7,
+      "crop": [
+        539,
+        118,
+        868,
+        686
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.26,
+        -6.85
+      ],
+      "size": [
+        0.35911971830985917,
+        0.08,
+        0.62
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-disp-2k.png",
+      "sku": "disp-2k",
+      "slot": "display",
+      "set": 7,
+      "crop": [
+        57,
+        110,
+        647,
+        1412
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.8878648233486945,
+        0.12,
+        15.2
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-frame-flat.png",
+      "sku": "frame-flat",
+      "slot": "frame",
+      "set": 7,
+      "crop": [
+        89,
+        91,
+        680,
+        1288
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.4,
+        0.9,
+        14.98781725888325
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-glass-armor.png",
+      "sku": "glass-armor",
+      "slot": "glass",
+      "set": 7,
+      "crop": [
+        34,
+        54,
+        670,
+        1469
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        6.921837455830389,
+        0.06,
+        15.399999999999999
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-spk-dual.png",
+      "sku": "spk-dual",
+      "slot": "speaker",
+      "set": 7,
+      "crop": [
+        203,
+        154,
+        1206,
+        606
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        2.2190265486725664,
+        0.34,
+        1.0
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set07-usb-40b.png",
+      "sku": "usb-40b",
+      "slot": "usb",
+      "set": 7,
+      "crop": [
+        559,
+        63,
+        849,
+        705
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        1.9924137931034482,
+        0.3,
+        0.8999999999999999
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "AI + chroma-key"
+    },
+    {
+      "file": "set01-back-glossy.png",
+      "sku": "back-glossy",
+      "slot": "backcover",
+      "set": 1,
+      "crop": [
+        548,
+        64,
+        858,
+        705
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.4,
+        0.12,
+        15.301290322580646
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-battery-pouch.png",
+      "sku": "bat-3000",
+      "slot": "battery",
+      "set": 1,
+      "crop": [
+        494,
+        95,
+        914,
+        646
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.183303085299455,
+        0.44,
+        6.799999999999999
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-cam-dual.png",
+      "sku": "cam-dual",
+      "slot": "cameraRear",
+      "set": 1,
+      "crop": [
+        574,
+        79,
+        833,
+        690
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -2.0,
+        -0.55,
+        -5.7
+      ],
+      "size": [
+        1.1869067103109656,
+        0.38,
+        2.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-cam-front.png",
+      "sku": "camf-8",
+      "slot": "cameraFront",
+      "set": 1,
+      "crop": [
+        615,
+        200,
+        792,
+        568
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.26,
+        -6.85
+      ],
+      "size": [
+        0.2982065217391304,
+        0.08,
+        0.62
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-disp-lcd.png",
+      "sku": "disp-lcd",
+      "slot": "display",
+      "set": 1,
+      "crop": [
+        559,
+        68,
+        848,
+        704
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.90691823899371,
+        0.12,
+        15.2
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-frame-alu.png",
+      "sku": "frame-alu",
+      "slot": "frame",
+      "set": 1,
+      "crop": [
+        175,
+        122,
+        673,
+        1149
+      ],
+      "sourceSize": [
+        848,
+        1264
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.4,
+        0.9,
+        15.260642570281126
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-glass-gg5.png",
+      "sku": "glass-gg5",
+      "slot": "glass",
+      "set": 1,
+      "crop": [
+        552,
+        67,
+        855,
+        702
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        7.15,
+        0.06,
+        14.984323432343237
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-pcb-bare.png",
+      "sku": "board-std",
+      "slot": "motherboard",
+      "set": 1,
+      "crop": [
+        98,
+        186,
+        606,
+        846
+      ],
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "pos": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "size": [
+        5.464848484848485,
+        0.14,
+        7.1
+      ],
+      "angle": 0,
+      "status": "riferimento raster in ingombro nominale",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-speaker.png",
+      "sku": "spk-mono",
+      "slot": "speaker",
+      "set": 1,
+      "crop": [
+        581,
+        76,
+        827,
+        526
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        1.8292682926829271,
+        0.34,
+        1.0
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set01-usb-flex.png",
+      "sku": "usb-20",
+      "slot": "usb",
+      "set": 1,
+      "crop": [
+        626,
+        66,
+        782,
+        702
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        2.2,
+        0.3,
+        0.539622641509434
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-ant-wifi5.png",
+      "sku": "ant-wifi5",
+      "slot": "antenna",
+      "set": 2,
+      "crop": [
+        636,
+        56,
+        771,
+        715
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.3,
+        -7.0
+      ],
+      "size": [
+        4.3933333333333335,
+        0.05,
+        0.9
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-antenna-flex.png",
+      "sku": "ant-wifi5",
+      "slot": "antenna",
+      "set": 2,
+      "crop": [
+        111,
+        305,
+        1299,
+        467
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.3,
+        -7.0
+      ],
+      "size": [
+        6.6,
+        0.05,
+        0.8999999999999999
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-hap-erm.png",
+      "sku": "hap-erm",
+      "slot": "haptics",
+      "set": 2,
+      "crop": [
+        584,
+        269,
+        1211,
+        494
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.5,
+        -0.23,
+        5.5
+      ],
+      "size": [
+        1.2999999999999998,
+        0.3,
+        0.4665071770334928
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-mic.png",
+      "sku": "mic-1",
+      "slot": "mic",
+      "set": 2,
+      "crop": [
+        564,
+        243,
+        844,
+        525
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        0.7,
+        0.28,
+        0.6950354609929077
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-ram-4.png",
+      "sku": "ram-4",
+      "slot": "ram",
+      "set": 2,
+      "crop": [
+        366,
+        55,
+        1042,
+        714
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.3587878787878788,
+        0.275,
+        -1.4566666666666668
+      ],
+      "size": [
+        1.257999724099876,
+        0.08,
+        1.2263636363636363
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-sim-tray.png",
+      "sku": "sim-nano",
+      "slot": "sim",
+      "set": 2,
+      "crop": [
+        132,
+        478,
+        632,
+        894
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        -3.5,
+        0.18,
+        -2.5
+      ],
+      "size": [
+        0.55,
+        0.12,
+        0.6610576923076923
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-soc-snap.png",
+      "sku": "soc-x90",
+      "slot": "soc",
+      "set": 2,
+      "crop": [
+        103,
+        104,
+        920,
+        921
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -0.3372727272727273,
+        0.285,
+        -3.430681818181818
+      ],
+      "size": [
+        1.688939393939394,
+        0.1,
+        1.688939393939394
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-sto-64.png",
+      "sku": "sto-64",
+      "slot": "storage",
+      "set": 2,
+      "crop": [
+        475,
+        139,
+        932,
+        628
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.8572727272727272,
+        0.275,
+        -2.290378787878788
+      ],
+      "size": [
+        1.42,
+        0.08,
+        1.5194310722100657
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-th-gra.png",
+      "sku": "th-gra",
+      "slot": "thermal",
+      "set": 2,
+      "crop": [
+        470,
+        174,
+        936,
+        594
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.325714285714286,
+        0.07,
+        4.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set02-vapor-chamber.png",
+      "sku": "th-vc",
+      "slot": "thermal",
+      "set": 2,
+      "crop": [
+        404,
+        115,
+        1004,
+        653
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.353159851301116,
+        0.07,
+        4.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-back-matte.png",
+      "sku": "back-matte",
+      "slot": "backcover",
+      "set": 3,
+      "crop": [
+        563,
+        82,
+        844,
+        689
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.314332784184514,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-bat-4500.png",
+      "sku": "bat-4500",
+      "slot": "battery",
+      "set": 3,
+      "crop": [
+        377,
+        89,
+        1031,
+        642
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.749847094801223,
+        0.44,
+        6.8
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-board-pro.png",
+      "sku": "board-pro",
+      "slot": "motherboard",
+      "set": 3,
+      "crop": [
+        60,
+        58,
+        1346,
+        724
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "size": [
+        6.550000000000001,
+        0.14,
+        3.3921461897356147
+      ],
+      "angle": 0,
+      "status": "riferimento raster in ingombro nominale",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-cam-triple.png",
+      "sku": "cam-triple",
+      "slot": "cameraRear",
+      "set": 3,
+      "crop": [
+        527,
+        112,
+        849,
+        675
+      ],
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "pos": [
+        -2.0,
+        -0.55,
+        -5.7
+      ],
+      "size": [
+        1.6014209591474244,
+        0.38,
+        2.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-camf-32.png",
+      "sku": "camf-32",
+      "slot": "cameraFront",
+      "set": 3,
+      "crop": [
+        604,
+        174,
+        804,
+        596
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.26,
+        -6.85
+      ],
+      "size": [
+        0.2938388625592417,
+        0.08,
+        0.62
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-disp-oled.png",
+      "sku": "disp-oled",
+      "slot": "display",
+      "set": 3,
+      "crop": [
+        559,
+        73,
+        849,
+        695
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        7.05,
+        0.12,
+        15.12103448275862
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-frame-ti.png",
+      "sku": "frame-ti",
+      "slot": "frame",
+      "set": 3,
+      "crop": [
+        54,
+        62,
+        656,
+        1425
+      ],
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        6.978429933969186,
+        0.9,
+        15.799999999999999
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-glass-dt.png",
+      "sku": "glass-dt",
+      "slot": "glass",
+      "set": 3,
+      "crop": [
+        249,
+        179,
+        1119,
+        590
+      ],
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        7.15,
+        0.06,
+        15.135036496350365
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-spk-stereo.png",
+      "sku": "spk-stereo",
+      "slot": "speaker",
+      "set": 3,
+      "crop": [
+        460,
+        0,
+        949,
+        607
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        1.2413087934560327,
+        0.34,
+        1.0
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set03-usb-32.png",
+      "sku": "usb-32",
+      "slot": "usb",
+      "set": 3,
+      "crop": [
+        588,
+        42,
+        820,
+        726
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        2.2,
+        0.3,
+        0.7461988304093568
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-ant-wifi7.png",
+      "sku": "ant-wifi7",
+      "slot": "antenna",
+      "set": 4,
+      "crop": [
+        116,
+        301,
+        1292,
+        468
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.3,
+        -7.0
+      ],
+      "size": [
+        6.337724550898204,
+        0.05,
+        0.9
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-hap-x.png",
+      "sku": "hap-x",
+      "slot": "haptics",
+      "set": 4,
+      "crop": [
+        325,
+        260,
+        1049,
+        507
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.5,
+        -0.23,
+        5.5
+      ],
+      "size": [
+        1.3,
+        0.3,
+        0.4435082872928177
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-mic-3.png",
+      "sku": "mic-3",
+      "slot": "mic",
+      "set": 4,
+      "crop": [
+        455,
+        238,
+        954,
+        595
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        0.5008016032064128,
+        0.28,
+        0.7
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-ram-12.png",
+      "sku": "ram-12",
+      "slot": "ram",
+      "set": 4,
+      "crop": [
+        435,
+        131,
+        974,
+        638
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.0813958009331262,
+        0.275,
+        -3.7956648522550545
+      ],
+      "size": [
+        0.6061041990668741,
+        0.08,
+        0.5701202763022359
+      ],
+      "angle": 0,
+      "status": "attribuzione ipotetica RAM/UFS",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-ram-6.png",
+      "sku": "ram-6",
+      "slot": "ram",
+      "set": 4,
+      "crop": [
+        437,
+        154,
+        970,
+        615
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.0813958009331262,
+        0.275,
+        -3.7956648522550545
+      ],
+      "size": [
+        0.6061041990668741,
+        0.08,
+        0.5242289601685346
+      ],
+      "angle": 0,
+      "status": "attribuzione ipotetica RAM/UFS",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-sim-esim.png",
+      "sku": "sim-esim",
+      "slot": "sim",
+      "set": 4,
+      "crop": [
+        387,
+        219,
+        999,
+        545
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -3.5,
+        0.18,
+        -2.5
+      ],
+      "size": [
+        0.55,
+        0.12,
+        1.032515337423313
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-soc-7g2.png",
+      "sku": "soc-7g2",
+      "slot": "soc",
+      "set": 4,
+      "crop": [
+        365,
+        60,
+        1043,
+        708
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1001555209953344
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-soc-8e.png",
+      "sku": "soc-8e",
+      "slot": "soc",
+      "set": 4,
+      "crop": [
+        418,
+        101,
+        991,
+        676
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1551064083878202
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-sto-128.png",
+      "sku": "sto-128",
+      "slot": "storage",
+      "set": 4,
+      "crop": [
+        466,
+        172,
+        941,
+        596
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.0813958009331262,
+        0.275,
+        -2.9960147744945567
+      ],
+      "size": [
+        0.6061041990668741,
+        0.08,
+        0.5410277482196939
+      ],
+      "angle": 0,
+      "status": "attribuzione ipotetica RAM/UFS",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set04-th-vc.png",
+      "sku": "th-vc",
+      "slot": "thermal",
+      "set": 4,
+      "crop": [
+        450,
+        162,
+        958,
+        606
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.491891891891892,
+        0.07,
+        4.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-back-cer.png",
+      "sku": "back-cer",
+      "slot": "backcover",
+      "set": 5,
+      "crop": [
+        36,
+        42,
+        669,
+        1462
+      ],
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.043239436619719,
+        0.12,
+        15.800000000000002
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-bat-5000.png",
+      "sku": "bat-5000",
+      "slot": "battery",
+      "set": 5,
+      "crop": [
+        122,
+        77,
+        1285,
+        649
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        3.344453998280309,
+        0.44,
+        6.8
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-board-lite.png",
+      "sku": "board-lite",
+      "slot": "motherboard",
+      "set": 5,
+      "crop": [
+        71,
+        62,
+        1336,
+        708
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "size": [
+        6.55,
+        0.14,
+        3.344901185770751
+      ],
+      "angle": 0,
+      "status": "riferimento raster in ingombro nominale",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-cam-quad.png",
+      "sku": "cam-quad",
+      "slot": "cameraRear",
+      "set": 5,
+      "crop": [
+        501,
+        112,
+        908,
+        686
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -2.0,
+        -0.55,
+        -5.7
+      ],
+      "size": [
+        1.9853658536585366,
+        0.38,
+        2.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-camf-50b.png",
+      "sku": "camf-50b",
+      "slot": "cameraFront",
+      "set": 5,
+      "crop": [
+        498,
+        213,
+        1096,
+        554
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.26,
+        -6.85
+      ],
+      "size": [
+        0.62,
+        0.08,
+        0.35354515050167223
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-disp-am.png",
+      "sku": "disp-am",
+      "slot": "display",
+      "set": 5,
+      "crop": [
+        104,
+        93,
+        663,
+        1284
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        7.05,
+        0.12,
+        15.020661896243292
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-frame-poly.png",
+      "sku": "frame-poly",
+      "slot": "frame",
+      "set": 5,
+      "crop": [
+        550,
+        59,
+        858,
+        711
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.4,
+        0.9,
+        15.664935064935065
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-glass-victus3.png",
+      "sku": "glass-victus3",
+      "slot": "glass",
+      "set": 5,
+      "crop": [
+        211,
+        131,
+        1197,
+        638
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        7.15,
+        0.06,
+        13.905128205128205
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-spk-dolby.png",
+      "sku": "spk-dolby",
+      "slot": "speaker",
+      "set": 5,
+      "crop": [
+        360,
+        80,
+        1043,
+        525
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        1.5348314606741575,
+        0.34,
+        1.0
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set05-usb-40.png",
+      "sku": "usb-40",
+      "slot": "usb",
+      "set": 5,
+      "crop": [
+        596,
+        39,
+        814,
+        729
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        2.2,
+        0.3,
+        0.695072463768116
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-ant-wifi6e.png",
+      "sku": "ant-wifi6e",
+      "slot": "antenna",
+      "set": 6,
+      "crop": [
+        110,
+        298,
+        1295,
+        471
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.3,
+        -7.0
+      ],
+      "size": [
+        6.164739884393064,
+        0.05,
+        0.9
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-hap-xl.png",
+      "sku": "hap-xl",
+      "slot": "haptics",
+      "set": 6,
+      "crop": [
+        441,
+        117,
+        971,
+        651
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.5,
+        -0.23,
+        5.5
+      ],
+      "size": [
+        0.8060377358490567,
+        0.3,
+        0.8
+      ],
+      "angle": 90,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-mic-4.png",
+      "sku": "mic-4",
+      "slot": "mic",
+      "set": 6,
+      "crop": [
+        394,
+        333,
+        1076,
+        440
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        0.7,
+        0.28,
+        0.10982404692082111
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-ram-16.png",
+      "sku": "ram-16",
+      "slot": "ram",
+      "set": 6,
+      "crop": [
+        436,
+        148,
+        972,
+        620
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "nessuna sede identificata, non montare automaticamente",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-ram-8.png",
+      "sku": "ram-8",
+      "slot": "ram",
+      "set": 6,
+      "crop": [
+        486,
+        163,
+        922,
+        597
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "nessuna sede identificata, non montare automaticamente",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-sim-dual.png",
+      "sku": "sim-dual",
+      "slot": "sim",
+      "set": 6,
+      "crop": [
+        305,
+        161,
+        721,
+        850
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -3.5,
+        0.18,
+        -2.5
+      ],
+      "size": [
+        0.55,
+        0.12,
+        0.9109375000000001
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-soc-q6.png",
+      "sku": "soc-q6",
+      "slot": "soc",
+      "set": 6,
+      "crop": [
+        475,
+        156,
+        933,
+        613
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05517786561264822,
+        0.285,
+        -3.3551778656126485
+      ],
+      "size": [
+        1.6931620553359683,
+        0.1,
+        1.6894651949531385
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-soc-vertv2.png",
+      "sku": "soc-vertv2",
+      "slot": "soc",
+      "set": 6,
+      "crop": [
+        427,
+        116,
+        981,
+        661
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05517786561264822,
+        0.285,
+        -3.3551778656126485
+      ],
+      "size": [
+        1.6931620553359683,
+        0.1,
+        1.6656558125597523
+      ],
+      "angle": 0,
+      "status": "piazzola visuale; non verifica BGA",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-sto-256.png",
+      "sku": "sto-256",
+      "slot": "storage",
+      "set": 6,
+      "crop": [
+        501,
+        189,
+        907,
+        579
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "nessuna sede identificata, non montare automaticamente",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set06-th-gra-vc.png",
+      "sku": "th-gra-vc",
+      "slot": "thermal",
+      "set": 6,
+      "crop": [
+        384,
+        101,
+        1022,
+        668
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.4010582010582,
+        0.07,
+        4.799999999999999
+      ],
+      "angle": 0,
+      "status": "proposta grafica, sede non verificata",
+      "provenance": "PNG fornito"
+    },
+    {
+      "file": "set08-ant-uwb.png",
+      "sku": "ant-uwb",
+      "slot": "antenna",
+      "set": 8,
+      "crop": [
+        68,
+        275,
+        1340,
+        500
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.3,
+        -7.0
+      ],
+      "size": [
+        5.088,
+        0.05,
+        0.9
+      ],
+      "angle": 0,
+      "status": "nominal proportional fit, not verified physical mount",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "NXP UWB+NFC leggibile; fori scontornati. Non Wi-Fi/5G; microtesto decorativo non validato.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "d1962c76d3ba8c03cc54e7c422e61651926294ea55ae313351f6031a5f265cc4",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-hap-z.png",
+      "sku": "hap-z",
+      "slot": "haptics",
+      "set": 8,
+      "crop": [
+        479,
+        60,
+        929,
+        708
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.5,
+        -0.23,
+        5.5
+      ],
+      "size": [
+        0.5555555555555556,
+        0.3,
+        0.7999999999999999
+      ],
+      "angle": 0,
+      "status": "nominal proportional fit, not verified physical mount",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Nidec Z-axis leggibile, un solo attuatore rotondo con flex.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a9a9c699824510679a20032ea189a12414658442db09f59478252351c4bb3cb4",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-mic-1.png",
+      "sku": "mic-1",
+      "slot": "mic",
+      "set": 8,
+      "crop": [
+        488,
+        191,
+        920,
+        572
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        0.7,
+        0.28,
+        0.6173611111111111
+      ],
+      "angle": 0,
+      "status": "nominal proportional fit, not verified physical mount",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Knowles MEMS leggibile, un microfono con foro acustico.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "c5c630b70bcf92ded7210c4f3c0980a207f487153689189c9826c9e5d6987766",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-ram-24.png",
+      "sku": "ram-24",
+      "slot": "ram",
+      "set": 8,
+      "crop": [
+        210,
+        292,
+        734,
+        828
+      ],
+      "sourceSize": [
+        944,
+        1120
+      ],
+      "pos": [
+        0.3383647798742138,
+        0.275,
+        -3.39376965408805
+      ],
+      "size": [
+        1.1019654088050315,
+        0.08,
+        1.1272012578616353
+      ],
+      "angle": 0,
+      "status": "REFIT R1: graphic containment only on recovered Game",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Samsung24GB LPDDR5X10667MHz leggibile; package quasi quadrato, non misura BGA.",
+      "boardLocal": {
+        "center": [
+          692.0,
+          311.0
+        ],
+        "size": [
+          214.0,
+          218.90076335877865
+        ],
+        "slotRect": [
+          585,
+          185,
+          214,
+          252
+        ],
+        "angle": 0,
+        "scale": 0.4083969465648855,
+        "reference": "set07-board-game.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "05c41906f54b9286c27df8479c41b55bca8c1a6ea4951bdc92435762ee745180",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-ram-8x.png",
+      "sku": "ram-8x",
+      "slot": "ram",
+      "set": 8,
+      "crop": [
+        212,
+        170,
+        812,
+        853
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        0.3383647798742138,
+        0.275,
+        -3.39376965408805
+      ],
+      "size": [
+        1.1019654088050315,
+        0.08,
+        1.2544039570230607
+      ],
+      "angle": 0,
+      "status": "REFIT R1: graphic containment only on recovered Game",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Micron8GB LPDDR5X8533MHz leggibile.",
+      "boardLocal": {
+        "center": [
+          692.0,
+          311.0
+        ],
+        "size": [
+          214.0,
+          243.60333333333335
+        ],
+        "slotRect": [
+          585,
+          185,
+          214,
+          252
+        ],
+        "angle": 0,
+        "scale": 0.3566666666666667,
+        "reference": "set07-board-game.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "0b663e7c8918f5db4755e545e44c29adc171420fba4de0a97fa15d28a3c33b3c",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-sim-hybrid.png",
+      "sku": "sim-hybrid",
+      "slot": "sim",
+      "set": 8,
+      "crop": [
+        151,
+        126,
+        1256,
+        642
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "REGENERATED: coordinate da ricalcolare dopo ripristino PCB SET07",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Luxshare HYBRID leggibile, ma sono raffigurati TRE vani anziché due: geometria da correggere; non simulare un carrello fisico valido.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "62895a5bc3443a8502559fafd851c02e57305ae36ebb5b87b323f783066c0a86",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-soc-8s.png",
+      "sku": "soc-8s",
+      "slot": "soc",
+      "set": 8,
+      "crop": [
+        386,
+        59,
+        1020,
+        706
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.4767885220125785,
+        0.285,
+        -3.3319772012578617
+      ],
+      "size": [
+        1.150466594733312,
+        0.1,
+        1.174056603773585
+      ],
+      "angle": 0,
+      "status": "REFIT R1: graphic containment only on recovered Game",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Qualcomm Snapdragon8sGen4 leggibile, non Elite.",
+      "boardLocal": {
+        "center": [
+          339.5,
+          323.0
+        ],
+        "size": [
+          223.41885625965998,
+          228.0
+        ],
+        "slotRect": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "angle": 0,
+        "scale": 0.35239567233384855,
+        "reference": "set07-board-game.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a379e5cb7090048a9382e97560fe7fae9f6de7a4552d2d6833f386af15533f14",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-soc-d9400.png",
+      "sku": "soc-d9400",
+      "slot": "soc",
+      "set": 8,
+      "crop": [
+        93,
+        93,
+        931,
+        931
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -1.4767885220125785,
+        0.285,
+        -3.3319772012578617
+      ],
+      "size": [
+        1.174056603773585,
+        0.1,
+        1.174056603773585
+      ],
+      "angle": 0,
+      "status": "REFIT R1: graphic containment only on recovered Game",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "MediaTek Dimensity9400 leggibile.",
+      "boardLocal": {
+        "center": [
+          339.5,
+          323.0
+        ],
+        "size": [
+          228.0,
+          228.0
+        ],
+        "slotRect": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "angle": 0,
+        "scale": 0.2720763723150358,
+        "reference": "set07-board-game.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "7d82579f35e95590b5f15d0889e02ebdfdeb05ceae68d969b814aad9b8799e0f",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-sto-512.png",
+      "sku": "sto-512",
+      "slot": "storage",
+      "set": 8,
+      "crop": [
+        454,
+        100,
+        953,
+        676
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.153518081761006,
+        0.275,
+        -3.741352201257862
+      ],
+      "size": [
+        1.0751010684180642,
+        0.08,
+        1.240998427672956
+      ],
+      "angle": 0,
+      "status": "REFIT R1: graphic containment only on recovered Game",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "Samsung512GB UFS4.0 leggibile.",
+      "boardLocal": {
+        "center": [
+          1044.5,
+          243.5
+        ],
+        "size": [
+          208.78298611111111,
+          241.0
+        ],
+        "slotRect": [
+          938,
+          123,
+          213,
+          241
+        ],
+        "angle": 0,
+        "scale": 0.4184027777777778,
+        "reference": "set07-board-game.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "560f196f4f4b5f1d27e08d8c2dc374f30cdef765c57c3b8b4ecb87e1294b9e61",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set08-th-coil.png",
+      "sku": "th-coil",
+      "slot": "thermal",
+      "set": 8,
+      "crop": [
+        194,
+        77,
+        1334,
+        692
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.6,
+        0.07,
+        3.021052631578947
+      ],
+      "angle": 0,
+      "status": "nominal proportional fit, not verified physical mount",
+      "provenance": "AI regenerated recovery R1; original lost; global chroma-key and despill",
+      "visualReview": "CoolCo VC+Qi2 15W leggibile; bobina e piastra in vista top, materiali non certificati.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "7d50b0a8dab737b47c18f499b943f04a7b17f652621e2e2339a3b2f3fd7653d7",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-back-green.png",
+      "sku": "back-green",
+      "slot": "backcover",
+      "set": 9,
+      "crop": [
+        539,
+        60,
+        837,
+        709
+      ],
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.254853620955316,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "LuxGuard verde salvia satinato, fori alpha. Disposizione non verificata rispetto al periscopio.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "4af3b3c8e29dbf500cd35a2f8e116fbbf1a261a647253f99d8155908049ee6d5",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-bat-7000.png",
+      "sku": "bat-7000",
+      "slot": "battery",
+      "set": 9,
+      "crop": [
+        100,
+        85,
+        667,
+        1292
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        3.1943661971830983,
+        0.44,
+        6.799999999999999
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "BYD7000mAh3.95V Si-C leggibile; nessuna capacità alternativa visibile.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "99dba9bbc1fedc4694766ba83e9a0e978d3043ba6376f6fef2458432a5e9c9d8",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-board-rf.png",
+      "sku": "board-rf",
+      "slot": "motherboard",
+      "set": 9,
+      "crop": [
+        82,
+        79,
+        1331,
+        692
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.05,
+        0.145,
+        -3.35
+      ],
+      "size": [
+        6.55,
+        0.14,
+        3.2146917534027217
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "SOC,RAM,UFS ben distinti e liberi da passivi; array UFS concentrico illustrativo, non pinout reale. Nome scheda ripetuto due volte.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "9001dce0cf64308007fb8489176b2ece5234e8dbfb30ea88e542087599515431",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-cam-peri2.png",
+      "sku": "cam-peri2",
+      "slot": "cameraRear",
+      "set": 9,
+      "crop": [
+        93,
+        183,
+        1317,
+        587
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "SEPARATO: allineamento ottico non verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "SONY200MP6xOIS leggibile; microtesto aggiuntivo decorativo non certificato. Ingresso quadrangolare, non validato rispetto ai fori cover.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "23a2ff61033d6c9894b3de8594e7397e1ebcb453fa5bfc035ce9feea54f44766",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-camf-12.png",
+      "sku": "camf-12",
+      "slot": "cameraFront",
+      "set": 9,
+      "crop": [
+        523,
+        204,
+        1080,
+        618
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "SEPARATO: allineamento ottico non verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "SONY12MP leggibile; riflesso blu e lieve alone/bordo non fisico. Apertura display non validata come misura.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "63f786b4bdefa7e22d7793a7e24a46c3137eaf6b46e0c072ac2f92fa62eef811",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-disp-oled63.png",
+      "sku": "disp-oled63",
+      "slot": "display",
+      "set": 9,
+      "crop": [
+        547,
+        36,
+        861,
+        734
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.8378223495701995,
+        0.12,
+        15.199999999999998
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "BOE OLED6.3,120Hz,1080x2400 leggibili, punch centrale e flex inferiore.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "63debcf30d152d5bafc91c319f1727222a2a569ff10bbc75039475ad082a8c60",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-frame-mag.png",
+      "sku": "frame-mag",
+      "slot": "frame",
+      "set": 9,
+      "crop": [
+        70,
+        70,
+        633,
+        1426
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        6.560029498525074,
+        0.9,
+        15.799999999999999
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "Telaio Vertex Qi2 con anello inferiore e finestre alpha; nessuna misura N52/lega certificabile.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "9004d46296c7e6f098c1f5e624ed9be632bc48a14b7520f9c94380793da39dea",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-glass-zaf.png",
+      "sku": "glass-zaf",
+      "slot": "glass",
+      "set": 9,
+      "crop": [
+        67,
+        132,
+        637,
+        1387
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        6.994422310756973,
+        0.06,
+        15.400000000000002
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "CrystalLux Synthetic Sapphire leggibile, punch superiore; lastra opaca illustrativa, non trasparenza ottica.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "0741ab935547ac76892ecbd0b2f6042c09d8d1609603bbb3a595e1607098a4d2",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-spk-stereo-bot.png",
+      "sku": "spk-stereo-bot",
+      "slot": "speaker",
+      "set": 9,
+      "crop": [
+        186,
+        262,
+        1222,
+        508
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        2.4,
+        0.34,
+        0.5698841698841699
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "Due driver, Goertek2x1.1W leggibile; nessuna misura acustica.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "430d6d38db5b315eec0cd8cf42a8a27cfafea207e421f27c741377af79771499",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set09-usb-dp.png",
+      "sku": "usb-dp",
+      "slot": "usb",
+      "set": 9,
+      "crop": [
+        519,
+        109,
+        889,
+        658
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        0.6065573770491803,
+        0.3,
+        0.9
+      ],
+      "angle": 0,
+      "status": "fit nominale, non ingombro fisico verificato",
+      "provenance": "AI regenerated recovery-r1; smooth alpha chroma-key and despill",
+      "visualReview": "Amphenol DP2.1 8K60 leggibile; residuo violaceo sul metallo e vista non strettamente ortografica.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "013489b1b3a501a8cd039f4b8806561c8f5db4e9f872ff047519971bc3185306",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-hap-dual.png",
+      "sku": "hap-dual",
+      "slot": "haptics",
+      "set": 10,
+      "crop": [
+        74,
+        229,
+        1335,
+        632
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "INVENTORY ONLY; individual seats or layer geometry unverified",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "Esattamente due involucri Leaderdrive, marcati LRA L e LRA R; nessun2x ripetuto. Restano separati, non assumere una sede unica per entrambi.",
+      "boardLocal": null,
+      "supersedesSha256": "1d12d314645c5546016436720e10443519853f0d17dbed964aa943e599018698",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false,
+      "boardReference": null
+    },
+    {
+      "file": "set10-ram-18.png",
+      "sku": "ram-18",
+      "slot": "ram",
+      "set": 10,
+      "crop": [
+        100,
+        214,
+        716,
+        1099
+      ],
+      "sourceSize": [
+        816,
+        1312
+      ],
+      "pos": [
+        0.4669135308246597,
+        0.275,
+        -3.3578662930344274
+      ],
+      "size": [
+        1.0803042433947156,
+        0.08,
+        1.5520604795524728
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "SK hynix18GB LPDDR5X9600MHz leggibile.",
+      "boardLocal": {
+        "center": [
+          704.0,
+          305.0
+        ],
+        "size": [
+          205.99999999999997,
+          295.9577922077922
+        ],
+        "slotRect": [
+          601,
+          127,
+          206,
+          356
+        ],
+        "angle": 0,
+        "scale": 0.3344155844155844,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "a2e31c1dd76735479bf395f766449aa230e8daae19b57aaf43f3d3cca296e4b9",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-ram-32.png",
+      "sku": "ram-32",
+      "slot": "ram",
+      "set": 10,
+      "crop": [
+        185,
+        211,
+        708,
+        990
+      ],
+      "sourceSize": [
+        896,
+        1200
+      ],
+      "pos": [
+        0.4669135308246597,
+        0.275,
+        -3.3578662930344274
+      ],
+      "size": [
+        1.0803042433947156,
+        0.08,
+        1.6090956130104848
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "SK hynix32GB LPDDR5X10667MHz leggibile.",
+      "boardLocal": {
+        "center": [
+          704.0,
+          305.0
+        ],
+        "size": [
+          206.0,
+          306.8336520076482
+        ],
+        "slotRect": [
+          601,
+          127,
+          206,
+          356
+        ],
+        "angle": 0,
+        "scale": 0.3938814531548757,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "2a1e5a99c355a8aae84f04b8013e99a2a834b16a51404c06847ff80103287523",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-soc-8e2.png",
+      "sku": "soc-8e2",
+      "slot": "soc",
+      "set": 10,
+      "crop": [
+        427,
+        111,
+        981,
+        663
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.481305044035228,
+        0.285,
+        -3.3526220976781427
+      ],
+      "size": [
+        1.7882706164931945,
+        0.1,
+        1.781814765892136
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "Qualcomm Snapdragon8 Elite Gen5 leggibile; slash decorativi stampati fra righe. Il nome SKU8e2 non significa Gen2.",
+      "boardLocal": {
+        "center": [
+          332.5,
+          306.0
+        ],
+        "size": [
+          341.0,
+          339.76895306859205
+        ],
+        "slotRect": [
+          162,
+          131,
+          341,
+          350
+        ],
+        "angle": 0,
+        "scale": 0.6155234657039711,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "0dcc57b2f28afcb87470b71d94366c06cdc47abfff7f426509c8287a3c1a6c1f",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-soc-dim95.png",
+      "sku": "soc-dim95",
+      "slot": "soc",
+      "set": 10,
+      "crop": [
+        431,
+        110,
+        977,
+        661
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.481305044035228,
+        0.285,
+        -3.3526220976781427
+      ],
+      "size": [
+        1.7882706164931945,
+        0.1,
+        1.8046467210398354
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "MediaTek Dimensity9500 leggibile, distinto da9400.",
+      "boardLocal": {
+        "center": [
+          332.5,
+          306.0
+        ],
+        "size": [
+          341.0,
+          344.1227106227106
+        ],
+        "slotRect": [
+          162,
+          131,
+          341,
+          350
+        ],
+        "angle": 0,
+        "scale": 0.6245421245421245,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "e096251c3a3f677cafd4a3c076d352d198f64539594b7137130c86d4dd9267cf",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-soc-ten6.png",
+      "sku": "soc-ten6",
+      "slot": "soc",
+      "set": 10,
+      "crop": [
+        471,
+        150,
+        937,
+        618
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -1.481305044035228,
+        0.285,
+        -3.3526220976781427
+      ],
+      "size": [
+        1.7882706164931945,
+        0.1,
+        1.7959455976798606
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "Google TensorG6 leggibile, distinto daG4/G5.",
+      "boardLocal": {
+        "center": [
+          332.5,
+          306.0
+        ],
+        "size": [
+          341.0,
+          342.46351931330474
+        ],
+        "slotRect": [
+          162,
+          131,
+          341,
+          350
+        ],
+        "angle": 0,
+        "scale": 0.7317596566523605,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "5fb8257ef53fa615a6502f43f6961aa3cf335b052c91b2bc4bbfbff666aeee58",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-sto-1tb41.png",
+      "sku": "sto-1tb41",
+      "slot": "storage",
+      "set": 10,
+      "crop": [
+        439,
+        93,
+        969,
+        675
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.055904723779023,
+        0.275,
+        -3.3526220976781427
+      ],
+      "size": [
+        1.132746196957566,
+        0.08,
+        1.243883559677931
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "KIOXIA1TB UFS4.1 leggibile; non4.0.",
+      "boardLocal": {
+        "center": [
+          1007.0,
+          306.0
+        ],
+        "size": [
+          216.0,
+          237.1924528301887
+        ],
+        "slotRect": [
+          899,
+          180,
+          216,
+          252
+        ],
+        "angle": 0,
+        "scale": 0.4075471698113208,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "e8bee6af2d8775844d41acbddb545fbe47d37ee00fec048f792f779200796567",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-sto-2tb.png",
+      "sku": "sto-2tb",
+      "slot": "storage",
+      "set": 10,
+      "crop": [
+        459,
+        101,
+        948,
+        670
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        2.055904723779023,
+        0.275,
+        -3.3526220976781427
+      ],
+      "size": [
+        1.132746196957566,
+        0.08,
+        1.3180625481980675
+      ],
+      "angle": 0,
+      "status": "GRAPHIC FIT on RF recovery-r1, no verified pinout or electrical compatibility",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "SAMSUNG2TB UFS4.1 leggibile.",
+      "boardLocal": {
+        "center": [
+          1007.0,
+          306.0
+        ],
+        "size": [
+          216.0,
+          251.33742331288343
+        ],
+        "slotRect": [
+          899,
+          180,
+          216,
+          252
+        ],
+        "angle": 0,
+        "scale": 0.44171779141104295,
+        "reference": "set09-board-rf.png",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set09-board-rf.png",
+      "supersedesSha256": "4c6cb45836fef84c3e3914217bcfce613903d176131ef669431c2ffb48423d30",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set10-th-cu.png",
+      "sku": "th-cu",
+      "slot": "thermal",
+      "set": 10,
+      "crop": [
+        83,
+        318,
+        1325,
+        450
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0.2,
+        0.0,
+        -3.5
+      ],
+      "size": [
+        5.6,
+        0.07,
+        0.5951690821256038
+      ],
+      "angle": 0,
+      "status": "nominal graphical placement only",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "CoolCo/Cu/0.4mm leggibile; strip rame appiattita molto allungata. Spessore illustrativo non misurato.",
+      "boardLocal": null,
+      "supersedesSha256": "cfed87b3245fbd382de6a41e41b9fe78e9a6eba8572319de9ab0f50ca25ce129",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false,
+      "boardReference": null
+    },
+    {
+      "file": "set10-th-gr2.png",
+      "sku": "th-gr2",
+      "slot": "thermal",
+      "set": 10,
+      "crop": [
+        216,
+        110,
+        1192,
+        658
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "INVENTORY ONLY; individual seats or layer geometry unverified",
+      "provenance": "AI regenerated recovery-r1; global smooth chroma-key and despill",
+      "visualReview": "CoolCo Dual graphite0.2+0.2mm leggibile; contorni sovrapposti suggeriscono un terzo foglio. Geometria/conteggio ambiguo: inventario separato, correzione richiesta.",
+      "boardLocal": null,
+      "supersedesSha256": "ba16f79ee1daa46dce9aa529f35f7e17e8cef990ea87bcba9098ed6acccf3975",
+      "assetRevision": "recovery-r1",
+      "physicalCompatibilityVerified": false,
+      "boardReference": null,
+      "qualityStatus": "NEEDS_LAYER_COUNT_CORRECTION"
+    },
+    {
+      "file": "set11-back-alu.png",
+      "sku": "back-alu",
+      "slot": "backcover",
+      "set": 11,
+      "crop": [
+        22,
+        25,
+        682,
+        1497
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.084239130434783,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Vertex alluminio satinato, apertura camera passante, lega non misurata.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "1bf0aa3f057d4f1c591fc0cc3b56ab76f53f84bdde3e499f48ff946440f4c4cc",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-back-leather.png",
+      "sku": "back-leather",
+      "slot": "backcover",
+      "set": 11,
+      "crop": [
+        28,
+        35,
+        676,
+        1486
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.056099241902137,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "EcoLine marrone, trama e cuciture illustrate, apertura camera passante; materiale PU non certificato.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "46b2c3dcd540cbf8e017a52bb3af3cd772888d044b3d772eb2db45328b2313d1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-bat-dual.png",
+      "sku": "bat-dual",
+      "slot": "battery",
+      "set": 11,
+      "crop": [
+        73,
+        72,
+        1335,
+        694
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        6.4,
+        0.44,
+        3.1543581616481777
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "ATL DUAL CELL5500mAh TOTAL3.87V leggibile. Due pouch, capacità totale esplicita, circuito parallelo non validato.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "149ace873e9b0ec7e1ef2a5237e174f0851eb71c9cecde90f1ffb47d38e0dd82",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-cons-screws.png",
+      "sku": "cons-screws",
+      "slot": "frame",
+      "set": 11,
+      "crop": [
+        95,
+        91,
+        1312,
+        684
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "INVENTARIO; slot frame non autorizza montaggio",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Sei viti Phillips separate. DiametroM1.6 non misurabile dal raster, un solo SKU inventario.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "e93fe320512fb64b1ceca32ef87466907a1a0c308e25e33c3f164517752f60f3",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-frame-classic.png",
+      "sku": "frame-classic",
+      "slot": "frame",
+      "set": 11,
+      "crop": [
+        60,
+        62,
+        708,
+        1314
+      ],
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.3999999999999995,
+        0.9,
+        14.297530864197531
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Vista frontale più pulita del raster perduto, centro e home trasparenti. Foro superiore camera illustrato scuro. Scelta apertura16:9; contraddizione catalogo4:3/16:9 ancora aperta.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "5e0d9823f45823bbbec202f6f9a92bcd3e316bc619abb2a6594517a69cc2d307",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-soc-exy26.png",
+      "sku": "soc-exy26",
+      "slot": "soc",
+      "set": 11,
+      "crop": [
+        456,
+        136,
+        952,
+        632
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1510886469673407
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; RAM/UFS non identificati univocamente",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Samsung Exynos2600 leggibile.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.0
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "134279c6de1caa4d7f66e63274b87ef3ce82eef4ac138d447e04ca23f2a7c63b",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-soc-g99.png",
+      "sku": "soc-g99",
+      "slot": "soc",
+      "set": 11,
+      "crop": [
+        418,
+        92,
+        990,
+        676
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1752373598407815
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; RAM/UFS non identificati univocamente",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "MediaTek HelioG99 leggibile.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          230.74125874125875
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "ae707d7a85290d541309f921f9c58121e668217ddc8ea62ce060eed6d0d013d8",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-soc-helio.png",
+      "sku": "soc-helio",
+      "slot": "soc",
+      "set": 11,
+      "crop": [
+        472,
+        152,
+        937,
+        618
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1535641064231845
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; RAM/UFS non identificati univocamente",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "UNISOC T7250 leggibile: SKU soc-helio non implica Helio/MediaTek.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.48602150537636
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "f30ebaf04eb76d5bb5d75eac83b154189f92f0ef5ea609ea9eadd759611342a1",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-soc-tensor.png",
+      "sku": "soc-tensor",
+      "slot": "soc",
+      "set": 11,
+      "crop": [
+        434,
+        114,
+        974,
+        654
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1510886469673407
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; RAM/UFS non identificati univocamente",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Google TensorG5 leggibile.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.0
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "037a8b0a9b482ecf459ed317944e5eeda0a6f2ad0cc05b3673ce1094940d70b6",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set11-sto-1tb.png",
+      "sku": "sto-1tb",
+      "slot": "storage",
+      "set": 11,
+      "crop": [
+        489,
+        178,
+        919,
+        590
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.0813958009331262,
+        0.275,
+        -2.9960147744945567
+      ],
+      "size": [
+        0.6061041990668741,
+        0.08,
+        0.5807323953850049
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; RAM/UFS non identificati univocamente",
+      "provenance": "AI regenerated recovery-r1; smooth global chroma-key/despill",
+      "visualReview": "Samsung1TB UFS4.0 leggibile, non4.1; package generato quasi quadrato.",
+      "boardLocal": {
+        "center": [
+          845.5,
+          402.5
+        ],
+        "size": [
+          119.0,
+          114.01860465116279
+        ],
+        "slotRect": [
+          786,
+          342,
+          119,
+          121
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "2d162f0b676644c83cfa03f6c79c24abc623f968d25aade7bf5906300cb77741",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-cons-glue.png",
+      "sku": "cons-glue",
+      "slot": "frame",
+      "set": 12,
+      "crop": [
+        280,
+        271,
+        1128,
+        502
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "INVENTARIO; slot frame non è una sede",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "SBS Parts B-7000 15ml leggibile; tubo orizzontale, microtesto aggiuntivo illustrativo, lieve riflesso magenta metallico. Inventario, non frame montato.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a5a130feac63f6aa4258bcbac2f26edd09dbd73cfefbecf7c0a9ab3fbe62467a",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-cons-tabs.png",
+      "sku": "cons-tabs",
+      "slot": "frame",
+      "set": 12,
+      "crop": [
+        436,
+        67,
+        973,
+        702
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "INVENTARIO; slot frame non è una sede",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "Due adesivi chiari con tiranti arancio, SBS Parts; liner largo e bordo rosato conservato. Non misura fisica o traslucenza reale.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a7ead55c0d67091cbbd316a9bc15d46ac8a70090fc7d48d9da891d360b86219f",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-frame-mg.png",
+      "sku": "frame-mg",
+      "slot": "frame",
+      "set": 12,
+      "crop": [
+        546,
+        55,
+        862,
+        717
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.4,
+        0.9,
+        15.50253164556962
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "Vertex AZ91D: due grandi finestre alpha, traverse/rail illustrativi. Lega e138g non certificabili dal raster.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "03eeb78b64b4acafbfbc0ef768cfc4381558b2500d07fa71f2943af0181ba6cc",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-frame-ss.png",
+      "sku": "frame-ss",
+      "slot": "frame",
+      "set": 12,
+      "crop": [
+        57,
+        156,
+        647,
+        1364
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "size": [
+        7.4,
+        0.9,
+        15.151186440677966
+      ],
+      "angle": 0,
+      "status": "fit nominale non validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "AeroForge316L: finestre alpha, geometria diversa dal magnesio, qualche riflesso violaceo. Massa198g non verificata.",
+      "boardLocal": null,
+      "boardReference": null,
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "34f7e51b0aa5358a299d486d938ca1d46bdb81189a7bd9dc3dec6ad49a279de6",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-6g1.png",
+      "sku": "soc-6g1",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        456,
+        134,
+        952,
+        636
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1650131064064617
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "Qualcomm Snapdragon6Gen1 leggibile.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          228.73387096774192
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "8acf167be29de8be44ea4f388a0242b3c7197847fc7d0eb32401ec7cb9508a54",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-7g3.png",
+      "sku": "soc-7g3",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        491,
+        166,
+        917,
+        602
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.17810950722479
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "Qualcomm Snapdragon7Gen3 leggibile, senza plus.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          231.30516431924883
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "e4944140844ee2e4430f4ad38be5c87e013ec7fd32c6f4569baf021e5a16be60",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-8g2.png",
+      "sku": "soc-8g2",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        459,
+        139,
+        949,
+        629
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1510886469673407
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "Qualcomm Snapdragon8Gen2 leggibile; scritta Pin1 extra, non certificazione pinout.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.0
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "c588b742570ab7f56e2e3c8724d0e7dcd880fac78b192082632d2a88e2eec9c7",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-d7300.png",
+      "sku": "soc-d7300",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        450,
+        130,
+        958,
+        642
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1601523371009417
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "MediaTek Dimensity7300 leggibile.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          227.7795275590551
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "6431de82f2bac837471301ab7c200be85f775bd64a2196b3736c8cdbbbb0d0e3",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-d8300.png",
+      "sku": "soc-d8300",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        262,
+        262,
+        762,
+        762
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1510886469673407
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "MediaTek Dimensity8300 leggibile, con sigle CPU/GPU/MT6880V aggiuntive non richieste e non verificate: non usare come specifica tecnica.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.0
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a480b1f1d356f8db44db2eb2447011bd586f1b4e81ca5a16bf3a7d775f1cf9cb",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set12-soc-d9300.png",
+      "sku": "soc-d9300",
+      "slot": "soc",
+      "set": 12,
+      "crop": [
+        467,
+        148,
+        940,
+        621
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        -0.0009331259720062185,
+        0.285,
+        -3.4034797822706064
+      ],
+      "size": [
+        1.1510886469673407,
+        0.1,
+        1.1510886469673407
+      ],
+      "angle": 0,
+      "status": "IPOTESI grafica Pro03 riutilizzato; nessun pinout validato",
+      "provenance": "AI regenerated R1; global smooth chroma-key/despill",
+      "visualReview": "MediaTek Dimensity9300+ leggibile con plus presente.",
+      "boardLocal": {
+        "center": [
+          633.0,
+          322.5
+        ],
+        "size": [
+          226.0,
+          226.0
+        ],
+        "slotRect": [
+          520,
+          203,
+          226,
+          239
+        ],
+        "angle": 0,
+        "reference": "set03-board-pro.png",
+        "borrowed": true,
+        "hypothesis": true,
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set03-board-pro.png",
+      "assetRevision": "recovery-r1",
+      "supersedesSha256": "a091d28cc4de89164df1ec414fb47483d9d3c068d303f8e2f8ddf6b1059b434c",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "file": "set13-bat-3500.png",
+      "sku": "bat-3500",
+      "slot": "battery",
+      "set": 13,
+      "crop": [
+        442,
+        78,
+        966,
+        677
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.948580968280467,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica nominale; sede non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "BYD3500mAh3.85V leggibile, singola pouch con due linguette. Capacità e tensione non misurate.",
+      "boardLocal": null,
+      "boardReference": null
+    },
+    {
+      "file": "set13-bat-4000.png",
+      "sku": "bat-4000",
+      "slot": "battery",
+      "set": 13,
+      "crop": [
+        444,
+        58,
+        965,
+        700
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.518380062305296,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica nominale; sede non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "ATL4000mAh3.87V leggibile, singola pouch e linguette. Nessuna capacità alternativa rilevata sul fronte.",
+      "boardLocal": null,
+      "boardReference": null
+    },
+    {
+      "file": "set13-bat-5500.png",
+      "sku": "bat-5500",
+      "slot": "battery",
+      "set": 13,
+      "crop": [
+        477,
+        70,
+        932,
+        680
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        5.072131147540984,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "status": "proposta grafica nominale; sede non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "ATL5500mAh Si-C3.90V leggibile. Singola pouch, distinta dal precedente dual-cell5500mAh; lieve tinta violacea dell’etichetta conservata.",
+      "boardLocal": null,
+      "boardReference": null
+    },
+    {
+      "file": "set13-ram-12lp4.png",
+      "sku": "ram-12lp4",
+      "slot": "ram",
+      "set": 13,
+      "crop": [
+        67,
+        68,
+        878,
+        1052
+      ],
+      "sourceSize": [
+        944,
+        1120
+      ],
+      "pos": [
+        0.3383647798742138,
+        0.275,
+        -3.39376965408805
+      ],
+      "size": [
+        1.069499252185918,
+        0.08,
+        1.2976415094339622
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Micron12GB LPDDR4X leggibile, non LPDDR5X. Compatibilità con i tre SoC non verificata; solo collocazione nella sede RAM grafica.",
+      "boardLocal": {
+        "center": [
+          692.0,
+          311.0
+        ],
+        "size": [
+          207.6951219512195,
+          252.0
+        ],
+        "slotRect": [
+          585,
+          185,
+          214,
+          252
+        ],
+        "angle": 0,
+        "scale": 0.25609756097560976,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png"
+    },
+    {
+      "file": "set13-soc-ex2500.png",
+      "sku": "soc-ex2500",
+      "slot": "soc",
+      "set": 13,
+      "crop": [
+        165,
+        165,
+        858,
+        860
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -1.4767885220125785,
+        0.285,
+        -3.3319772012578617
+      ],
+      "size": [
+        1.1706780236188408,
+        0.1,
+        1.174056603773585
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "SAMSUNG Exynos2500 leggibile, distinto dai2400/2600 precedenti. Nessuna verifica del package fisico o delle memorie supportate.",
+      "boardLocal": {
+        "center": [
+          339.5,
+          323.0
+        ],
+        "size": [
+          227.34388489208635,
+          228.00000000000003
+        ],
+        "slotRect": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "angle": 0,
+        "scale": 0.32805755395683456,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png"
+    },
+    {
+      "file": "set13-soc-kirin.png",
+      "sku": "soc-kirin",
+      "slot": "soc",
+      "set": 13,
+      "crop": [
+        163,
+        163,
+        861,
+        862
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -1.4767885220125785,
+        0.285,
+        -3.3319772012578617
+      ],
+      "size": [
+        1.1723769805922206,
+        0.1,
+        1.174056603773585
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "HiSilicon Kirin9010 leggibile. Package quasi quadrato e pin-one illustrativo, non pinout verificato.",
+      "boardLocal": {
+        "center": [
+          339.5,
+          323.0
+        ],
+        "size": [
+          227.67381974248926,
+          228.0
+        ],
+        "slotRect": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "angle": 0,
+        "scale": 0.3261802575107296,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png"
+    },
+    {
+      "file": "set13-soc-tensor4.png",
+      "sku": "soc-tensor4",
+      "slot": "soc",
+      "set": 13,
+      "crop": [
+        172,
+        172,
+        852,
+        852
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "pos": [
+        -1.4767885220125785,
+        0.285,
+        -3.3319772012578617
+      ],
+      "size": [
+        1.1740566037735847,
+        0.1,
+        1.1740566037735847
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Google TensorG4 leggibile; distinto daG5/G6. Il fit grafico non indica compatibilità con la RAM illustrata.",
+      "boardLocal": {
+        "center": [
+          339.5,
+          323.0
+        ],
+        "size": [
+          227.99999999999997,
+          227.99999999999997
+        ],
+        "slotRect": [
+          225,
+          209,
+          229,
+          228
+        ],
+        "angle": 0,
+        "scale": 0.3352941176470588,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png"
+    },
+    {
+      "file": "set13-sto-256u4.png",
+      "sku": "sto-256u4",
+      "slot": "storage",
+      "set": 13,
+      "crop": [
+        108,
+        108,
+        868,
+        998
+      ],
+      "sourceSize": [
+        976,
+        1104
+      ],
+      "pos": [
+        2.153518081761006,
+        0.275,
+        -3.741352201257862
+      ],
+      "size": [
+        1.0597289944173556,
+        0.08,
+        1.240998427672956
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "KIOXIA256GB UFS4.0 leggibile, distinto dal256GB UFS3.1 del SET06.",
+      "boardLocal": {
+        "center": [
+          1044.5,
+          243.5
+        ],
+        "size": [
+          205.79775280898875,
+          241.0
+        ],
+        "slotRect": [
+          938,
+          123,
+          213,
+          241
+        ],
+        "angle": 0,
+        "scale": 0.27078651685393257,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "interface": "UFS4.0"
+    },
+    {
+      "file": "set13-sto-32.png",
+      "sku": "sto-32",
+      "slot": "storage",
+      "set": 13,
+      "crop": [
+        487,
+        126,
+        921,
+        642
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "status": "NON ASSEGNATO: eMMC non è UFS; esporre separatamente",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Micron32GB eMMC5.1 leggibile. Interfaccia diversa da UFS: nessuna sede eMMC identificata sulle schede mostrate, montaggio non assegnato.",
+      "boardLocal": null,
+      "boardReference": null,
+      "interface": "eMMC5.1"
+    },
+    {
+      "file": "set13-sto-512u31.png",
+      "sku": "sto-512u31",
+      "slot": "storage",
+      "set": 13,
+      "crop": [
+        100,
+        100,
+        876,
+        1005
+      ],
+      "sourceSize": [
+        976,
+        1104
+      ],
+      "pos": [
+        2.153518081761006,
+        0.275,
+        -3.741352201257862
+      ],
+      "size": [
+        1.0641047291427776,
+        0.08,
+        1.240998427672956
+      ],
+      "angle": 0,
+      "status": "fit grafico su PCB GAME riutilizzato; compatibilità non verificata",
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Micron512GB UFS3.1 leggibile, distinto da Samsung512GB UFS4.0 del SET08.",
+      "boardLocal": {
+        "center": [
+          1044.5,
+          243.5
+        ],
+        "size": [
+          206.6475138121547,
+          241.0
+        ],
+        "slotRect": [
+          938,
+          123,
+          213,
+          241
+        ],
+        "angle": 0,
+        "scale": 0.2662983425414365,
+        "reference": "set07-board-game.png",
+        "referenceBorrowed": true,
+        "confidence": "serigrafia visibile; pinout non verificato",
+        "physicalCompatibilityVerified": false
+      },
+      "boardReference": "set07-board-game.png",
+      "interface": "UFS3.1"
+    },
+    {
+      "file": "set14-bat-8000.png",
+      "sku": "bat-8000",
+      "set": 14,
+      "slot": "battery",
+      "crop": [
+        163,
+        190,
+        686,
+        1074
+      ],
+      "sourceSize": [
+        848,
+        1264
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        4.023076923076923,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "BYD8000mAh3.95V STACKED leggibile; due strati visibili. Capacità totale illustrata, non per pouch; collegamenti non verificati.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          4.023076923076923,
+          0.44,
+          6.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 0.85,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-bat-stacked.png",
+      "sku": "bat-stacked",
+      "set": 14,
+      "slot": "battery",
+      "crop": [
+        148,
+        118,
+        701,
+        1126
+      ],
+      "sourceSize": [
+        848,
+        1264
+      ],
+      "pos": [
+        0,
+        -0.02,
+        3.5
+      ],
+      "size": [
+        3.730555555555555,
+        0.44,
+        6.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "ATL6800mAh3.94V Si-C STACKED leggibile; due strati. Nessuna validazione di spessore, potenza o capacità.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          3.730555555555555,
+          0.44,
+          6.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 0.85,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-disp-lcd67.png",
+      "sku": "disp-lcd67",
+      "set": 14,
+      "slot": "display",
+      "crop": [
+        180,
+        100,
+        667,
+        1223
+      ],
+      "sourceSize": [
+        848,
+        1264
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.591629563668744,
+        0.12,
+        15.2
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "BOE LCD IPS6.7,90Hz,1080x2400 leggibili; notch centrale.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.591629563668744,
+          0.12,
+          15.2
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 2.75,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-disp-oled61.png",
+      "sku": "disp-oled61",
+      "set": 14,
+      "slot": "display",
+      "crop": [
+        566,
+        58,
+        842,
+        714
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.3951219512195125,
+        0.12,
+        15.2
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "LG Display OLED LTPO6.1,120Hz,1179x2556 leggibili; punch centrale scuro.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.3951219512195125,
+          0.12,
+          15.2
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 2.75,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-disp-fold.png",
+      "sku": "disp-fold",
+      "set": 14,
+      "slot": "display",
+      "crop": [
+        325,
+        75,
+        1083,
+        736
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Samsung Display OLED7.6,120Hz,1812x2176 leggibili. DIFETTO: raster largo, proporzioni non corrispondenti al formato portrait richiesto. Non montare su telaio rigido; correzione futura necessaria.",
+      "status": "INVENTARIO SEPARATO: montaggio non assegnato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.05,
+          0.12,
+          6.147823218997361
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 2.75,
+      "qualityStatus": "NEEDS_GEOMETRY_CORRECTION"
+    },
+    {
+      "file": "set14-disp-eco.png",
+      "sku": "disp-eco",
+      "set": 14,
+      "slot": "display",
+      "crop": [
+        67,
+        102,
+        621,
+        1461
+      ],
+      "sourceSize": [
+        688,
+        1536
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "size": [
+        6.196320824135394,
+        0.12,
+        15.2
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Tianma TFT6.5,60Hz,720x1600 leggibili; notch centrale e flex inferiore.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.196320824135394,
+          0.12,
+          15.2
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 2.75,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-glass-gg3.png",
+      "sku": "glass-gg3",
+      "set": 14,
+      "slot": "glass",
+      "crop": [
+        41,
+        43,
+        663,
+        1477
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        6.679776847977685,
+        0.06,
+        15.4
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Corning Gorilla Glass3: lastra stretta con fessura superiore illustrata; interno opaco chiaro, non trasmissione ottica.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.679776847977685,
+          0.06,
+          15.4
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 3.35,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-glass-gg7.png",
+      "sku": "glass-gg7",
+      "set": 14,
+      "slot": "glass",
+      "crop": [
+        60,
+        114,
+        644,
+        1407
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        0.56,
+        0
+      ],
+      "size": [
+        6.955607115235885,
+        0.06,
+        15.4
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "Corning Gorilla Glass7i: identificatore presente e punch superiore; interno opaco illustrativo.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.955607115235885,
+          0.06,
+          15.4
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 3.35,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-glass-utg.png",
+      "sku": "glass-utg",
+      "set": 14,
+      "slot": "glass",
+      "crop": [
+        410,
+        45,
+        998,
+        724
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "SCHOTT Ultra Thin Glass UTG presente; lastra quasi quadrata distinta dai vetri stretti. Non coincide con il display fold generato; nessun accoppiamento validato.",
+      "status": "INVENTARIO SEPARATO: montaggio non assegnato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.15,
+          0.06,
+          8.25654761904762
+        ],
+        "angle": 0
+      },
+      "explodeOffset": 3.35,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set14-back-red.png",
+      "sku": "back-red",
+      "set": 14,
+      "slot": "backcover",
+      "crop": [
+        74,
+        163,
+        630,
+        1358
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.351297071129707,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + chroma-key graduato e despill",
+      "visualReview": "LuxGuard leggibile; rosso scuro lucido. I fori fotocamera sono raffigurati scuri, non aperture alpha; disposizione non verificata rispetto ai moduli.",
+      "status": "fit nominale proporzionale; montaggio non verificato",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.351297071129707,
+          0.12,
+          15.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.2,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-back-black.png",
+      "sku": "back-black",
+      "set": 15,
+      "slot": "backcover",
+      "crop": [
+        72,
+        124,
+        632,
+        1383
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.027799841143765,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "LuxGuard nero AG, riflessi ridotti. Tre fori grandi in colonna e due piccoli, alpha passante ai centri. Non corrisponde automaticamente al dual camera orizzontale.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.027799841143765,
+          0.12,
+          15.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.2,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-back-white.png",
+      "sku": "back-white",
+      "set": 15,
+      "slot": "backcover",
+      "crop": [
+        59,
+        102,
+        641,
+        1419
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        6.9822323462414575,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "LuxGuard bianco perla, bordo oro. Tre aperture scure verticali e apertura inferiore; superficie con iridescenza rosata. Geometria diversa dalle altre cover.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          6.9822323462414575,
+          0.12,
+          15.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.2,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-back-carbon.png",
+      "sku": "back-carbon",
+      "set": 15,
+      "slot": "backcover",
+      "crop": [
+        43,
+        92,
+        662,
+        1429
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.315033657442035,
+        0.12,
+        15.8
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "AeroForge carbonio a trama diagonale; tre aperture scure in colonna. Fibra e leggerezza non verificabili da immagine.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.315033657442035,
+          0.12,
+          15.8
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.2,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-back-wood.png",
+      "sku": "back-wood",
+      "set": 15,
+      "slot": "backcover",
+      "crop": [
+        52,
+        123,
+        652,
+        1397
+      ],
+      "sourceSize": [
+        704,
+        1520
+      ],
+      "pos": [
+        0,
+        -0.36,
+        0
+      ],
+      "size": [
+        7.4,
+        0.12,
+        15.712666666666667
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "EcoLine noce leggibile, venatura verticale. Tre aperture triangolari e due piccole: non stessa geometria delle cover nere/bianche.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          7.4,
+          0.12,
+          15.712666666666667
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.2,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-cam-uw.png",
+      "sku": "cam-uw",
+      "set": 15,
+      "slot": "cameraRear",
+      "crop": [
+        396,
+        139,
+        1106,
+        662
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "Due moduli Sony50MP, uno OIS e uno UW, affiancati orizzontalmente. Non allineabili per semplice traslazione alle tre aperture verticali delle cover.",
+      "status": "INVENTARIO SEPARATO: sede non assegnata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          2.6,
+          0.38,
+          1.9152112676056339
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.8,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-cam-peri10.png",
+      "sku": "cam-peri10",
+      "set": 15,
+      "slot": "cameraRear",
+      "crop": [
+        158,
+        248,
+        1231,
+        524
+      ],
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "SONY64MP10xOIS leggibile. Package molto allungato, prisma quadrangolare; vista illustrativa parzialmente sezionata con ottica esposta. Non prova di ingombro fisico o compatibilità con aperture circolari.",
+      "status": "INVENTARIO SEPARATO: sede non assegnata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          2.6,
+          0.38,
+          0.6687791239515378
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -1.8,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-spk-hires.png",
+      "sku": "spk-hires",
+      "set": 15,
+      "slot": "speaker",
+      "crop": [
+        340,
+        168,
+        1068,
+        600
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        1.7,
+        -0.23,
+        7.05
+      ],
+      "size": [
+        1.6851851851851851,
+        0.34,
+        1.0
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "AAC Technologies Hi-Res Audio192kHz leggibile, un singolo modulo con griglia e contatti. Etichetta non equivale a certificazione o banda acustica misurata.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          1.6851851851851851,
+          0.34,
+          1.0
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -0.45,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-usb-pd.png",
+      "sku": "usb-pd",
+      "set": 15,
+      "slot": "usb",
+      "crop": [
+        494,
+        86,
+        914,
+        679
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": [
+        0,
+        -0.23,
+        7.2
+      ],
+      "size": [
+        0.6374367622259697,
+        0.3,
+        0.9
+      ],
+      "angle": 0,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "Amphenol PD3.1,140W,USB2.0 leggibili. Porta e flex uniti, vista non strettamente ortografica. Nessuna prova di erogazione140W del telefono o del connettore.",
+      "status": "fit nominale proporzionale, sede NON verificata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": [
+          0.6374367622259697,
+          0.3,
+          0.9
+        ],
+        "angle": 0
+      },
+      "explodeOffset": -0.55,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-cons-thermalp.png",
+      "sku": "cons-thermalp",
+      "set": 15,
+      "slot": "frame",
+      "crop": [
+        97,
+        92,
+        1311,
+        676
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "Tre pad separati, SBS Parts Thermal Pad1mm leggibile. Liner illustrato e lieve tinta violacea ai bordi inferiori conservata. Non montare la tavola intera come se fosse un telaio.",
+      "status": "INVENTARIO SEPARATO: sede non assegnata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": null,
+        "angle": 0
+      },
+      "explodeOffset": null,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    },
+    {
+      "file": "set15-cons-kapton.png",
+      "sku": "cons-kapton",
+      "set": 15,
+      "slot": "frame",
+      "crop": [
+        333,
+        78,
+        1224,
+        716
+      ],
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "pos": null,
+      "size": null,
+      "angle": null,
+      "boardLocal": null,
+      "boardReference": null,
+      "provenance": "AI + global chroma-key graduato e despill",
+      "visualReview": "Un rotolo ambra, SBS Parts Kapton10mm leggibile, foro centrale trasparente. Prospettiva e materiale illustrativi, larghezza non misurata.",
+      "status": "INVENTARIO SEPARATO: sede non assegnata",
+      "physicalCompatibilityVerified": false,
+      "inventoryPreview": {
+        "size": null,
+        "angle": 0
+      },
+      "explodeOffset": null,
+      "qualityStatus": "ILLUSTRATIVE_NOT_TECHNICALLY_VALIDATED"
+    }
+  ],
+  "set08Pending": [],
+  "status": "SET08-12 recovery complete;150 asset files available;147/149 SKU represented;2 new consumables pending;final0/8.",
+  "catalogSourceSha256": "a13ffaefe251720cd27a36990804b7871e15bb6f536c7a4171ed2b816177329e",
+  "defaultPair0708Selection": {
+    "soc": "soc-d9400",
+    "ram": "ram-24",
+    "storage": "sto-512"
+  },
+  "pair0708Compositions": [
+    {
+      "soc": "soc-8s",
+      "ram": "ram-24",
+      "storage": "sto-512",
+      "board": "set07-board-game.png",
+      "status": "R1 graphic fit; NOT electrical validation"
+    },
+    {
+      "soc": "soc-8s",
+      "ram": "ram-8x",
+      "storage": "sto-512",
+      "board": "set07-board-game.png",
+      "status": "R1 graphic fit; NOT electrical validation"
+    },
+    {
+      "soc": "soc-d9400",
+      "ram": "ram-24",
+      "storage": "sto-512",
+      "board": "set07-board-game.png",
+      "status": "R1 graphic fit; NOT electrical validation"
+    },
+    {
+      "soc": "soc-d9400",
+      "ram": "ram-8x",
+      "storage": "sto-512",
+      "board": "set07-board-game.png",
+      "status": "R1 graphic fit; NOT electrical validation"
+    }
+  ],
+  "defaultPair0910Selection": {
+    "soc": "soc-8e2",
+    "ram": "ram-18",
+    "storage": null,
+    "storageReason": "RF UFS blocked"
+  },
+  "pair0910Compositions": [
+    {
+      "soc": "soc-8e2",
+      "ram": "ram-18",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-8e2",
+      "ram": "ram-18",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-8e2",
+      "ram": "ram-32",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-8e2",
+      "ram": "ram-32",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-dim95",
+      "ram": "ram-18",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-dim95",
+      "ram": "ram-18",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-dim95",
+      "ram": "ram-32",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-dim95",
+      "ram": "ram-32",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-ten6",
+      "ram": "ram-18",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-ten6",
+      "ram": "ram-18",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-ten6",
+      "ram": "ram-32",
+      "storage": "sto-1tb41",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    },
+    {
+      "soc": "soc-ten6",
+      "ram": "ram-32",
+      "storage": "sto-2tb",
+      "board": "set09-board-rf.png",
+      "assetRevision": "recovery-r1",
+      "status": "GRAPHIC ONLY"
+    }
+  ],
+  "finalCompositionsPlan": "final-compositions-plan.json",
+  "setBoardReferences": {
+    "11": {
+      "file": "set03-board-pro.png",
+      "borrowed": true,
+      "notNewMotherboard": true,
+      "status": "riferimento illustrativo, non kit meccanico"
+    },
+    "12": {
+      "file": "set03-board-pro.png",
+      "borrowed": true,
+      "notNewMotherboard": true,
+      "status": "riferimento illustrativo, non kit completo"
+    },
+    "13": {
+      "file": "set07-board-game.png",
+      "borrowed": true,
+      "notNewMotherboard": true,
+      "status": "riferimento grafico, nessuna compatibilità di bus o BGA accertata"
+    }
+  },
+  "set11Compositions": [
+    {
+      "soc": "soc-exy26",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-g99",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-helio",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-tensor",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    }
+  ],
+  "set12Compositions": [
+    {
+      "soc": "soc-6g1",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-7g3",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-8g2",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d7300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d8300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d9300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    }
+  ],
+  "pair1112Compositions": [
+    {
+      "soc": "soc-exy26",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-g99",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-helio",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-tensor",
+      "storage": "sto-1tb",
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS, NOT ELECTRICAL VALIDATION"
+    },
+    {
+      "soc": "soc-6g1",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-7g3",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-8g2",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d7300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d8300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    },
+    {
+      "soc": "soc-d9300",
+      "storage": "sto-1tb",
+      "storageSet": 11,
+      "ram": null,
+      "board": "set03-board-pro.png",
+      "borrowed": true,
+      "status": "PARTIAL GRAPHIC HYPOTHESIS ONLY"
+    }
+  ],
+  "set13Compositions": [
+    {
+      "id": "13__soc-ex2500__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-ex2500",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-ex2500__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-ex2500",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-tensor4__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-tensor4",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-tensor4__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-tensor4",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-kirin__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-kirin",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-kirin__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-kirin",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    }
+  ],
+  "defaultSet13Selection": {
+    "soc": "soc-ex2500",
+    "ram": "ram-12lp4",
+    "storage": "sto-256u4",
+    "battery": "bat-4000",
+    "status": "illustrative only"
+  },
+  "availabilityNote": "All150 historical assets now physically present; SET01-15 complete10 each.",
+  "pair0708CompositionsStatus": "REFIT_RECOVERY_R1: reviewed graphically, not technical compatibility",
+  "pair0910CompositionsStatus": "RECOVERY_R1:12 graphical fits on bare RF footprint, not complete physical builds",
+  "pair1112CompositionsStatus": "10 partial graphical hypotheses R1;RAM absent; not electrical configurations"
+}
