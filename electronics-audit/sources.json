@@ -1,0 +1,86 @@
+{
+  "Q_ELITE": {
+    "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+    "citationId": 3,
+    "publisher": "Qualcomm",
+    "verified": "SM8750-AB; LPDDR5x; up to 24 GB; UFS 4.0.",
+    "scope": "Product brief, not pinout/PCB/BOM"
+  },
+  "Q_GEN3": {
+    "url": "https://docs.qualcomm.com/doc/87-71408-1/87-71408-1_REV_G_Snapdragon_8_gen_3_Mobile_Platform_Product_Brief.pdf",
+    "citationId": 1,
+    "publisher": "Qualcomm",
+    "verified": "LPDDR5x up to 4800 MHz; up to 24 GB; UFS 4.0.",
+    "scope": "Product brief"
+  },
+  "Q_7PLUS": {
+    "url": "https://docs.qualcomm.com/doc/87-73943-1/87-73943-1_REV_E_Snapdragon_7__Gen_3_Mobile_Platform_Product_Brief.pdf",
+    "citationId": 1,
+    "publisher": "Qualcomm",
+    "verified": "LPDDR5x up to 4200 MHz; up to 24 GB; UFS 4.0.",
+    "scope": "Product brief"
+  },
+  "Q_8S": {
+    "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Product-Brief-Snapdragon-8s-Gen-4.pdf",
+    "citationId": 1,
+    "publisher": "Qualcomm",
+    "verified": "SM8735; LPDDR5x up to 4800 MHz; up to 24 GB; UFS 4.0.",
+    "scope": "Product brief"
+  },
+  "M_G99": {
+    "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g99",
+    "citationId": 1,
+    "publisher": "MediaTek",
+    "verified": "LPDDR4X; 4266 Mbps; UFS 2.2.",
+    "scope": "Official product specifications"
+  },
+  "M_8300": {
+    "url": "https://www.mediatek.com/products/tablets/mediatek-dimensity-8300",
+    "citationId": 1,
+    "publisher": "MediaTek",
+    "verified": "LPDDR5X up to 8533 Mbps; UFS 4.0 + MCQ; Cortex-A715/A510; Mali-G615.",
+    "scope": "8300 family; does not validate Ultra-specific PCB/package"
+  },
+  "M_9400": {
+    "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400",
+    "citationId": 3,
+    "publisher": "MediaTek",
+    "verified": "LPDDR5X 10667 Mbps; UFS 4 + MCQ.",
+    "scope": "Official product specifications"
+  },
+  "M_9500": {
+    "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500",
+    "citationId": 1,
+    "publisher": "MediaTek",
+    "verified": "TSMC N3P; Arm C1-Ultra/Premium/Pro; Mali-G1 Ultra MC12; LPDDR5X 10667; UFS 4.1 4-lane.",
+    "scope": "Official page, fetched chunks 1 and 2"
+  },
+  "S_2500": {
+    "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+    "citationId": 1,
+    "publisher": "Samsung Semiconductor",
+    "verified": "LPDDR5X; UFS 4.0; 3nm GAA.",
+    "scope": "Official page, fetched specifications in chunk 3"
+  },
+  "H_MEMORY": {
+    "url": "https://product.skhynix.com/products/dram/lpddr.go?appTypCd=APX02&treeNo=1055",
+    "citationId": 2,
+    "publisher": "SK hynix",
+    "verified": "LPDDR5T/5X speed 8533–9600 Mbps; PoP/MCP/Discrete package types.",
+    "scope": "Memory family, not exact 16 GB MPN"
+  },
+  "T_BGA": {
+    "url": "https://www.ti.com/lit/an/spraa99c/spraa99c.pdf",
+    "citationId": 2,
+    "publisher": "Texas Instruments",
+    "verified": "Package-specific PCB land patterns; sub-mm pitch examples; electrical checks and X-ray inspection discussed.",
+    "scope": "Generic BGA process reference, not smartphone footprint specification"
+  },
+  "U_PD": {
+    "url": "https://www.usb.org/sites/default/files/2021-05/USB%20PG%20USB%20PD%203.1%20DevUpdate%20Announcement_FINAL.pdf",
+    "citationId": 1,
+    "publisher": "USB Promoter Group",
+    "verified": "PD3.1 extends power to 240 W and adds 28/36/48 V fixed voltages.",
+    "scope": "Protocol capability, not certification of catalog connector/charger"
+  }
+}

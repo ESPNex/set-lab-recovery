@@ -1,3 +1,5 @@
+> **Aggiornamento audit elettronico (16/09/2026): nessuna configurazione collaudata.** Nove delle 29 composizioni hanno un conflitto RAM documentato; le restanti non sono approvate. Le immagini sono concept storici. Leggere [audit elettronico](electronics-audit/AUDIT-ELETTRONICO.md). Nuove immagini di assemblaggi tecnici sospese fino a disponibilità di progetto e prove reali.
+
 # Composizioni finali V17 — senza fold
 
 ## Consegna effettiva

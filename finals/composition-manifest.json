@@ -565,7 +565,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "d6620c519e0c27ea2ece63a6accadda64ea0293b6c99a4e6802b0c79318a3fd9"
+      "sha256": "d6620c519e0c27ea2ece63a6accadda64ea0293b6c99a4e6802b0c79318a3fd9",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-x90: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-03-04-v01.png",
@@ -904,7 +911,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "5607e7f389149fd0e8cfc99603f148fdc2120571b47c62cb501f58d4e5f5ebeb"
+      "sha256": "5607e7f389149fd0e8cfc99603f148fdc2120571b47c62cb501f58d4e5f5ebeb",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "SOLO_TIPO_RAM_COINCIDENTE",
+        "detail": "Tipo LPDDR coincide; MPN/capacita/bin/timing/package, storage, PCB e sistema non qualificati.",
+        "source": "https://docs.qualcomm.com/doc/87-73943-1/87-73943-1_REV_E_Snapdragon_7__Gen_3_Mobile_Platform_Product_Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-03-04-v02.png",
@@ -1243,7 +1257,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "5901fbca662ccd0513735e72029fba7b7de1be3a5056aaf473b378df3f3a3444"
+      "sha256": "5901fbca662ccd0513735e72029fba7b7de1be3a5056aaf473b378df3f3a3444",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-8e: memoria pubblicata LPDDR5X; selezionata ram-6 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://docs.qualcomm.com/doc/87-71408-1/87-71408-1_REV_G_Snapdragon_8_gen_3_Mobile_Platform_Product_Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-05-06-v01.png",
@@ -1582,7 +1603,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "8174f0234505d0a70af135f417d67ddd4d1e8bf7bd3a27fd8a55e05bf6089322"
+      "sha256": "8174f0234505d0a70af135f417d67ddd4d1e8bf7bd3a27fd8a55e05bf6089322",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta. Famiglia 8300 LPDDR5X: chiarire Ultra, velocita operativa e MPN; non estesa automaticamente la qualifica della famiglia.",
+        "source": "https://www.mediatek.com/products/tablets/mediatek-dimensity-8300",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-05-06-v02.png",
@@ -1921,7 +1949,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "a67dc6155e34a85318eefd7dd674e3a45a5623659bab75ff9845f52426ecc4bf"
+      "sha256": "a67dc6155e34a85318eefd7dd674e3a45a5623659bab75ff9845f52426ecc4bf",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-07-08-v01.png",
@@ -2260,7 +2295,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "cfccdb68566ce0a73804a3973b66c0e7db0adf2689c0ede0f8d47506c5ef192a"
+      "sha256": "cfccdb68566ce0a73804a3973b66c0e7db0adf2689c0ede0f8d47506c5ef192a",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "SOLO_TIPO_RAM_COINCIDENTE",
+        "detail": "Tipo LPDDR coincide; MPN/capacita/bin/timing/package, storage, PCB e sistema non qualificati.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Product-Brief-Snapdragon-8s-Gen-4.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-07-08-v02.png",
@@ -2599,7 +2641,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "ed501d266d4e9417ed5e16eda5ab3e38df9bddcfdac1c5b0b1d00a24baced85f"
+      "sha256": "ed501d266d4e9417ed5e16eda5ab3e38df9bddcfdac1c5b0b1d00a24baced85f",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "SOLO_TIPO_RAM_COINCIDENTE",
+        "detail": "Tipo LPDDR coincide; MPN/capacita/bin/timing/package, storage, PCB e sistema non qualificati.",
+        "source": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9400",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-09-10-v01.png",
@@ -2990,7 +3039,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "10d8e2c4e8e5622882b3526eb5bd20bdfad65363720af6e8115c4c01c64393c6"
+      "sha256": "10d8e2c4e8e5622882b3526eb5bd20bdfad65363720af6e8115c4c01c64393c6",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-09-10-v02.png",
@@ -3381,7 +3437,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "7fbee1c6f14891d8cbd121528e02fc2266e9cbb60e0136226da4952dfbf57199"
+      "sha256": "7fbee1c6f14891d8cbd121528e02fc2266e9cbb60e0136226da4952dfbf57199",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "SOLO_TIPO_RAM_COINCIDENTE",
+        "detail": "Tipo LPDDR coincide; MPN/capacita/bin/timing/package, storage, PCB e sistema non qualificati.",
+        "source": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-9500",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-09-10-v03.png",
@@ -3772,7 +3835,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "c734a3e5539532ccfa9ab7620f64cafd6020d2567f7f92397f635b63e05af418"
+      "sha256": "c734a3e5539532ccfa9ab7620f64cafd6020d2567f7f92397f635b63e05af418",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v01.png",
@@ -4333,7 +4403,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "7a976ca2c6c61050b0943a23098aa888e0c5c400d10442b435a9e580eec7bc95"
+      "sha256": "7a976ca2c6c61050b0943a23098aa888e0c5c400d10442b435a9e580eec7bc95",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v02.png",
@@ -4894,7 +4971,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "abc4c538db833f997b203c50ece0cb900d660512a63877d70362a8bc77624b5f"
+      "sha256": "abc4c538db833f997b203c50ece0cb900d660512a63877d70362a8bc77624b5f",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "SOLO_TIPO_RAM_COINCIDENTE",
+        "detail": "Tipo LPDDR coincide; MPN/capacita/bin/timing/package, storage, PCB e sistema non qualificati. Host documentato UFS 2.2: nessuna modalita UFS 4.0 garantita per sto-1tb; retrocompatibilita del dispositivo esatto da verificare, non assumere incompatibilita assoluta dalla sola versione.",
+        "source": "https://www.mediatek.com/products/smartphones/mediatek-helio-g99",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v03.png",
@@ -5455,7 +5539,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "5db65e657329e1002719f92c8395c7943f813612365375e20d0cbbec672ecc06"
+      "sha256": "5db65e657329e1002719f92c8395c7943f813612365375e20d0cbbec672ecc06",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v04.png",
@@ -6016,7 +6107,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "ed7f9a1433aa88504e4bc60a4f7be05f939f62b6bbe36e3772a89ca9b0798685"
+      "sha256": "ed7f9a1433aa88504e4bc60a4f7be05f939f62b6bbe36e3772a89ca9b0798685",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v05.png",
@@ -6577,7 +6675,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "64359e0c485935803d4f881ed732c2bc1e2ef8148b75136627027d7f2459bea7"
+      "sha256": "64359e0c485935803d4f881ed732c2bc1e2ef8148b75136627027d7f2459bea7",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v06.png",
@@ -7138,7 +7243,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "266d5be6650614a7957542833093d422af38cdd2474559259c822ad28f90af77"
+      "sha256": "266d5be6650614a7957542833093d422af38cdd2474559259c822ad28f90af77",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v07.png",
@@ -7699,7 +7811,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "35610a58b42423624ef3e8795cd369fda4db0dae828733eb82a0cf6e1c4c0094"
+      "sha256": "35610a58b42423624ef3e8795cd369fda4db0dae828733eb82a0cf6e1c4c0094",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v08.png",
@@ -8260,7 +8379,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "ff080a0938b72d570f644d8bc294295e0c964471afae79f7e4f1898fe58caa17"
+      "sha256": "ff080a0938b72d570f644d8bc294295e0c964471afae79f7e4f1898fe58caa17",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v09.png",
@@ -8821,7 +8947,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_INDIVIDUALLY_AND_ON_FAMILY_SHEET",
-      "sha256": "83e7830473ad7fa06cdaa4e7c0f8c41f3e992159178faf07ff23907aae5c6136"
+      "sha256": "83e7830473ad7fa06cdaa4e7c0f8c41f3e992159178faf07ff23907aae5c6136",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-d8300: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.mediatek.com/products/tablets/mediatek-dimensity-8300",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-11-12-v10.png",
@@ -9382,7 +9515,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "618f68507d42b625c3407bce0c5a8070ec9d1ff58b5e78bc68732dcff733d7d8"
+      "sha256": "618f68507d42b625c3407bce0c5a8070ec9d1ff58b5e78bc68732dcff733d7d8",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-13-14-v01.png",
@@ -9877,7 +10017,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "396351fb8e9aafc8ebe250e1284ae26e4ab3986e8ea4540b892a6b8f8f1b822a"
+      "sha256": "396351fb8e9aafc8ebe250e1284ae26e4ab3986e8ea4540b892a6b8f8f1b822a",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-ex2500: memoria pubblicata LPDDR5X; selezionata ram-12lp4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-13-14-v02.png",
@@ -10372,7 +10519,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_INDIVIDUALLY_AND_ON_FAMILY_SHEET",
-      "sha256": "781f4b79e7ce63d3f8633d9ae038a2ae2ef0d9b036bb5c965fcbf42ce4ea4897"
+      "sha256": "781f4b79e7ce63d3f8633d9ae038a2ae2ef0d9b036bb5c965fcbf42ce4ea4897",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-13-14-v03.png",
@@ -10867,7 +11021,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "3a830981429c5d1f29a48bda7af0ed7e0894beff30704749d1b86083732b0964"
+      "sha256": "3a830981429c5d1f29a48bda7af0ed7e0894beff30704749d1b86083732b0964",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-13-14-v04.png",
@@ -11362,7 +11523,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "62482107f58db64afd9912f5079cb9849a3fd8654f15eee923cd2a6eadf44eae"
+      "sha256": "62482107f58db64afd9912f5079cb9849a3fd8654f15eee923cd2a6eadf44eae",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-ex2500: memoria pubblicata LPDDR5X; selezionata ram-12lp4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-13-14-v05.png",
@@ -11857,7 +12025,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "5f17294decf9bf0c90992ac174f2a673c22d0ea12fb524949edbf229f6ac3c7e"
+      "sha256": "5f17294decf9bf0c90992ac174f2a673c22d0ea12fb524949edbf229f6ac3c7e",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "NON_VALUTATA_SUFFICIENTEMENTE",
+        "detail": "Nessuna conclusione sulla compatibilita del core: ricerca specifica ancora incompleta.",
+        "source": "",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-15-16-v01.png",
@@ -12307,7 +12482,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "56386a915dccf04ad55a3b86ebd2e7be5b125876faf883c1c728b98d11695317"
+      "sha256": "56386a915dccf04ad55a3b86ebd2e7be5b125876faf883c1c728b98d11695317",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-x90: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-15-16-v02.png",
@@ -12757,7 +12939,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "fbcd7a338f9b563675ffa92dc8c0ff99c6642c6558e9590f2ce77bc55404daee"
+      "sha256": "fbcd7a338f9b563675ffa92dc8c0ff99c6642c6558e9590f2ce77bc55404daee",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-x90: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-15-16-v03.png",
@@ -13207,7 +13396,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_AT_FAMILY_CONTACT_SHEET_SCALE",
-      "sha256": "cfbd75cc72bbd52710510de21a3c0f0ddb2f90e5667cdcb0f2e73eb130b2f540"
+      "sha256": "cfbd75cc72bbd52710510de21a3c0f0ddb2f90e5667cdcb0f2e73eb130b2f540",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-x90: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     },
     {
       "file": "pair-15-16-v04.png",
@@ -13657,7 +13853,14 @@
       ],
       "physicalCompatibilityVerified": false,
       "visualReview": "REVIEWED_INDIVIDUALLY_AND_ON_FAMILY_SHEET",
-      "sha256": "cab482a1e9ac7bdbcf3516780ff7dc065ce6a77c31213fd8097d8b0d407bf29a"
+      "sha256": "cab482a1e9ac7bdbcf3516780ff7dc065ce6a77c31213fd8097d8b0d407bf29a",
+      "electronicAudit": {
+        "status": "NOT_VALIDATED_DO_NOT_BUILD",
+        "coreFinding": "CONFLITTO_RAM_DOCUMENTATO",
+        "detail": "soc-x90: memoria pubblicata LPDDR5X; selezionata ram-4 LPDDR4X. Non approvabile come abbinamento del controller documentato.",
+        "source": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-8-Elite-Platform-Product-Brief.pdf",
+        "auditReport": "../electronics-audit/AUDIT-ELETTRONICO.md"
+      }
     }
   ],
   "reviewLimit": "Illustrative layout review, not CAD/electronic compatibility or every microcharacter."

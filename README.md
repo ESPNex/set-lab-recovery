@@ -1,3 +1,5 @@
+> **Aggiornamento audit elettronico (16/09/2026): nessuna configurazione collaudata.** Nove delle 29 composizioni hanno un conflitto RAM documentato; le restanti non sono approvate. Le immagini sono concept storici. Leggere [audit elettronico](electronics-audit/AUDIT-ELETTRONICO.md). Nuove immagini di assemblaggi tecnici sospese fino a disponibilità di progetto e prove reali.
+
 # SET Lab — V17, composizioni non-fold
 
 **29 esplosi illustrativi creati**, suddivisi per coppia di SET: 1 / 2 / 2 / 2 / 3 / 10 / 5 / 4. Il requisito fisso di 8 è superato: il numero segue le varianti disponibili, senza prodotto cartesiano.

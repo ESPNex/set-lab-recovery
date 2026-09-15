@@ -1,5 +1,5 @@
 {
-  "status": "CREATED_AND_VISUALLY_REVIEWED_ILLUSTRATIVE",
+  "status": "HISTORICAL_CONCEPTS_ELECTRONIC_AUDIT_FAILED",
   "requestedCount": null,
   "supersededFixedCount": 8,
   "createdCount": 29,
@@ -81,5 +81,8 @@
     "SoC/RAM/storage compatibility unverified",
     "Historical alpha fringe and optical-material limitations retained"
   ],
-  "report": "CONSEGNA-COMPOSIZIONI.md"
+  "report": "CONSEGNA-COMPOSIZIONI.md",
+  "validatedCount": 0,
+  "newTechnicalImageGeneration": "BLOCKED_PENDING_REAL_DESIGN_AND_TESTS",
+  "audit": "electronics-audit/AUDIT-ELETTRONICO.md"
 }
