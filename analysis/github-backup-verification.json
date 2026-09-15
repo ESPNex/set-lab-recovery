@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/ESPNex/set-lab-recovery",
+  "private": true,
+  "assetPayloadCommit": "cd9738accb420012a60274bcc30ff5e54d806772",
+  "remoteCommitMatched": true,
+  "remoteAssetPNGs": 130,
+  "remoteRawPNGs": 70,
+  "verification": "Git ls-remote plus GitHub recursive tree; originals and generated assets all present.",
+  "newRemainingSku": 2,
+  "remainingRegenerationSets": [
+    11,
+    12
+  ]
+}
