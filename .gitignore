@@ -19,3 +19,5 @@ __pycache__/
 /analysis/*.webp
 /analysis/*.gif
 /analysis/*.svg
+
+.gitconfig
