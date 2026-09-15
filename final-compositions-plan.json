@@ -1,5 +1,5 @@
 {
-  "status": "HISTORICAL_CONCEPTS_ELECTRONIC_AUDIT_FAILED",
+  "status": "V18_VISUAL_PLACEMENT_DELIVERED_NOT_ENGINEERING_VALIDATED",
   "requestedCount": null,
   "supersededFixedCount": 8,
   "createdCount": 29,
@@ -83,6 +83,11 @@
   ],
   "report": "CONSEGNA-COMPOSIZIONI.md",
   "validatedCount": 0,
-  "newTechnicalImageGeneration": "BLOCKED_PENDING_REAL_DESIGN_AND_TESTS",
-  "audit": "electronics-audit/AUDIT-ELETTRONICO.md"
+  "newTechnicalImageGeneration": "REQUIRES_REAL_DESIGN_AND_TESTS",
+  "audit": "electronics-audit/AUDIT-ELETTRONICO.md",
+  "currentVisualVersion": 18,
+  "currentVisualCount": 29,
+  "currentVisualManifest": "visual-v18/posizionamenti-v18.json",
+  "newVisualImageGeneration": "AUTHORIZED_BY_USER",
+  "workspaceDelivery": "Configurazioni-V18"
 }
