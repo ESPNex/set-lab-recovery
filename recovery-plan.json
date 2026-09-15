@@ -1,0 +1,94 @@
+{
+  "regeneratedSets": [
+    8
+  ],
+  "pendingSets": [
+    {
+      "set": 9,
+      "skus": [
+        "back-green",
+        "bat-7000",
+        "board-rf",
+        "cam-peri2",
+        "camf-12",
+        "disp-oled63",
+        "frame-mag",
+        "glass-zaf",
+        "spk-stereo-bot",
+        "usb-dp"
+      ]
+    },
+    {
+      "set": 10,
+      "skus": [
+        "hap-dual",
+        "ram-18",
+        "ram-32",
+        "soc-8e2",
+        "soc-dim95",
+        "soc-ten6",
+        "sto-1tb41",
+        "sto-2tb",
+        "th-cu",
+        "th-gr2"
+      ]
+    },
+    {
+      "set": 11,
+      "skus": [
+        "back-alu",
+        "back-leather",
+        "bat-dual",
+        "cons-screws",
+        "frame-classic",
+        "soc-exy26",
+        "soc-g99",
+        "soc-helio",
+        "soc-tensor",
+        "sto-1tb"
+      ]
+    },
+    {
+      "set": 12,
+      "skus": [
+        "cons-glue",
+        "cons-tabs",
+        "frame-mg",
+        "frame-ss",
+        "soc-6g1",
+        "soc-7g3",
+        "soc-8g2",
+        "soc-d7300",
+        "soc-d8300",
+        "soc-d9300"
+      ]
+    }
+  ],
+  "awaitingUserArchives": [
+    {
+      "sets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 60
+    },
+    {
+      "sets": [
+        7
+      ],
+      "count": 10
+    }
+  ],
+  "pendingNewSku": [
+    "cons-ipa",
+    "cons-tweezers"
+  ],
+  "localAssetCount": 40,
+  "historicalRecords": 150,
+  "newFinalImagesCreated": 0,
+  "allFinalImagesRequired": 8
+}

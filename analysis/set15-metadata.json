@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set15-back-black.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      72,
+      124,
+      632,
+      1383
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 586,
+    "transparentPixels": 391758,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-back-carbon.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      43,
+      92,
+      662,
+      1429
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 665,
+    "transparentPixels": 251101,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-back-white.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      59,
+      102,
+      641,
+      1419
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2820,
+    "transparentPixels": 314109,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-back-wood.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      52,
+      123,
+      652,
+      1397
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2079,
+    "transparentPixels": 317030,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-cam-peri10.png",
+    "sourceSize": [
+      1376,
+      768
+    ],
+    "crop": [
+      158,
+      248,
+      1231,
+      524
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1881,
+    "transparentPixels": 782685,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-cam-uw.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      396,
+      139,
+      1106,
+      662
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1478,
+    "transparentPixels": 794322,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-cons-kapton.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      333,
+      78,
+      1224,
+      716
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2781,
+    "transparentPixels": 759066,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-cons-thermalp.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      97,
+      92,
+      1311,
+      676
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 6237,
+    "transparentPixels": 496416,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-spk-hires.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      340,
+      168,
+      1068,
+      600
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 438,
+    "transparentPixels": 776076,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set15-usb-pd.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      494,
+      86,
+      914,
+      679
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1395,
+    "transparentPixels": 867111,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

@@ -1,0 +1,397 @@
+[
+  {
+    "file": "set08-ant-uwb.png",
+    "sku": "ant-uwb",
+    "slot": "antenna",
+    "set": 8,
+    "crop": [
+      130,
+      324,
+      1279,
+      443
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      0.3,
+      -7.0
+    ],
+    "size": [
+      6.6,
+      0.05,
+      0.6835509138381201
+    ],
+    "angle": 0,
+    "status": "proposta grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Ribbon orizzontale NXP UWB + NFC; non rappresenta una radio Wi-Fi/5G. Ripulito rumore di fondo esterno al ROI osservato.",
+    "boardLocal": null
+  },
+  {
+    "file": "set08-hap-z.png",
+    "sku": "hap-z",
+    "slot": "haptics",
+    "set": 8,
+    "crop": [
+      536,
+      218,
+      920,
+      550
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      2.5,
+      -0.23,
+      5.5
+    ],
+    "size": [
+      0.9253012048192772,
+      0.3,
+      0.8
+    ],
+    "angle": 0,
+    "status": "proposta grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Attuatore circolare con due terminali a destra; stampa NIDEC Z-AXIS LRA. Forma diversa dal rettangolo slot nominale.",
+    "boardLocal": null
+  },
+  {
+    "file": "set08-mic-1.png",
+    "sku": "mic-1",
+    "slot": "mic",
+    "set": 8,
+    "crop": [
+      427,
+      170,
+      949,
+      599
+    ],
+    "sourceSize": [
+      1376,
+      768
+    ],
+    "pos": [
+      -1.7,
+      -0.23,
+      7.05
+    ],
+    "size": [
+      0.575287356321839,
+      0.28,
+      0.7
+    ],
+    "angle": 90,
+    "status": "proposta grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Package rettangolare con singolo foro acustico; stampa KNOWLES MEMS. Nuova rappresentazione correttiva, non SKU inedito.",
+    "boardLocal": null
+  },
+  {
+    "file": "set08-ram-24.png",
+    "sku": "ram-24",
+    "slot": "ram",
+    "set": 8,
+    "crop": [
+      224,
+      268,
+      722,
+      854
+    ],
+    "sourceSize": [
+      944,
+      1120
+    ],
+    "pos": [
+      0.3383647798742138,
+      0.275,
+      -3.39376965408805
+    ],
+    "size": [
+      1.1019654088050315,
+      0.08,
+      1.2966902199994947
+    ],
+    "angle": 0,
+    "status": "centratura grafica sulla piazzola etichettata; BGA non verificato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SAMSUNG 24GB LPDDR5X leggibile; modello fine aggiunto dal generatore non verificato.",
+    "boardLocal": {
+      "center": [
+        692.0,
+        311.0
+      ],
+      "size": [
+        214.0,
+        251.8152610441767
+      ],
+      "slotRect": [
+        585,
+        185,
+        214,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.42971887550200805
+    }
+  },
+  {
+    "file": "set08-ram-8x.png",
+    "sku": "ram-8x",
+    "slot": "ram",
+    "set": 8,
+    "crop": [
+      488,
+      134,
+      920,
+      633
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0.3383647798742138,
+      0.275,
+      -3.39376965408805
+    ],
+    "size": [
+      1.1019654088050315,
+      0.08,
+      1.2728720810039598
+    ],
+    "angle": 0,
+    "status": "centratura grafica sulla piazzola etichettata; BGA non verificato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Micron 8GB LPDDR5X leggibile; alternativa grafica alla RAM24, non montare insieme.",
+    "boardLocal": {
+      "center": [
+        692.0,
+        311.0
+      ],
+      "size": [
+        214.0,
+        247.1898148148148
+      ],
+      "slotRect": [
+        585,
+        185,
+        214,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.49537037037037035
+    }
+  },
+  {
+    "file": "set08-sim-hybrid.png",
+    "sku": "sim-hybrid",
+    "slot": "sim",
+    "set": 8,
+    "crop": [
+      211,
+      190,
+      564,
+      1193
+    ],
+    "sourceSize": [
+      768,
+      1376
+    ],
+    "pos": [
+      -3.5,
+      0.18,
+      -2.5
+    ],
+    "size": [
+      0.55,
+      0.12,
+      1.5627478753541078
+    ],
+    "angle": 0,
+    "status": "proposta grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Carrello verticale con due aperture e scritte SIM/SD; entrambe le aperture scontornate. La sagoma SD non certifica uno standard meccanico.",
+    "boardLocal": null
+  },
+  {
+    "file": "set08-soc-8s.png",
+    "sku": "soc-8s",
+    "slot": "soc",
+    "set": 8,
+    "crop": [
+      164,
+      164,
+      859,
+      859
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      -1.4767885220125785,
+      0.285,
+      -3.3319772012578617
+    ],
+    "size": [
+      1.174056603773585,
+      0.1,
+      1.174056603773585
+    ],
+    "angle": 0,
+    "status": "centratura grafica sulla piazzola etichettata; BGA non verificato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Qualcomm Snapdragon 8s Gen 4 leggibile; package quadrato. Alternativa grafica al Dimensity9400, pinout non verificato.",
+    "boardLocal": {
+      "center": [
+        339.5,
+        323.0
+      ],
+      "size": [
+        228.00000000000003,
+        228.00000000000003
+      ],
+      "slotRect": [
+        225,
+        209,
+        229,
+        228
+      ],
+      "angle": 0,
+      "scale": 0.32805755395683456
+    }
+  },
+  {
+    "file": "set08-soc-d9400.png",
+    "sku": "soc-d9400",
+    "slot": "soc",
+    "set": 8,
+    "crop": [
+      474,
+      153,
+      933,
+      618
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      -1.4767885220125785,
+      0.285,
+      -3.3319772012578617
+    ],
+    "size": [
+      1.1589074863055384,
+      0.1,
+      1.174056603773585
+    ],
+    "angle": 0,
+    "status": "centratura grafica sulla piazzola etichettata; BGA non verificato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "MediaTek Dimensity 9400 leggibile; package quasi quadrato. Microcodici supplementari sintetici e non verificati.",
+    "boardLocal": {
+      "center": [
+        339.5,
+        323.0
+      ],
+      "size": [
+        225.058064516129,
+        228.0
+      ],
+      "slotRect": [
+        225,
+        209,
+        229,
+        228
+      ],
+      "angle": 0,
+      "scale": 0.49032258064516127
+    }
+  },
+  {
+    "file": "set08-sto-512.png",
+    "sku": "sto-512",
+    "slot": "storage",
+    "set": 8,
+    "crop": [
+      105,
+      105,
+      872,
+      999
+    ],
+    "sourceSize": [
+      976,
+      1104
+    ],
+    "pos": [
+      2.153518081761006,
+      0.275,
+      -3.741352201257862
+    ],
+    "size": [
+      1.0647044675896613,
+      0.08,
+      1.240998427672956
+    ],
+    "angle": 0,
+    "status": "centratura grafica sulla piazzola etichettata; BGA non verificato",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "SAMSUNG 512GB UFS4.0 leggibile; il generatore aggiunge BGA115: NON usarlo come specifica di pinout.",
+    "boardLocal": {
+      "center": [
+        1044.5,
+        243.5
+      ],
+      "size": [
+        206.7639821029083,
+        241.00000000000003
+      ],
+      "slotRect": [
+        938,
+        123,
+        213,
+        241
+      ],
+      "angle": 0,
+      "scale": 0.2695749440715884
+    }
+  },
+  {
+    "file": "set08-th-coil.png",
+    "sku": "th-coil",
+    "slot": "thermal",
+    "set": 8,
+    "crop": [
+      317,
+      60,
+      1169,
+      708
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0.2,
+      0.0,
+      -3.5
+    ],
+    "size": [
+      5.6,
+      0.07,
+      4.259154929577464
+    ],
+    "angle": 0,
+    "status": "proposta grafica, sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Piastra rame con bobina e segmenti magnetici; stampa COOLCO Qi2. Architettura illustrativa: non verificata integrazione VC/bobina o gestione termica.",
+    "boardLocal": null
+  }
+]

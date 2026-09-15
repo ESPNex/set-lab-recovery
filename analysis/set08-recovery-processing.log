@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set08-ant-uwb.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      68,
+      275,
+      1340,
+      500
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1253,
+    "transparentPixels": 828719,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-hap-z.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      479,
+      60,
+      929,
+      708
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1640,
+    "transparentPixels": 906127,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-mic-1.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      488,
+      191,
+      920,
+      572
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1087,
+    "transparentPixels": 917890,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-ram-24.png",
+    "sourceSize": [
+      944,
+      1120
+    ],
+    "crop": [
+      210,
+      292,
+      734,
+      828
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1698,
+    "transparentPixels": 776945,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-ram-8x.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      212,
+      170,
+      812,
+      853
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2114,
+    "transparentPixels": 639361,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-sim-hybrid.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      151,
+      126,
+      1256,
+      642
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 4700,
+    "transparentPixels": 866402,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-soc-8s.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      386,
+      59,
+      1020,
+      706
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1216,
+    "transparentPixels": 671612,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-soc-d9400.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      93,
+      93,
+      931,
+      931
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3344,
+    "transparentPixels": 346336,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-sto-512.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      454,
+      100,
+      953,
+      676
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2026,
+    "transparentPixels": 794229,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set08-th-coil.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      194,
+      77,
+      1334,
+      692
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2628,
+    "transparentPixels": 474144,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

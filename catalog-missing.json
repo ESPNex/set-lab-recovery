@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cons-ipa",
+    "name": "IPA 99% 100 ml",
+    "brand": "SBS Parts",
+    "category": "consumabili",
+    "slot": "frame"
+  },
+  {
+    "id": "cons-tweezers",
+    "name": "Pinzette ESD",
+    "brand": "SBS Parts",
+    "category": "consumabili",
+    "slot": "frame"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "historicalAssets": 140,
+  "locallyAvailableAssets": 20,
+  "representedSku": 137,
+  "missingSku": 12,
+  "old130RecordsUnchanged": true,
+  "old130ManifestEntriesPreserved": true,
+  "old120BinariesRehashed": false,
+  "restoredSet13HashesVerified": true,
+  "new10RGBAValidated": true,
+  "multimodalReviewThisTurn": [
+    "SET13 contact sheet",
+    "SET14 contact sheet",
+    "SET14 fold full resolution"
+  ],
+  "previousSET01to12VisualReviewThisTurn": false,
+  "foldAndUTGMountNull": true,
+  "finalImagesRequested": 8,
+  "finalImagesCreated": 0,
+  "nominalDiagnosticVisuallyReviewed": true
+}

@@ -1,0 +1,181 @@
+{
+  "counts": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10,
+    "10": 10,
+    "11": 10,
+    "12": 10,
+    "13": 10
+  },
+  "represented": 127,
+  "missing": 22,
+  "old120HashesUnchanged": true,
+  "fits": [
+    {
+      "sku": "ram-12lp4",
+      "center": [
+        692.0,
+        311.0
+      ],
+      "drawSize": [
+        207.6951219512195,
+        252.0
+      ],
+      "marginX": 3.1524390243902474,
+      "marginY": 0,
+      "contained": true,
+      "uniformScale": true
+    },
+    {
+      "sku": "soc-ex2500",
+      "center": [
+        339.5,
+        323.0
+      ],
+      "drawSize": [
+        227.34388489208635,
+        228.00000000000003
+      ],
+      "marginX": 0.8280575539568247,
+      "marginY": 0,
+      "contained": true,
+      "uniformScale": true
+    },
+    {
+      "sku": "soc-kirin",
+      "center": [
+        339.5,
+        323.0
+      ],
+      "drawSize": [
+        227.67381974248926,
+        228.0
+      ],
+      "marginX": 0.6630901287553712,
+      "marginY": 0,
+      "contained": true,
+      "uniformScale": true
+    },
+    {
+      "sku": "soc-tensor4",
+      "center": [
+        339.5,
+        323.0
+      ],
+      "drawSize": [
+        227.99999999999997,
+        227.99999999999997
+      ],
+      "marginX": 0.5000000000000142,
+      "marginY": 1.4210854715202004e-14,
+      "contained": true,
+      "uniformScale": true
+    },
+    {
+      "sku": "sto-256u4",
+      "center": [
+        1044.5,
+        243.5
+      ],
+      "drawSize": [
+        205.79775280898875,
+        241.0
+      ],
+      "marginX": 3.6011235955056264,
+      "marginY": 0,
+      "contained": true,
+      "uniformScale": true
+    },
+    {
+      "sku": "sto-512u31",
+      "center": [
+        1044.5,
+        243.5
+      ],
+      "drawSize": [
+        206.6475138121547,
+        241.0
+      ],
+      "marginX": 3.1762430939226505,
+      "marginY": 0,
+      "contained": true,
+      "uniformScale": true
+    }
+  ],
+  "newCompositions": [
+    {
+      "id": "13__soc-ex2500__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-ex2500",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-ex2500__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-ex2500",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-tensor4__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-tensor4",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-tensor4__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-tensor4",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-kirin__ram-12lp4__sto-256u4",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-kirin",
+      "ram": "ram-12lp4",
+      "storage": "sto-256u4",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    },
+    {
+      "id": "13__soc-kirin__ram-12lp4__sto-512u31",
+      "board": "set07-board-game.png",
+      "boardBorrowed": true,
+      "soc": "soc-kirin",
+      "ram": "ram-12lp4",
+      "storage": "sto-512u31",
+      "excludedStorage": "sto-32",
+      "status": "graphic composition only, electrical compatibility NOT VERIFIED"
+    }
+  ],
+  "finalRequiredCount": 8,
+  "finalCreatedCount": 0,
+  "emmcNotMounted": true,
+  "rawPreserved": true,
+  "old120RecordsUnchanged": true,
+  "newAlphaChecksPassed": true,
+  "diagnosticVisualReview": "Six combinations inspected: labels legible, uniformly fitted packages contained; eMMC absent. Graphical tests only."
+}

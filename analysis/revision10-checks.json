@@ -1,0 +1,24 @@
+{
+  "historicalAssets": 150,
+  "locallyAvailableAssets": 30,
+  "representedSku": 147,
+  "missingSku": 2,
+  "old140RecordsUnchanged": true,
+  "old140ManifestEntriesPreserved": true,
+  "old120BinariesRehashed": false,
+  "restoredSet13and14HashesVerified": true,
+  "new10RGBAValidated": true,
+  "multimodalReviewThisTurn": [
+    "SET13 contact sheet",
+    "SET14 contact sheet",
+    "SET15 contact sheet",
+    "SET15 periscope full resolution",
+    "SET15 thermal pads full resolution",
+    "SET15 black cover full resolution"
+  ],
+  "previousSET01to12VisualReviewThisTurn": false,
+  "consumablesAndCamerasMountNull": true,
+  "finalImagesRequested": 8,
+  "finalImagesCreated": 0,
+  "nominalDiagnosticVisuallyReviewed": true
+}

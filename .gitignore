@@ -1,0 +1,10 @@
+/downloads/
+*.zip
+*.bundle
+__pycache__/
+.env
+.env.*
+*credentials*
+*token*
+
+.sudo_as_admin_successful

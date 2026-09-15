@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set14-back-red.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      74,
+      163,
+      630,
+      1358
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 361,
+    "transparentPixels": 412982,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-bat-8000.png",
+    "sourceSize": [
+      848,
+      1264
+    ],
+    "crop": [
+      163,
+      190,
+      686,
+      1074
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2731,
+    "transparentPixels": 646944,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-bat-stacked.png",
+    "sourceSize": [
+      848,
+      1264
+    ],
+    "crop": [
+      148,
+      118,
+      701,
+      1126
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2263,
+    "transparentPixels": 560805,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-disp-eco.png",
+    "sourceSize": [
+      688,
+      1536
+    ],
+    "crop": [
+      67,
+      102,
+      621,
+      1461
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2012,
+    "transparentPixels": 369414,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-disp-fold.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      325,
+      75,
+      1083,
+      736
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1917,
+    "transparentPixels": 616070,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-disp-lcd67.png",
+    "sourceSize": [
+      848,
+      1264
+    ],
+    "crop": [
+      180,
+      100,
+      667,
+      1223
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2929,
+    "transparentPixels": 555756,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-disp-oled61.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      566,
+      58,
+      842,
+      714
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 717,
+    "transparentPixels": 906701,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-glass-gg3.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      41,
+      43,
+      663,
+      1477
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3983,
+    "transparentPixels": 186451,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-glass-gg7.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      60,
+      114,
+      644,
+      1407
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3286,
+    "transparentPixels": 319497,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set14-glass-utg.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      410,
+      45,
+      998,
+      724
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2453,
+    "transparentPixels": 682891,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

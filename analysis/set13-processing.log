@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set13-bat-3500.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      442,
+      78,
+      966,
+      677
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2931,
+    "transparentPixels": 795698,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-bat-4000.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      444,
+      58,
+      965,
+      700
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2416,
+    "transparentPixels": 779603,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-bat-5500.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      477,
+      70,
+      932,
+      680
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1890,
+    "transparentPixels": 831409,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-ram-12lp4.png",
+    "sourceSize": [
+      944,
+      1120
+    ],
+    "crop": [
+      67,
+      68,
+      878,
+      1052
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 826,
+    "transparentPixels": 260638,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-soc-ex2500.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      165,
+      165,
+      858,
+      860
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1114,
+    "transparentPixels": 568772,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-soc-kirin.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      163,
+      163,
+      861,
+      862
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1985,
+    "transparentPixels": 562097,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-soc-tensor4.png",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "crop": [
+      172,
+      172,
+      852,
+      852
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2377,
+    "transparentPixels": 586456,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-sto-256u4.png",
+    "sourceSize": [
+      976,
+      1104
+    ],
+    "crop": [
+      108,
+      108,
+      868,
+      998
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 788,
+    "transparentPixels": 401404,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-sto-32.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      487,
+      126,
+      921,
+      642
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1872,
+    "transparentPixels": 857426,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set13-sto-512u31.png",
+    "sourceSize": [
+      976,
+      1104
+    ],
+    "crop": [
+      100,
+      100,
+      876,
+      1005
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1275,
+    "transparentPixels": 376164,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

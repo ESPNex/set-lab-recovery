@@ -1,0 +1,127 @@
+{
+  "requestedCount": 8,
+  "status": "BLOCKED_PENDING_SOURCE_RECOVERY_AND_CATALOG_COMPLETION",
+  "method": "Compositing of existing PNG assets with proportionate transforms; preserve exact asset identity.",
+  "layout": "One readable exploded assembly per pair, outer layers separated, alternatives in labeled side inventory. Components not hidden by covers.",
+  "prerequisites": [
+    "All 149 catalog SKUs represented",
+    "Review documented defects; no automatic mounting in blocked seats",
+    "Audit inclusion of every pair asset and identify borrowed references"
+  ],
+  "images": [
+    {
+      "file": "final-pair-01-02.png",
+      "pair": [
+        1,
+        2
+      ],
+      "motherboardReference": "set01-pcb-bare.png",
+      "motherboardBorrowed": false,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-03-04.png",
+      "pair": [
+        3,
+        4
+      ],
+      "motherboardReference": "set03-board-pro.png",
+      "motherboardBorrowed": false,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-05-06.png",
+      "pair": [
+        5,
+        6
+      ],
+      "motherboardReference": "set05-board-lite.png",
+      "motherboardBorrowed": false,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-07-08.png",
+      "pair": [
+        7,
+        8
+      ],
+      "motherboardReference": "set07-board-game.png",
+      "motherboardBorrowed": false,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-09-10.png",
+      "pair": [
+        9,
+        10
+      ],
+      "motherboardReference": "set09-board-rf.png",
+      "motherboardBorrowed": false,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "RF storage may not be mounted until its blocked artwork is corrected."
+    },
+    {
+      "file": "final-pair-11-12.png",
+      "pair": [
+        11,
+        12
+      ],
+      "motherboardReference": "set03-board-pro.png",
+      "motherboardBorrowed": true,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-13-14.png",
+      "pair": [
+        13,
+        14
+      ],
+      "motherboardReference": "set07-board-game.png",
+      "motherboardBorrowed": true,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    },
+    {
+      "file": "final-pair-15-16.png",
+      "pair": [
+        15,
+        16
+      ],
+      "motherboardReference": "set01-pcb-bare.png",
+      "motherboardBorrowed": true,
+      "status": "NOT_CREATED",
+      "peripheralsPolicy": "Use pair-owned components; borrow explicitly labeled prior antenna Wi-Fi/cameras/glass/backcover/frame etc where absent; never count borrowed assets as new SKU.",
+      "alternativesPolicy": "Only one variant per mounted role; other variants visibly separated.",
+      "qualityNote": "No physical/electrical compatibility implied."
+    }
+  ],
+  "lastPairNote": "Last pending production lot contains 2 SKU, not 10. Pair15-16 can still have one final composition using all supplied assets plus labeled references; do not invent SKU or conceal short count.",
+  "createdCount": 0,
+  "supersedesCount": 20,
+  "requirementSource": "Latest user correction: final8 images, not20.",
+  "blockingReasons": [
+    "Upload original SET01-07",
+    "Regenerate SET09-12 (40 PNG)",
+    "Generate final2 consumables",
+    "Recompute regenerated part coordinates; inspect all originals and assemblies"
+  ]
+}
