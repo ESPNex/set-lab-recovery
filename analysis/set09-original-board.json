@@ -1,0 +1,57 @@
+{
+  "pair": 5,
+  "file": "set09-board-rf.png",
+  "crop": [
+    197,
+    100,
+    1258,
+    625
+  ],
+  "raster": [
+    1061,
+    525
+  ],
+  "center": [
+    0.05,
+    0.145,
+    -3.35
+  ],
+  "scale": 0.006173421300659755,
+  "size": [
+    6.55,
+    0.14,
+    3.2410461828463712
+  ],
+  "yaw": 0,
+  "slots": {
+    "soc": [
+      202,
+      176,
+      161,
+      167
+    ],
+    "ram": [
+      536,
+      143,
+      151,
+      234
+    ],
+    "storage": [
+      775,
+      162,
+      151,
+      204
+    ]
+  },
+  "slotPlacementAllowed": {
+    "soc": true,
+    "ram": true,
+    "storage": false
+  },
+  "slotStatus": {
+    "soc": "riferimento visuale; nessun chip SET10 disponibile",
+    "ram": "riferimento visuale; nessun chip SET10 disponibile",
+    "storage": "BLOCKED: piccoli componenti visibili nella piazzola UFS; richiede correzione"
+  },
+  "notes": "Permesso indica solo futura composizione raster, non compatibilit\u00e0 fisica/elettrica."
+}

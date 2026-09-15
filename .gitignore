@@ -8,3 +8,13 @@ __pycache__/
 *token*
 
 .sudo_as_admin_successful
+# Original SET01-07 are externally backed by pinned archive and restore_originals.py.
+/originals/
+/generated/set07-*.png
+/new_raw/set07-*.png
+/recovered-original-archive/
+/viewer.html
+/analysis/set01-pcb-bare.png
+/analysis/set03-board-pro.png
+/analysis/set05-board-lite.png
+/analysis/set07-board-game.png

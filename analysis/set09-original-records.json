@@ -1,0 +1,302 @@
+[
+  {
+    "file": "set09-back-green.png",
+    "sku": "back-green",
+    "slot": "backcover",
+    "set": 9,
+    "crop": [
+      40,
+      54,
+      664,
+      1446
+    ],
+    "sourceSize": [
+      704,
+      1504
+    ],
+    "pos": [
+      0,
+      -0.36,
+      0
+    ],
+    "size": [
+      7.082758620689655,
+      0.12,
+      15.8
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Cover verde salvia con apertura rettangolare in alto a sinistra. Compatibilità con periscopio orizzontale non verificata."
+  },
+  {
+    "file": "set09-bat-7000.png",
+    "sku": "bat-7000",
+    "slot": "battery",
+    "set": 9,
+    "crop": [
+      202,
+      106,
+      823,
+      896
+    ],
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "pos": [
+      0,
+      -0.02,
+      3.5
+    ],
+    "size": [
+      5.345316455696203,
+      0.44,
+      6.800000000000001
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Etichetta principale BYD 7000mAh Si-C 3.95V 27.6Wh coerente con catalogo; nessuna stampa di capacità alternativa rilevata. Celle e prestazioni non misurate."
+  },
+  {
+    "file": "set09-board-rf.png",
+    "sku": "board-rf",
+    "slot": "motherboard",
+    "set": 9,
+    "crop": [
+      197,
+      100,
+      1258,
+      625
+    ],
+    "sourceSize": [
+      1456,
+      720
+    ],
+    "pos": [
+      0.05,
+      0.145,
+      -3.35
+    ],
+    "size": [
+      6.55,
+      0.14,
+      3.2410461828463712
+    ],
+    "angle": 0,
+    "status": "riferimento raster; UFS bloccata in attesa di correzione",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "PCB verde con sedi SOC/RAM/UFS e strutture RF perimetrali. Piccoli componenti dentro UFS: non è una sede vuota. Titolo SBS-RF non chiaramente visibile; layer count e mmWave non verificabili."
+  },
+  {
+    "file": "set09-cam-peri2.png",
+    "sku": "cam-peri2",
+    "slot": "cameraRear",
+    "set": 9,
+    "crop": [
+      122,
+      252,
+      1294,
+      516
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      -2.0,
+      -0.55,
+      -5.7
+    ],
+    "size": [
+      0.630716723549488,
+      0.38,
+      2.8
+    ],
+    "angle": 90,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Modulo allungato orizzontale con finestra prismatica e flex a destra; stampa Sony/200MP/periscope. Rapporto 6x e stabilizzazione non verificabili."
+  },
+  {
+    "file": "set09-camf-12.png",
+    "sku": "camf-12",
+    "slot": "cameraFront",
+    "set": 9,
+    "crop": [
+      580,
+      147,
+      828,
+      639
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      0.26,
+      -6.85
+    ],
+    "size": [
+      0.312520325203252,
+      0.08,
+      0.62
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Camera singola con flex verticale e stampa 12MP. Riflessi violacei presso il bordo del corpo: possibile rifinitura ulteriore; assenza AF non verificabile."
+  },
+  {
+    "file": "set09-disp-oled63.png",
+    "sku": "disp-oled63",
+    "slot": "display",
+    "set": 9,
+    "crop": [
+      50,
+      146,
+      639,
+      1395
+    ],
+    "sourceSize": [
+      688,
+      1536
+    ],
+    "pos": [
+      0,
+      0.46,
+      0
+    ],
+    "size": [
+      7.05,
+      0.12,
+      14.949830220713071
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Pannello nero verticale con riflesso blu e piccolo foro centrale; 6.3 pollici, 120Hz e 1080x2400 non sono ricavabili dal raster."
+  },
+  {
+    "file": "set09-frame-mag.png",
+    "sku": "frame-mag",
+    "slot": "frame",
+    "set": 9,
+    "crop": [
+      532,
+      40,
+      876,
+      730
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      0.12,
+      0
+    ],
+    "size": [
+      7.4,
+      0.9,
+      14.843023255813954
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Telaio metallico con anello strutturale visibile nella metà bassa; parte alta chiusa. Segmentazione magneti N52 e certificazione Qi2 non accertabili."
+  },
+  {
+    "file": "set09-glass-zaf.png",
+    "sku": "glass-zaf",
+    "slot": "glass",
+    "set": 9,
+    "crop": [
+      46,
+      54,
+      658,
+      1467
+    ],
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "pos": [
+      0,
+      0.56,
+      0
+    ],
+    "size": [
+      6.670063694267516,
+      0.06,
+      15.4
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Lastra trasparente con bordo azzurrato e foro superiore. Zaffiro e durezza 9 Mohs sono destinazione di catalogo, non dati misurati."
+  },
+  {
+    "file": "set09-spk-stereo-bot.png",
+    "sku": "spk-stereo-bot",
+    "slot": "speaker",
+    "set": 9,
+    "crop": [
+      336,
+      222,
+      1072,
+      546
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      1.7,
+      -0.23,
+      7.05
+    ],
+    "size": [
+      2.271604938271605,
+      0.34,
+      1.0
+    ],
+    "angle": 0,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Cassa unica con due griglie circolari; marcatura Goertek 2x1.1W. Proprietà stereo/acustiche non misurate."
+  },
+  {
+    "file": "set09-usb-dp.png",
+    "sku": "usb-dp",
+    "slot": "usb",
+    "set": 9,
+    "crop": [
+      545,
+      142,
+      969,
+      612
+    ],
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "pos": [
+      0,
+      -0.23,
+      7.2
+    ],
+    "size": [
+      0.9976415094339622,
+      0.3,
+      0.9
+    ],
+    "angle": 90,
+    "status": "proposta grafica nominale; sede non verificata",
+    "provenance": "AI + chroma-key graduato e despill",
+    "visualReview": "Flex piegato a L, porta metallica inferiore, connettore in alto a destra e stampa AMPHENOL DP2.1. Non prova il funzionamento DisplayPort."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "file": "set07-back-blue.png",
+    "nativeSize": [
+      768,
+      1376
+    ],
+    "alphaBBox": [
+      84,
+      75,
+      685,
+      1302
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-bat-6000.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      444,
+      52,
+      964,
+      718
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-board-game.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      68,
+      66,
+      1340,
+      705
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-cam-1inch.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      413,
+      30,
+      995,
+      739
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-camf-50.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      539,
+      118,
+      868,
+      686
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-disp-2k.png",
+    "nativeSize": [
+      704,
+      1520
+    ],
+    "alphaBBox": [
+      57,
+      110,
+      647,
+      1412
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-frame-flat.png",
+    "nativeSize": [
+      768,
+      1376
+    ],
+    "alphaBBox": [
+      89,
+      91,
+      680,
+      1288
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-glass-armor.png",
+    "nativeSize": [
+      704,
+      1520
+    ],
+    "alphaBBox": [
+      34,
+      54,
+      670,
+      1469
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-spk-dual.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      203,
+      154,
+      1206,
+      606
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  },
+  {
+    "file": "set07-usb-40b.png",
+    "nativeSize": [
+      1408,
+      768
+    ],
+    "alphaBBox": [
+      559,
+      63,
+      849,
+      705
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "method": "AI magenta background + chroma-key; non-native alpha"
+  }
+]

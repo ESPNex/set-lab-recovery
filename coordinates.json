@@ -1,0 +1,1932 @@
+{
+  "units": "pixel logici del viewer, non mm",
+  "canvas": [
+    1800,
+    1200
+  ],
+  "anchor": "centro del ritaglio, rotazione oraria in gradi",
+  "boardLocalSlots": "pixel raster ritagliato; prima di scala e traslazione",
+  "precision": "stime visive, nessuna validazione meccanica o elettrica",
+  "items": [
+    {
+      "id": "set01-back-glossy.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        548,
+        64,
+        858,
+        705
+      ],
+      "crop": [
+        548,
+        64,
+        858,
+        705
+      ],
+      "aspect": 0.4836193447737909,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 200,
+      "w": 62.870514820592824,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-battery-pouch.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        494,
+        95,
+        914,
+        646
+      ],
+      "crop": [
+        494,
+        95,
+        914,
+        646
+      ],
+      "aspect": 0.7622504537205081,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 200,
+      "w": 99.09255898366607,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-cam-dual.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        574,
+        79,
+        833,
+        690
+      ],
+      "crop": [
+        574,
+        79,
+        833,
+        690
+      ],
+      "aspect": 0.4238952536824877,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 200,
+      "w": 55.1063829787234,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-cam-front.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        615,
+        200,
+        792,
+        568
+      ],
+      "crop": [
+        615,
+        200,
+        792,
+        568
+      ],
+      "aspect": 0.48097826086956524,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 200,
+      "w": 62.527173913043484,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-disp-lcd.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        559,
+        68,
+        848,
+        704
+      ],
+      "crop": [
+        559,
+        68,
+        848,
+        704
+      ],
+      "aspect": 0.45440251572327045,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 410,
+      "w": 59.07232704402516,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-frame-alu.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        848,
+        1264
+      ],
+      "alphaBBox": [
+        175,
+        122,
+        673,
+        1149
+      ],
+      "crop": [
+        175,
+        122,
+        673,
+        1149
+      ],
+      "aspect": 0.48490749756572543,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 410,
+      "w": 63.037974683544306,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-glass-gg5.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        552,
+        67,
+        855,
+        702
+      ],
+      "crop": [
+        552,
+        67,
+        855,
+        702
+      ],
+      "aspect": 0.47716535433070867,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 410,
+      "w": 62.031496062992126,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-pcb-bare.png",
+      "pair": 0,
+      "role": "board",
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "alphaBBox": [
+        98,
+        186,
+        606,
+        846
+      ],
+      "crop": [
+        98,
+        186,
+        606,
+        846
+      ],
+      "aspect": 0.7696969696969697,
+      "angle": 0,
+      "z": 0,
+      "visible": true,
+      "note": "Raster di riferimento: origine locale nel vertice superiore sinistro del ritaglio alpha.",
+      "x": 390.0,
+      "y": 569.7637795275591,
+      "w": 600,
+      "h": 779.5275590551181,
+      "status": "riferimento"
+    },
+    {
+      "id": "set01-speaker.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        581,
+        76,
+        827,
+        526
+      ],
+      "crop": [
+        581,
+        76,
+        827,
+        526
+      ],
+      "aspect": 0.5466666666666666,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 410,
+      "w": 71.06666666666666,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set01-usb-flex.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1408,
+        768
+      ],
+      "crop": [
+        626,
+        66,
+        782,
+        702
+      ],
+      "aspect": 0.24528301886792453,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine. Ritaglio centrale: escluse bande bianche laterali; originale intatto.",
+      "x": 1050,
+      "y": 620,
+      "w": 31.88679245283019,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-ant-wifi5.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        636,
+        56,
+        771,
+        715
+      ],
+      "crop": [
+        636,
+        56,
+        771,
+        715
+      ],
+      "aspect": 0.20485584218512898,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 620,
+      "w": 26.631259484066767,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-antenna-flex.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        111,
+        305,
+        1299,
+        467
+      ],
+      "crop": [
+        111,
+        305,
+        1299,
+        467
+      ],
+      "aspect": 7.333333333333333,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 620,
+      "w": 125,
+      "h": 17.045454545454547,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-hap-erm.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        584,
+        269,
+        1211,
+        494
+      ],
+      "crop": [
+        584,
+        269,
+        1211,
+        494
+      ],
+      "aspect": 2.7866666666666666,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 620,
+      "w": 125,
+      "h": 44.856459330143544,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-mic.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        564,
+        243,
+        844,
+        525
+      ],
+      "crop": [
+        564,
+        243,
+        844,
+        525
+      ],
+      "aspect": 0.9929078014184397,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 830,
+      "w": 125,
+      "h": 125.89285714285714,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-ram-4.png",
+      "pair": 0,
+      "role": "ram",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        366,
+        55,
+        1042,
+        714
+      ],
+      "crop": [
+        366,
+        55,
+        1042,
+        714
+      ],
+      "aspect": 1.0257966616084977,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati.",
+      "x": 345.11811023622045,
+      "y": 777.6377952755905,
+      "w": 138.11907805909692,
+      "h": 134.64566929133858,
+      "slot": {
+        "x": 129,
+        "y": 449,
+        "w": 174,
+        "h": 114
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set02-sim-tray.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "alphaBBox": [
+        132,
+        478,
+        632,
+        894
+      ],
+      "crop": [
+        132,
+        478,
+        632,
+        894
+      ],
+      "aspect": 1.2019230769230769,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 830,
+      "w": 125,
+      "h": 104.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-soc-snap.png",
+      "pair": 0,
+      "role": "soc",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        103,
+        104,
+        920,
+        921
+      ],
+      "crop": [
+        103,
+        104,
+        920,
+        921
+      ],
+      "aspect": 1.0,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati.",
+      "x": 347.4803149606299,
+      "y": 560.9055118110236,
+      "w": 185.43307086614172,
+      "h": 185.43307086614172,
+      "slot": {
+        "x": 139,
+        "y": 244,
+        "w": 158,
+        "h": 157
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set02-sto-64.png",
+      "pair": 0,
+      "role": "sto",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        475,
+        139,
+        932,
+        628
+      ],
+      "crop": [
+        475,
+        139,
+        932,
+        628
+      ],
+      "aspect": 0.934560327198364,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati.",
+      "x": 588.4251968503936,
+      "y": 686.1023622047244,
+      "w": 155.90551181102362,
+      "h": 166.82230913695963,
+      "slot": {
+        "x": 356,
+        "y": 350,
+        "w": 132,
+        "h": 157
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set02-th-gra.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        470,
+        174,
+        936,
+        594
+      ],
+      "crop": [
+        470,
+        174,
+        936,
+        594
+      ],
+      "aspect": 1.1095238095238096,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 830,
+      "w": 125,
+      "h": 112.66094420600858,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set02-vapor-chamber.png",
+      "pair": 0,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        404,
+        115,
+        1004,
+        653
+      ],
+      "crop": [
+        404,
+        115,
+        1004,
+        653
+      ],
+      "aspect": 1.1152416356877324,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 830,
+      "w": 125,
+      "h": 112.08333333333333,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-back-matte.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        563,
+        82,
+        844,
+        689
+      ],
+      "crop": [
+        563,
+        82,
+        844,
+        689
+      ],
+      "aspect": 0.46293245469522243,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 200,
+      "w": 60.18121911037892,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-bat-4500.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        377,
+        89,
+        1031,
+        642
+      ],
+      "crop": [
+        377,
+        89,
+        1031,
+        642
+      ],
+      "aspect": 1.182640144665461,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 200,
+      "w": 125,
+      "h": 105.69571865443426,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-board-pro.png",
+      "pair": 1,
+      "role": "board",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        60,
+        58,
+        1346,
+        724
+      ],
+      "crop": [
+        60,
+        58,
+        1346,
+        724
+      ],
+      "aspect": 1.9309309309309308,
+      "angle": 0,
+      "z": 0,
+      "visible": true,
+      "note": "Raster di riferimento: origine locale nel vertice superiore sinistro del ritaglio alpha.",
+      "x": 515.0,
+      "y": 520.1010886469674,
+      "w": 850,
+      "h": 440.2021772939347,
+      "status": "riferimento"
+    },
+    {
+      "id": "set03-cam-triple.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "alphaBBox": [
+        527,
+        112,
+        849,
+        675
+      ],
+      "crop": [
+        527,
+        112,
+        849,
+        675
+      ],
+      "aspect": 0.5719360568383659,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 200,
+      "w": 74.35168738898757,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-camf-32.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        604,
+        174,
+        804,
+        596
+      ],
+      "crop": [
+        604,
+        174,
+        804,
+        596
+      ],
+      "aspect": 0.47393364928909953,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine. La stampa visibile indica 52MP, diversa dal suffisso del file.",
+      "x": 1620,
+      "y": 200,
+      "w": 61.61137440758294,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-disp-oled.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        559,
+        73,
+        849,
+        695
+      ],
+      "crop": [
+        559,
+        73,
+        849,
+        695
+      ],
+      "aspect": 0.4662379421221865,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 410,
+      "w": 60.61093247588425,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-frame-ti.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "alphaBBox": [
+        54,
+        62,
+        656,
+        1425
+      ],
+      "crop": [
+        54,
+        62,
+        656,
+        1425
+      ],
+      "aspect": 0.4416727806309611,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 410,
+      "w": 57.41746148202494,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-glass-dt.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1376,
+        768
+      ],
+      "alphaBBox": [
+        249,
+        179,
+        1119,
+        590
+      ],
+      "crop": [
+        249,
+        179,
+        1119,
+        590
+      ],
+      "aspect": 2.116788321167883,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 410,
+      "w": 125,
+      "h": 59.05172413793104,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-spk-stereo.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        460,
+        0,
+        949,
+        607
+      ],
+      "crop": [
+        460,
+        0,
+        949,
+        607
+      ],
+      "aspect": 0.8056013179571664,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 410,
+      "w": 104.72817133443164,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set03-usb-32.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        588,
+        42,
+        820,
+        726
+      ],
+      "crop": [
+        588,
+        42,
+        820,
+        726
+      ],
+      "aspect": 0.3391812865497076,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 620,
+      "w": 44.093567251461984,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set04-ant-wifi7.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        116,
+        301,
+        1292,
+        468
+      ],
+      "crop": [
+        116,
+        301,
+        1292,
+        468
+      ],
+      "aspect": 7.041916167664671,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 620,
+      "w": 125,
+      "h": 17.750850340136054,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set04-hap-x.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        325,
+        260,
+        1049,
+        507
+      ],
+      "crop": [
+        325,
+        260,
+        1049,
+        507
+      ],
+      "aspect": 2.931174089068826,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 620,
+      "w": 125,
+      "h": 42.64502762430939,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set04-mic-3.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        455,
+        238,
+        954,
+        595
+      ],
+      "crop": [
+        455,
+        238,
+        954,
+        595
+      ],
+      "aspect": 1.3977591036414565,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 620,
+      "w": 125,
+      "h": 89.42885771543087,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set04-ram-12.png",
+      "pair": 1,
+      "role": "ram",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        435,
+        131,
+        974,
+        638
+      ],
+      "crop": [
+        435,
+        131,
+        974,
+        638
+      ],
+      "aspect": 1.0631163708086786,
+      "angle": 0,
+      "z": 20,
+      "visible": false,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Assegnazione RAM/UFS ipotizzata: serigrafia di gruppo, non univoca.",
+      "x": 648.8452566096423,
+      "y": 462.2667185069985,
+      "w": 78.6547433903577,
+      "h": 73.98507402395427,
+      "slot": {
+        "x": 786,
+        "y": 184,
+        "w": 119,
+        "h": 123
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set04-ram-6.png",
+      "pair": 1,
+      "role": "ram",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        437,
+        154,
+        970,
+        615
+      ],
+      "crop": [
+        437,
+        154,
+        970,
+        615
+      ],
+      "aspect": 1.1561822125813448,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Assegnazione RAM/UFS ipotizzata: serigrafia di gruppo, non univoca.",
+      "x": 648.8452566096423,
+      "y": 462.2667185069985,
+      "w": 78.6547433903577,
+      "h": 68.02971238828312,
+      "slot": {
+        "x": 786,
+        "y": 184,
+        "w": 119,
+        "h": 123
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set04-sim-esim.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        387,
+        219,
+        999,
+        545
+      ],
+      "crop": [
+        387,
+        219,
+        999,
+        545
+      ],
+      "aspect": 1.8773006134969326,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 830,
+      "w": 125,
+      "h": 66.58496732026144,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set04-soc-7g2.png",
+      "pair": 1,
+      "role": "soc",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        365,
+        60,
+        1043,
+        708
+      ],
+      "crop": [
+        365,
+        60,
+        1043,
+        708
+      ],
+      "aspect": 1.0462962962962963,
+      "angle": 0,
+      "z": 20,
+      "visible": false,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Il raster riporta 7+ Gen 3, non 7 Gen 2.",
+      "x": 508.3903576982893,
+      "y": 513.1609642301711,
+      "w": 149.37791601866252,
+      "h": 142.7682737169518,
+      "slot": {
+        "x": 520,
+        "y": 203,
+        "w": 226,
+        "h": 239
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set04-soc-8e.png",
+      "pair": 1,
+      "role": "soc",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        418,
+        101,
+        991,
+        676
+      ],
+      "crop": [
+        418,
+        101,
+        991,
+        676
+      ],
+      "aspect": 0.9965217391304347,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Il raster riporta Snapdragon 8 Gen 3, non 8 Elite.",
+      "x": 508.3903576982893,
+      "y": 513.1609642301711,
+      "w": 149.37791601866252,
+      "h": 149.89930490528963,
+      "slot": {
+        "x": 520,
+        "y": 203,
+        "w": 226,
+        "h": 239
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set04-sto-128.png",
+      "pair": 1,
+      "role": "sto",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        466,
+        172,
+        941,
+        596
+      ],
+      "crop": [
+        466,
+        172,
+        941,
+        596
+      ],
+      "aspect": 1.1202830188679245,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Assegnazione RAM/UFS ipotizzata: serigrafia di gruppo, non univoca.",
+      "x": 648.8452566096423,
+      "y": 566.038102643857,
+      "w": 78.6547433903577,
+      "h": 70.20970778423508,
+      "slot": {
+        "x": 786,
+        "y": 342,
+        "w": 119,
+        "h": 121
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set04-th-vc.png",
+      "pair": 1,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        450,
+        162,
+        958,
+        606
+      ],
+      "crop": [
+        450,
+        162,
+        958,
+        606
+      ],
+      "aspect": 1.1441441441441442,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 830,
+      "w": 125,
+      "h": 109.251968503937,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-back-cer.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        704,
+        1504
+      ],
+      "alphaBBox": [
+        36,
+        42,
+        669,
+        1462
+      ],
+      "crop": [
+        36,
+        42,
+        669,
+        1462
+      ],
+      "aspect": 0.44577464788732396,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 200,
+      "w": 57.95070422535211,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-bat-5000.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        122,
+        77,
+        1285,
+        649
+      ],
+      "crop": [
+        122,
+        77,
+        1285,
+        649
+      ],
+      "aspect": 2.0332167832167833,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 200,
+      "w": 125,
+      "h": 61.47893379191745,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-board-lite.png",
+      "pair": 2,
+      "role": "board",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        71,
+        62,
+        1336,
+        708
+      ],
+      "crop": [
+        71,
+        62,
+        1336,
+        708
+      ],
+      "aspect": 1.958204334365325,
+      "angle": 0,
+      "z": 0,
+      "visible": true,
+      "note": "Raster di riferimento: origine locale nel vertice superiore sinistro del ritaglio alpha.",
+      "x": 515.0,
+      "y": 517.0355731225296,
+      "w": 850,
+      "h": 434.0711462450593,
+      "status": "riferimento"
+    },
+    {
+      "id": "set05-cam-quad.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        501,
+        112,
+        908,
+        686
+      ],
+      "crop": [
+        501,
+        112,
+        908,
+        686
+      ],
+      "aspect": 0.7090592334494773,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 200,
+      "w": 92.17770034843205,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-camf-50b.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        498,
+        213,
+        1096,
+        554
+      ],
+      "crop": [
+        498,
+        213,
+        1096,
+        554
+      ],
+      "aspect": 1.7536656891495601,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 200,
+      "w": 125,
+      "h": 71.27926421404682,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-disp-am.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        768,
+        1376
+      ],
+      "alphaBBox": [
+        104,
+        93,
+        663,
+        1284
+      ],
+      "crop": [
+        104,
+        93,
+        663,
+        1284
+      ],
+      "aspect": 0.4693534844668346,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 410,
+      "w": 61.0159529806885,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-frame-poly.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        550,
+        59,
+        858,
+        711
+      ],
+      "crop": [
+        550,
+        59,
+        858,
+        711
+      ],
+      "aspect": 0.4723926380368098,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 410,
+      "w": 61.41104294478527,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-glass-victus3.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        211,
+        131,
+        1197,
+        638
+      ],
+      "crop": [
+        211,
+        131,
+        1197,
+        638
+      ],
+      "aspect": 1.9447731755424063,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 410,
+      "w": 125,
+      "h": 64.27484787018255,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-spk-dolby.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        360,
+        80,
+        1043,
+        525
+      ],
+      "crop": [
+        360,
+        80,
+        1043,
+        525
+      ],
+      "aspect": 1.5348314606741573,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 410,
+      "w": 125,
+      "h": 81.44216691068814,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set05-usb-40.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        596,
+        39,
+        814,
+        729
+      ],
+      "crop": [
+        596,
+        39,
+        814,
+        729
+      ],
+      "aspect": 0.3159420289855073,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 620,
+      "w": 41.072463768115945,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-ant-wifi6e.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        110,
+        298,
+        1295,
+        471
+      ],
+      "crop": [
+        110,
+        298,
+        1295,
+        471
+      ],
+      "aspect": 6.8497109826589595,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1240,
+      "y": 620,
+      "w": 125,
+      "h": 18.248945147679326,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-hap-xl.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        441,
+        117,
+        971,
+        651
+      ],
+      "crop": [
+        441,
+        117,
+        971,
+        651
+      ],
+      "aspect": 0.9925093632958801,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 620,
+      "w": 125,
+      "h": 125.9433962264151,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-mic-4.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        394,
+        333,
+        1076,
+        440
+      ],
+      "crop": [
+        394,
+        333,
+        1076,
+        440
+      ],
+      "aspect": 6.373831775700935,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1620,
+      "y": 620,
+      "w": 125,
+      "h": 19.611436950146626,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-ram-16.png",
+      "pair": 2,
+      "role": "ram",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        436,
+        148,
+        972,
+        620
+      ],
+      "crop": [
+        436,
+        148,
+        972,
+        620
+      ],
+      "aspect": 1.1355932203389831,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Nessuna piazzola RAM/UFS identificabile sul lato mostrato. Nessun posizionamento sulla motherboard deducibile.",
+      "x": 1050,
+      "y": 830,
+      "w": 125,
+      "h": 110.07462686567163,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-ram-8.png",
+      "pair": 2,
+      "role": "ram",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        486,
+        163,
+        922,
+        597
+      ],
+      "crop": [
+        486,
+        163,
+        922,
+        597
+      ],
+      "aspect": 1.0046082949308757,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Nessuna piazzola RAM/UFS identificabile sul lato mostrato. Nessun posizionamento sulla motherboard deducibile.",
+      "x": 1240,
+      "y": 830,
+      "w": 125,
+      "h": 124.42660550458714,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-sim-dual.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        305,
+        161,
+        721,
+        850
+      ],
+      "crop": [
+        305,
+        161,
+        721,
+        850
+      ],
+      "aspect": 0.6037735849056604,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1430,
+      "y": 830,
+      "w": 78.49056603773585,
+      "h": 130.0,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-soc-q6.png",
+      "pair": 2,
+      "role": "soc",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        475,
+        156,
+        933,
+        613
+      ],
+      "crop": [
+        475,
+        156,
+        933,
+        613
+      ],
+      "aspect": 1.0021881838074398,
+      "angle": 0,
+      "z": 20,
+      "visible": false,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Il raster riporta MediaTek Dimensity 8300-Ultra.",
+      "x": 515.6719367588933,
+      "y": 516.3636363636364,
+      "w": 219.72332015810278,
+      "h": 219.24357491758292,
+      "slot": {
+        "x": 470,
+        "y": 158,
+        "w": 327,
+        "h": 328
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set06-soc-vertv2.png",
+      "pair": 2,
+      "role": "soc",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        427,
+        116,
+        981,
+        661
+      ],
+      "crop": [
+        427,
+        116,
+        981,
+        661
+      ],
+      "aspect": 1.0165137614678899,
+      "angle": 0,
+      "z": 20,
+      "visible": true,
+      "note": "Allineamento al centro della piazzola; scala uniforme, proporzioni conservate. Pinout e compatibilità non verificati. Il raster riporta Exynos 2400.",
+      "x": 515.6719367588933,
+      "y": 516.3636363636364,
+      "w": 219.72332015810278,
+      "h": 216.15380773676176,
+      "slot": {
+        "x": 470,
+        "y": 158,
+        "w": 327,
+        "h": 328
+      },
+      "status": "allineamento visivo"
+    },
+    {
+      "id": "set06-sto-256.png",
+      "pair": 2,
+      "role": "sto",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        501,
+        189,
+        907,
+        579
+      ],
+      "crop": [
+        501,
+        189,
+        907,
+        579
+      ],
+      "aspect": 1.041025641025641,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Nessuna piazzola RAM/UFS identificabile sul lato mostrato. Nessun posizionamento sulla motherboard deducibile.",
+      "x": 1620,
+      "y": 830,
+      "w": 125,
+      "h": 120.07389162561576,
+      "status": "esploso / non localizzato"
+    },
+    {
+      "id": "set06-th-gra-vc.png",
+      "pair": 2,
+      "role": "external",
+      "sourceSize": [
+        1408,
+        768
+      ],
+      "alphaBBox": [
+        384,
+        101,
+        1022,
+        668
+      ],
+      "crop": [
+        384,
+        101,
+        1022,
+        668
+      ],
+      "aspect": 1.125220458553792,
+      "angle": 0,
+      "z": 10,
+      "visible": true,
+      "note": "Componente esterno: collocazione esplosa, connessione non determinabile dall’immagine.",
+      "x": 1050,
+      "y": 1040,
+      "w": 125,
+      "h": 111.08934169278996,
+      "status": "esploso / non localizzato"
+    }
+  ]
+}

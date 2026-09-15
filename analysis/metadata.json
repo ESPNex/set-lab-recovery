@@ -1,0 +1,1022 @@
+[
+  {
+    "file": "set01-back-glossy.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      548,
+      64,
+      858,
+      705
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-battery-pouch.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      494,
+      95,
+      914,
+      646
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-cam-dual.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      574,
+      79,
+      833,
+      690
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-cam-front.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      615,
+      200,
+      792,
+      568
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-disp-lcd.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      559,
+      68,
+      848,
+      704
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-frame-alu.png",
+    "size": [
+      848,
+      1264
+    ],
+    "bbox": [
+      175,
+      122,
+      673,
+      1149
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-glass-gg5.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      552,
+      67,
+      855,
+      702
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-pcb-bare.png",
+    "size": [
+      704,
+      1504
+    ],
+    "bbox": [
+      98,
+      186,
+      606,
+      846
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-speaker.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      581,
+      76,
+      827,
+      526
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set01-usb-flex.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      0,
+      0,
+      1408,
+      768
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-ant-wifi5.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      636,
+      56,
+      771,
+      715
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-antenna-flex.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      111,
+      305,
+      1299,
+      467
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-hap-erm.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      584,
+      269,
+      1211,
+      494
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-mic.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      564,
+      243,
+      844,
+      525
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-ram-4.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      366,
+      55,
+      1042,
+      714
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-sim-tray.png",
+    "size": [
+      768,
+      1376
+    ],
+    "bbox": [
+      132,
+      478,
+      632,
+      894
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-soc-snap.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      103,
+      104,
+      920,
+      921
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-sto-64.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      475,
+      139,
+      932,
+      628
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-th-gra.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      470,
+      174,
+      936,
+      594
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set02-vapor-chamber.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      404,
+      115,
+      1004,
+      653
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-back-matte.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      563,
+      82,
+      844,
+      689
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-bat-4500.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      377,
+      89,
+      1031,
+      642
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-board-pro.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      60,
+      58,
+      1346,
+      724
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-cam-triple.png",
+    "size": [
+      1376,
+      768
+    ],
+    "bbox": [
+      527,
+      112,
+      849,
+      675
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-camf-32.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      604,
+      174,
+      804,
+      596
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-disp-oled.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      559,
+      73,
+      849,
+      695
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-frame-ti.png",
+    "size": [
+      704,
+      1504
+    ],
+    "bbox": [
+      54,
+      62,
+      656,
+      1425
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-glass-dt.png",
+    "size": [
+      1376,
+      768
+    ],
+    "bbox": [
+      249,
+      179,
+      1119,
+      590
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-spk-stereo.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      460,
+      0,
+      949,
+      607
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set03-usb-32.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      588,
+      42,
+      820,
+      726
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-ant-wifi7.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      116,
+      301,
+      1292,
+      468
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-hap-x.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      325,
+      260,
+      1049,
+      507
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-mic-3.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      455,
+      238,
+      954,
+      595
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-ram-12.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      435,
+      131,
+      974,
+      638
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-ram-6.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      437,
+      154,
+      970,
+      615
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-sim-esim.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      387,
+      219,
+      999,
+      545
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-soc-7g2.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      365,
+      60,
+      1043,
+      708
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-soc-8e.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      418,
+      101,
+      991,
+      676
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-sto-128.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      466,
+      172,
+      941,
+      596
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set04-th-vc.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      450,
+      162,
+      958,
+      606
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-back-cer.png",
+    "size": [
+      704,
+      1504
+    ],
+    "bbox": [
+      36,
+      42,
+      669,
+      1462
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-bat-5000.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      122,
+      77,
+      1285,
+      649
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-board-lite.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      71,
+      62,
+      1336,
+      708
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-cam-quad.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      501,
+      112,
+      908,
+      686
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-camf-50b.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      498,
+      213,
+      1096,
+      554
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-disp-am.png",
+    "size": [
+      768,
+      1376
+    ],
+    "bbox": [
+      104,
+      93,
+      663,
+      1284
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-frame-poly.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      550,
+      59,
+      858,
+      711
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-glass-victus3.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      211,
+      131,
+      1197,
+      638
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-spk-dolby.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      360,
+      80,
+      1043,
+      525
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set05-usb-40.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      596,
+      39,
+      814,
+      729
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-ant-wifi6e.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      110,
+      298,
+      1295,
+      471
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-hap-xl.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      441,
+      117,
+      971,
+      651
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-mic-4.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      394,
+      333,
+      1076,
+      440
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-ram-16.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      436,
+      148,
+      972,
+      620
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-ram-8.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      486,
+      163,
+      922,
+      597
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-sim-dual.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      305,
+      161,
+      721,
+      850
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-soc-q6.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      475,
+      156,
+      933,
+      613
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-soc-vertv2.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      427,
+      116,
+      981,
+      661
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-sto-256.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      501,
+      189,
+      907,
+      579
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "set06-th-gra-vc.png",
+    "size": [
+      1408,
+      768
+    ],
+    "bbox": [
+      384,
+      101,
+      1022,
+      668
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+]

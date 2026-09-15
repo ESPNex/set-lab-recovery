@@ -1,0 +1,132 @@
+{
+  "hashesVerified": 120,
+  "multimodalContactSheets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15
+  ],
+  "nativeBoardsReviewed": [
+    "Game07",
+    "RF09-R1"
+  ],
+  "set08Fits": [
+    {
+      "sku": "ram-24",
+      "center": [
+        692.0,
+        311.0
+      ],
+      "size": [
+        214.0,
+        218.90076335877865
+      ],
+      "slotRect": [
+        585,
+        185,
+        214,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.4083969465648855,
+      "reference": "set07-board-game.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "ram-8x",
+      "center": [
+        692.0,
+        311.0
+      ],
+      "size": [
+        214.0,
+        243.60333333333335
+      ],
+      "slotRect": [
+        585,
+        185,
+        214,
+        252
+      ],
+      "angle": 0,
+      "scale": 0.3566666666666667,
+      "reference": "set07-board-game.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-8s",
+      "center": [
+        339.5,
+        323.0
+      ],
+      "size": [
+        223.41885625965998,
+        228.0
+      ],
+      "slotRect": [
+        225,
+        209,
+        229,
+        228
+      ],
+      "angle": 0,
+      "scale": 0.35239567233384855,
+      "reference": "set07-board-game.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "soc-d9400",
+      "center": [
+        339.5,
+        323.0
+      ],
+      "size": [
+        228.0,
+        228.0
+      ],
+      "slotRect": [
+        225,
+        209,
+        229,
+        228
+      ],
+      "angle": 0,
+      "scale": 0.2720763723150358,
+      "reference": "set07-board-game.png",
+      "physicalCompatibilityVerified": false
+    },
+    {
+      "sku": "sto-512",
+      "center": [
+        1044.5,
+        243.5
+      ],
+      "size": [
+        208.78298611111111,
+        241.0
+      ],
+      "slotRect": [
+        938,
+        123,
+        213,
+        241
+      ],
+      "angle": 0,
+      "scale": 0.4184027777777778,
+      "reference": "set07-board-game.png",
+      "physicalCompatibilityVerified": false
+    }
+  ],
+  "rf09BareSeats": true,
+  "finalCreatedCount": 0,
+  "fourGameFitsVisuallyReviewed": true,
+  "fitCaveat": "RAM24 package leaves exposed pad margins; graphical containment only"
+}

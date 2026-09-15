@@ -1,66 +1,83 @@
-# SET Lab — recupero R1 / revisione 11
+# SET Lab — revisione12 / recupero SET09
 
-## Stato verificato
+## Risultato
 
-L’utente conserva SET01–06 e SET07, da ricaricare. Richiesta attiva: rigenerare SET08–12 (50 immagini), repository Git con login web, poi completare catalogo e8 tavole finali.
+**Archivio originale SET01–07 recuperato:70 PNG, tutti con hash identici ai registri storici.** Fonte https://files.catbox.moe/ujc2ul.zip, copia in `/usr/set-lab/downloads/recovered-originals-01-07.zip`. Metadati sovrapposti dell’archivio messi da parte, non sovrascritti ai registri attuali.
 
-**Questo turno: SET08 rigenerato,10 immagini nuove. Restano SET09–12:40 immagini da rigenerare.** Le nuove immagini non sono gli originali perduti e hanno hash/provenienza distinti. Rimangono anche IPA e pinzette ESD,2 SKU mai generati. Limite della pipeline10 generazioni per turno; nessuna produzione in background.
+**SET09 rigenerato:10 immagini nuove. SET08–09 completati come recupero; restano SET10–12,30 immagini.** Restano anche2 SKU mai generati: IPA e pinzette. Limite10 generazioni del turno raggiunto.
 
-Disponibilità effettiva:40 PNG elaborati e40 raw (SET08-R1,13,14,15). Registro storico150 immagini/147 SKU; catalogo149 SKU. Questi conteggi NON implicano che tutti i file siano presenti. `recovery-plan.json` separa rigenerazioni, archivi da ricaricare e SKU mai prodotti.
+Disponibili fisicamente120 immagini (SET01–09,13–15), tutte verificate contro il manifest corrente. Registro storico150 file/147 SKU, non150 file disponibili. Otto tavole finali confermate, zero prodotte.
 
-## Git e backup
+## Analisi multimodale
 
-Repository Git locale preparato in `/usr/set-lab`, con esclusione di downloads e credenziali. Autorizzazione GitHub CLI via https://github.com/login/device; nessun token/password richiesto in chat. Il codice temporaneo è mostrato in conversazione, non salvato nel repository. Il repository remoto privato `set-lab-recovery` sarà creato solo dopo autorizzazione riuscita: NON dichiarare un push completato senza verificarlo.
+Riesaminate le12 tavole disponibili: SET01–09 e13–15,120 immagini complessive. Game07 e nuovo RF09 anche in dettaglio. Non dichiarato riesame dei30 asset SET10–12 mancanti.
 
-**Backup persistente: `set-lab-recovery.bundle` nel workspace**, contenente la storia Git e tutti i40 raw/PNG ora disponibili, metadati e script. Non è solo un aggiornamento incrementale. Recupero: `git clone set-lab-recovery.bundle set-lab-recovery`. `/usr` non è persistente: il bundle è essenziale finché il push remoto non è verificato.
+Rilievi storici confermati: USB01 pannelli bianchi nel raw; frontale03 stampa52MP anziché32MP; RAM16 del06 marchio Samsung rispetto a catalogo SK hynix; Lite05 senza sedi RAM/UFS chiare; batteria07 microtesto contraddittorio. Recupero08 SIM con tre vani; fold14 rapporto geometrico errato; cover15 e fotocamere non corrispondono automaticamente. Questi difetti non vengono nascosti sotto altri pezzi.
 
-Gli ZIP precedenti rimangono in `/usr/set-lab/downloads`, fuori da Git. Il bundle conserva i loro asset SET13–15, ma NON inventa i SET01–07 e09–12 mancanti. Non sono inclusi segreti di autenticazione.
-
-## Riesame SET08 nuovo
-
-Tavola dei10 asset letta multimodalmente; antenna letta anche a piena risoluzione. Etichette principali SoC, RAM, UFS, haptics, microfono, Qi2 corrette. Nessuna affermazione di capacità, prestazioni o conformità fisica misurata.
+## Nuovo SET09
 
 | SKU | Esito |
 |---|---|
-| ant-uwb | NXP UWB+NFC leggibile; fori scontornati. Non Wi-Fi/5G; microtesto decorativo non validato. |
-| sim-hybrid | Luxshare HYBRID leggibile, ma sono raffigurati TRE vani anziché due: geometria da correggere; non simulare un carrello fisico valido. |
-| hap-z | Nidec Z-axis leggibile, un solo attuatore rotondo con flex. |
-| mic-1 | Knowles MEMS leggibile, un microfono con foro acustico. |
-| ram-24 | Samsung24GB LPDDR5X10667MHz leggibile; package quasi quadrato, non misura BGA. |
-| ram-8x | Micron8GB LPDDR5X8533MHz leggibile. |
-| soc-8s | Qualcomm Snapdragon8sGen4 leggibile, non Elite. |
-| soc-d9400 | MediaTek Dimensity9400 leggibile. |
-| sto-512 | Samsung512GB UFS4.0 leggibile. |
-| th-coil | CoolCo VC+Qi2 15W leggibile; bobina e piastra in vista top, materiali non certificati. |
+| back-green | LuxGuard verde salvia satinato, fori alpha. Disposizione non verificata rispetto al periscopio. |
+| bat-7000 | BYD7000mAh3.95V Si-C leggibile; nessuna capacità alternativa visibile. |
+| board-rf | SOC,RAM,UFS ben distinti e liberi da passivi; array UFS concentrico illustrativo, non pinout reale. Nome scheda ripetuto due volte. |
+| cam-peri2 | SONY200MP6xOIS leggibile; microtesto aggiuntivo decorativo non certificato. Ingresso quadrangolare, non validato rispetto ai fori cover. |
+| camf-12 | SONY12MP leggibile; riflesso blu e lieve alone/bordo non fisico. Apertura display non validata come misura. |
+| disp-oled63 | BOE OLED6.3,120Hz,1080x2400 leggibili, punch centrale e flex inferiore. |
+| frame-mag | Telaio Vertex Qi2 con anello inferiore e finestre alpha; nessuna misura N52/lega certificabile. |
+| glass-zaf | CrystalLux Synthetic Sapphire leggibile, punch superiore; lastra opaca illustrativa, non trasparenza ottica. |
+| spk-stereo-bot | Due driver, Goertek2x1.1W leggibile; nessuna misura acustica. |
+| usb-dp | Amphenol DP2.1 8K60 leggibile; residuo violaceo sul metallo e vista non strettamente ortografica. |
 
-Il carrello SIM ha un difetto geometrico nuovo documentato: tre vani. Rimane da correggere o isolare come illustrazione, non si nasconde il problema per accelerare l’assemblaggio.
+La piazzola UFS del nuovo RF è libera, a differenza del raster perduto: il precedente blocco per passivi è risolto SOLO per questa rigenerazione. Le griglie sono illustrative, non pinout. I chip SET10 saranno collocati dopo rigenerazione, non usando coordinate vecchie.
 
-## Coordinate e pipeline
+## Coordinate RF09-R1
 
-Chroma-key globale graduato e despill Pillow/NumPy, stesso processore dei lotti recenti: nessun rembg/flood fill, nessuna trasparenza nativa dichiarata, raw intatti. Tutti10 alpha0–255 e bbox validi.
+Raster ritagliato1249×613, crop[82,79,1331,692]. Centro nominale[0.05,0.145,-3.35]cm, scala=min(6.55/1249,7.10/613). X destra,Y strati,Z lunghezza. Non misure CAD.
 
-Le vecchie coordinate SET08 non si applicano automaticamente ai nuovi raster. Per tutti10 `pos,size,angle,boardLocal,boardReference=null` in V11, in attesa del PCB originale SET07 e della nuova verifica. I vecchi record sono archiviati in `analysis/set08-original-records.json`; le composizioni07–08 precedenti sono STALE, non valide per questi nuovi file. Le dimensioni vengono ricalcolate dai crop, senza stirare le immagini né inventare pinout.
+| Sede | Rect u,v,w,h nel crop px |
+|---|---|
+| SoC | [162,131,341,350] |
+| RAM | [601,127,206,356] |
+| UFS | [899,180,216,252] |
 
-| File | Source W,H px | Crop L,T,R,B px |
+`coordinates-v12.json`: board aggiornata; SoC/RAM/storage SET10 con montaggi nulli perché i raster mancano e la geometria RF è cambiata. Camere SET09 isolate per mancata verifica aperture. Altri pezzi fit uniforme nominale nei rispettivi slot, non prova fisica.
+
+| File SET09 | Crop L,T,R,B | Centro X,Y,Z cm | Bbox X,Y,Z cm |
+|---|---|---|---|
+| set09-back-green.png | [539, 60, 837, 709] | 0.000, -0.360, 0.000 | 7.255, 0.120, 15.800 |
+| set09-bat-7000.png | [100, 85, 667, 1292] | 0.000, -0.020, 3.500 | 3.194, 0.440, 6.800 |
+| set09-board-rf.png | [82, 79, 1331, 692] | 0.050, 0.145, -3.350 | 6.550, 0.140, 3.215 |
+| set09-cam-peri2.png | [93, 183, 1317, 587] | null | null |
+| set09-camf-12.png | [523, 204, 1080, 618] | null | null |
+| set09-disp-oled63.png | [547, 36, 861, 734] | 0.000, 0.460, 0.000 | 6.838, 0.120, 15.200 |
+| set09-frame-mag.png | [70, 70, 633, 1426] | 0.000, 0.120, 0.000 | 6.560, 0.900, 15.800 |
+| set09-glass-zaf.png | [67, 132, 637, 1387] | 0.000, 0.560, 0.000 | 6.994, 0.060, 15.400 |
+| set09-spk-stereo-bot.png | [186, 262, 1222, 508] | 1.700, -0.230, 7.050 | 2.400, 0.340, 0.570 |
+| set09-usb-dp.png | [519, 109, 889, 658] | 0.000, -0.230, 7.200 | 0.607, 0.300, 0.900 |
+
+## SET08 ricalcolato sul Game originale
+
+Recuperato il PNG Game07 identico, rifatti5 fit:2SoC,2RAM,1UFS. q=min(sedeW/cropW,sedeH/cropH), centro coincidente, angolo0°, nessuna deformazione. Quattro prove2SoC×2RAM con sto-512 in `analysis/fit-set08-recovery-game.jpg`. Solo contenimento grafico, NON compatibilità dei bus o BGA. Accessori fit nominale; SIM resta null per geometria difettosa.
+
+| SKU | Centro u,v px | Disegno W,H px |
 |---|---|---|
-| set08-ant-uwb.png | [1408, 768] | [68, 275, 1340, 500] |
-| set08-hap-z.png | [1408, 768] | [479, 60, 929, 708] |
-| set08-mic-1.png | [1408, 768] | [488, 191, 920, 572] |
-| set08-ram-24.png | [944, 1120] | [210, 292, 734, 828] |
-| set08-ram-8x.png | [1024, 1024] | [212, 170, 812, 853] |
-| set08-sim-hybrid.png | [1408, 768] | [151, 126, 1256, 642] |
-| set08-soc-8s.png | [1408, 768] | [386, 59, 1020, 706] |
-| set08-soc-d9400.png | [1024, 1024] | [93, 93, 931, 931] |
-| set08-sto-512.png | [1408, 768] | [454, 100, 953, 676] |
-| set08-th-coil.png | [1408, 768] | [194, 77, 1334, 692] |
+| ram-24 | 692.000, 311.000 | 214.000, 218.901 |
+| ram-8x | 692.000, 311.000 | 214.000, 243.603 |
+| soc-8s | 339.500, 323.000 | 223.419, 228.000 |
+| soc-d9400 | 339.500, 323.000 | 228.000, 228.000 |
+| sto-512 | 1044.500, 243.500 | 208.783, 241.000 |
 
-## Prossimi lotti di recupero
+## Pipeline e backup
 
-- SET09: back-green, bat-7000, board-rf, cam-peri2, camf-12, disp-oled63, frame-mag, glass-zaf, spk-stereo-bot, usb-dp.
-- SET10: hap-dual, ram-18, ram-32, soc-8e2, soc-dim95, soc-ten6, sto-1tb41, sto-2tb, th-cu, th-gr2.
-- SET11: back-alu, back-leather, bat-dual, cons-screws, frame-classic, soc-exy26, soc-g99, soc-helio, soc-tensor, sto-1tb.
-- SET12: cons-glue, cons-tabs, frame-mg, frame-ss, soc-6g1, soc-7g3, soc-8g2, soc-d7300, soc-d8300, soc-d9300.
+Raw AI intatti; PNG alpha postprodotto con chroma-key globale smoothstep e despill2px, nessun rembg/flood fill o nuova ROI manuale. Vetri opachi illustrativi: non trasparenza ottica reale.
 
-## Finali
+Git locale in `/usr/set-lab`; GitHub NON autenticato e push NON eseguito. `/usr` non persistente: non è una garanzia di backup remoto.
 
-Richiesta8 tavole conservata, zero create. Prima: ripristinare01–07, rigenerare09–12, produrre2 consumabili, rivedere difetti e coordinate, analizzare le immagini reali disponibili. Le tavole useranno PNG effettivi con esploso, alternative separate e riferimenti presi da altri SET dichiarati. Allineamento visivo non equivale a incastro fisico o compatibilità elettrica.
+Per mantenere il checkpoint del workspace entro la capacità disponibile, il bundle Git contiene direttamente i50 asset generati SET08–09,13–15 con raw e metadati; gli originali70 recuperati rimangono un archivio esterno collegato tramite URL e SHA256. `restore_originals.py` li ripristina senza sovrascrivere file differenti e controlla gli hash. **Il bundle da solo non contiene i70 PNG originali**: conservare anche lo ZIP Catbox originale. I file sono tutti presenti in `/usr` in questa sessione. Dopo autorizzazione GitHub si potrà caricare anche il materiale originale nel repository remoto.
+
+`set-lab-recovery.bundle` aggiornato è il checkpoint Git locale scaricabile. Viewer V1 recuperato nell’archivio originale, non aggiornato ai nuovi SET. Nessuna attività di generazione in background.
+
+## Prossimo
+
+SET10: hap-dual,ram-18,ram-32,soc-8e2,soc-dim95,soc-ten6,sto-1tb41,sto-2tb,th-cu,th-gr2. Poi SET11–12 e2 consumabili; controlli finali ed8 tavole con PNG effettivi, alternative separate e riferimenti riutilizzati dichiarati.

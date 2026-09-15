@@ -1,23 +1,9 @@
 {
   "regeneratedSets": [
-    8
+    8,
+    9
   ],
   "pendingSets": [
-    {
-      "set": 9,
-      "skus": [
-        "back-green",
-        "bat-7000",
-        "board-rf",
-        "cam-peri2",
-        "camf-12",
-        "disp-oled63",
-        "frame-mag",
-        "glass-zaf",
-        "spk-stereo-bot",
-        "usb-dp"
-      ]
-    },
     {
       "set": 10,
       "skus": [
@@ -64,31 +50,15 @@
       ]
     }
   ],
-  "awaitingUserArchives": [
-    {
-      "sets": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "count": 60
-    },
-    {
-      "sets": [
-        7
-      ],
-      "count": 10
-    }
-  ],
+  "awaitingUserArchives": [],
   "pendingNewSku": [
     "cons-ipa",
     "cons-tweezers"
   ],
-  "localAssetCount": 40,
+  "localAssetCount": 120,
   "historicalRecords": 150,
   "newFinalImagesCreated": 0,
-  "allFinalImagesRequired": 8
+  "allFinalImagesRequired": 8,
+  "restoredOriginalAssets": 70,
+  "originalArchiveSource": "https://files.catbox.moe/ujc2ul.zip"
 }

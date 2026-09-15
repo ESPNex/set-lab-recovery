@@ -1,0 +1,212 @@
+[
+  {
+    "file": "set09-back-green.png",
+    "sourceSize": [
+      1376,
+      768
+    ],
+    "crop": [
+      539,
+      60,
+      837,
+      709
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2226,
+    "transparentPixels": 870254,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-bat-7000.png",
+    "sourceSize": [
+      768,
+      1376
+    ],
+    "crop": [
+      100,
+      85,
+      667,
+      1292
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 3462,
+    "transparentPixels": 458059,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-board-rf.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      82,
+      79,
+      1331,
+      692
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1598,
+    "transparentPixels": 329472,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-cam-peri2.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      93,
+      183,
+      1317,
+      587
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 2595,
+    "transparentPixels": 616439,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-camf-12.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      523,
+      204,
+      1080,
+      618
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 18015,
+    "transparentPixels": 899806,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-disp-oled63.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      547,
+      36,
+      861,
+      734
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 1124,
+    "transparentPixels": 868581,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-frame-mag.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      70,
+      70,
+      633,
+      1426
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 8631,
+    "transparentPixels": 881792,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-glass-zaf.png",
+    "sourceSize": [
+      704,
+      1520
+    ],
+    "crop": [
+      67,
+      132,
+      637,
+      1387
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 513,
+    "transparentPixels": 358868,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-spk-stereo-bot.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      186,
+      262,
+      1222,
+      508
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 965,
+    "transparentPixels": 829842,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  },
+  {
+    "file": "set09-usb-dp.png",
+    "sourceSize": [
+      1408,
+      768
+    ],
+    "crop": [
+      519,
+      109,
+      889,
+      658
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "partialAlphaPixels": 7692,
+    "transparentPixels": 914767,
+    "method": "global RGB chroma-key, smoothstep alpha, 2px edge despill; no rembg/flood-fill",
+    "provenance": "AI-generated; alpha produced in postprocessing"
+  }
+]

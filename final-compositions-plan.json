@@ -1,6 +1,6 @@
 {
   "requestedCount": 8,
-  "status": "BLOCKED_PENDING_SOURCE_RECOVERY_AND_CATALOG_COMPLETION",
+  "status": "PENDING_REMAINING_CATALOG_AND_RECOVERY",
   "method": "Compositing of existing PNG assets with proportionate transforms; preserve exact asset identity.",
   "layout": "One readable exploded assembly per pair, outer layers separated, alternatives in labeled side inventory. Components not hidden by covers.",
   "prerequisites": [
@@ -119,9 +119,8 @@
   "supersedesCount": 20,
   "requirementSource": "Latest user correction: final8 images, not20.",
   "blockingReasons": [
-    "Upload original SET01-07",
-    "Regenerate SET09-12 (40 PNG)",
-    "Generate final2 consumables",
-    "Recompute regenerated part coordinates; inspect all originals and assemblies"
+    "Regenerate SET10-12 (30 images)",
+    "Generate remaining2 consumables",
+    "Resolve or separately display documented defects; review final graphics"
   ]
 }
